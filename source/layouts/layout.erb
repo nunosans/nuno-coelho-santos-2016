@@ -2,13 +2,37 @@
 <html>
   <head>
     <title>Nuno Coelho Santos, Designer. <%= current_page.data.title %></title>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <!-- Technical Formating Meta Tags -->
     <meta charset="utf-8">
+    <meta http-equiv="content-language" content="en-gb">
+    <meta http-equiv="expires" content="Wed, 31 Dec 2016 12:00:00 GMT">
+    <!-- Authoring Meta Tags -->
+    <meta name="author" content="Nuno Coelho Santos">
+    <meta name="publisher" content="Nuno Coelho Santos">
+    <meta name="copyright" content="2016 by Nuno Coelho Santos">
+    <meta name="host" content="linode.com">
+    <meta name="generator" content="Middleman, Sublime Text 3">
+    <!-- Open Graph Meta Tags (ogp.me) -->
+    <meta property="og:image" content="http://nunocoelhosantos.com/images/open-graph-image-1.jpg">
+    <meta property="og:image" content="http://nunocoelhosantos.com/images/open-graph-image-2.jpg">
+    <meta property="og:image" content="http://nunocoelhosantos.com/images/open-graph-image-3.jpg">
+    <meta property="og:site_name" content="Nuno Coelho Santos">
+    <meta property="og:title" content="Nuno Coelho Santos, Designer. Work &amp; Profile">
+    <meta property="og:description" content="<?php echo($description) ?>">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://nunocoelhosantos.com/">
+    <!-- Search Engine and Browser Meta Tags -->
+    <meta name="description" content="">
+    <meta name="keywords" content="nuno, coelho, coehlo, santos, graphic, web, designer, csm, saint, martins, london, ustwo, thread">
+    <meta name="revisit-after" content="90 days">
+    <meta name="rating" content="General">
+    <meta http-equiv="x-ua-compatible" content="ie=8; chrome=1">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
     <!-- Favicon Meta Tags (use both) -->
-    <link rel="icon"          href="/graphics/favicon.png">
+    <link rel="icon" href="/graphics/favicon.png">
     <link rel="shortcut icon" href="/graphics/favicon.png">
-    <!-- Stylesheets. -->
+    <!-- Stylesheets -->
     <%= stylesheet_link_tag :site %>
     <!-- Typekit -->
     <script src="http://use.typekit.com/qxu7res.js"></script>
@@ -16,7 +40,9 @@
   </head>
 
   <body>
+
     <%= yield %>
+
     <!-- JavaScript. -->
     <%= javascript_include_tag :all %>
   </body>
