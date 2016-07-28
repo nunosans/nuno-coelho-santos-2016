@@ -1,0 +1,6 @@
+a {
+  border-bottom: 1px solid rgba($accent, 0.5);
+  &:hover {
+    border-bottom-color: $accent;
+  }
+}

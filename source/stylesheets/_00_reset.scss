@@ -30,11 +30,12 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 15px;
-  line-height: 22px;
+  line-height: 20px;
+  font-weight: 400;
   font: inherit;
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
-  font-family: "franklin-gothic-urw-1", "franklin-gothic-urw-2", "Franklin Gothic", "Franklin Gothic LT", "Franklin Gothic LT Com", "Franklin Gothic BT", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 html,
@@ -72,11 +73,6 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-input,
-textarea {
-  font-family: "franklin-gothic-urw-1", "franklin-gothic-urw-2", "Franklin Gothic", "Franklin Gothic LT", "Franklin Gothic LT Com", "Franklin Gothic BT", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 input[type="checkbox"] {

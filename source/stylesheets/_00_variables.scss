@@ -1,0 +1,13 @@
+// Grid.
+$gutter-width: 1.4%;
+$column-width: 6.815%;
+$content-width: 100% - ($column-width + $gutter-width * 2) * 2;
+$inner-gutter-width: $gutter-width * 100% / $content-width;
+$inner-column-width: $column-width * 100% / $content-width;
+
+// Colors.
+$accent: #FC3359;
+$text-primary: #27262C;
+$text-secondary: #9B9B9B;
+$background-page: #FFFFFF;
+$background-project: #F6F6F6;

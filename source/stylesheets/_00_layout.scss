@@ -1,0 +1,11 @@
+*[data-layout="narrow"] {
+  @media only screen and (min-width: 850px) {
+    display: none !important;
+  }
+}
+
+*[data-layout="wide"] {
+  @media only screen and (max-width: 849px) {
+    display: none !important;
+  }
+}
