@@ -1,5 +1,19 @@
 a {
   border-bottom: 1px solid rgba($accent, 0.5);
+  -webkit-transition: 0.12s border-bottom-color ease-out;
+     -moz-transition: 0.12s border-bottom-color ease-out;
+      -ms-transition: 0.12s border-bottom-color ease-out;
+       -o-transition: 0.12s border-bottom-color ease-out;
+          transition: 0.12s border-bottom-color ease-out;
+  &:hover {
+    border-bottom-color: $accent;
+  }
+}
+
+.emphasize a {
+  border-bottom: 6px solid rgba($accent, 0.85);
+  display: inline-block;
+  height: 75px;
   &:hover {
     border-bottom-color: $accent;
   }
