@@ -9,3 +9,11 @@
     display: none !important;
   }
 }
+
+*[data-layout="hidden"] {
+  display: none !important;
+}
+
+*[data-layout="visible"] {
+  display: block !important;
+}

@@ -10,10 +10,13 @@ a {
   }
 }
 
-.emphasize a {
+.emphasize p a {
   border-bottom: 3px solid rgba($accent, 0.85);
   display: inline-block;
   height: 38px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
   @media (min-width: 849px) {
     border-bottom-width: 6px;
     height: 75px;

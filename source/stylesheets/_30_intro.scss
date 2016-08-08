@@ -3,11 +3,37 @@ section.intro {
   padding: 8px 0 16px;
   width: 100 - $gutter-width * 6;
   line-height: 20px;
-  margin: 20px auto;
+  margin: 40px auto;
   clear: both;
   @media (min-width: 849px) {
     padding: 4px 0 16px;
     margin: 120px auto;
     width: $content-width;
+  }
+  .smiley {
+    display: inline-block;
+    width: 119px;
+    height: 34px;
+    background-image: url('../graphics/smiley-1x.png');
+    background-size: 119px 34px;
+    margin: 0 16px 0 10px;
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+      background-image: url('../graphics/smiley-2x.png');
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+      background-image: url('../graphics/smiley-3x.png');
+    }
+    @media (min-width: 849px) {
+      width: 119px;
+      height: 34px;
+      background-size: 119px 34px;
+    }
+  }
+  a.read-more {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  &.intro-short p {
+    display: inline;
   }
 }

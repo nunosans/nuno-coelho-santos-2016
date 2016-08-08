@@ -22,24 +22,14 @@ h6 {
   margin-bottom: 20px;
 }
 
-.emphasize {
+.emphasize p {
   font-family: "Grifo M";
   font-size: 38px;
   line-height: 40px;
+  padding: 0 0 40px;
   @media (min-width: 849px) {
     font-size: 72px;
     line-height: 80px;
-  }
-  * {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: 40px;
-    @media (min-width: 849px) {
-      line-height: 80px;
-    }
-  }
-  p {
-    padding: 20px 0;
   }
 }
 
