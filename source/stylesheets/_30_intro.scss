@@ -1,12 +1,12 @@
 section.intro {
   width: 100%;
-  padding: 8px 0 16px;
+  padding: 10px 0 14px;
   width: 100 - $gutter-width * 6;
   line-height: 20px;
   margin: 40px auto;
   clear: both;
   @media (min-width: 849px) {
-    padding: 4px 0 16px;
+    padding: 18px 0 6px;
     margin: 120px auto;
     width: $content-width;
   }
@@ -33,6 +33,9 @@ section.intro {
   a.read-more {
     font-size: 15px;
     line-height: 20px;
+    @media (min-width: 849px) {
+      margin-top: 26px;
+    }
   }
   &.intro-short p {
     display: inline;
