@@ -12,11 +12,11 @@ section.intro {
   }
   .smiley {
     display: inline-block;
-    width: 119px;
-    height: 34px;
+    width: 80px;
+    height: 22px;
     background-image: url('../graphics/smiley-1x.png');
-    background-size: 119px 34px;
-    margin: 0 16px 0 10px;
+    background-size: 80px 22px;
+    margin: 9px 16px 0 10px;
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
       background-image: url('../graphics/smiley-2x.png');
     }
@@ -27,6 +27,7 @@ section.intro {
       width: 119px;
       height: 34px;
       background-size: 119px 34px;
+      margin: 26px 16px 0 10px;
     }
   }
   a.read-more {
