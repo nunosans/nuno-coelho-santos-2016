@@ -26,9 +26,13 @@ header {
     }
     li {
       padding-top: 5px;
+
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      a {
+        display: inline;
+      }
     }
     b {
       font-weight: inherit;
