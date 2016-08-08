@@ -16,3 +16,7 @@
 
 # Ignore .DS_store file
 .DS_Store
+
+# Ignore grid SCSS files.
+/source/stylesheets/_10_baseline_grid.scss
+/source/stylesheets/_10_column_grid.scss
