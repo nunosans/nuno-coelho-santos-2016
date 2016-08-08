@@ -35,5 +35,6 @@ h6 {
 
 ::selection {
   background-color: rgba($accent, 0.16);
+  color: darken($accent, 42%);
   text-shadow: none;
 }
