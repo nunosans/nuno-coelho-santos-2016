@@ -11,9 +11,13 @@ a {
 }
 
 .emphasize a {
-  border-bottom: 6px solid rgba($accent, 0.85);
+  border-bottom: 3px solid rgba($accent, 0.85);
   display: inline-block;
-  height: 75px;
+  height: 38px;
+  @media (min-width: 849px) {
+    border-bottom-width: 6px;
+    height: 75px;
+  }
   &:hover {
     border-bottom-color: $accent;
   }

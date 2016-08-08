@@ -1,11 +1,12 @@
 section.intro {
   width: 100%;
-  padding: 4px 0 16px;
+  padding: 8px 0 16px;
   width: 100 - $gutter-width * 6;
   line-height: 20px;
   margin: 20px auto;
   clear: both;
   @media (min-width: 849px) {
+    padding: 4px 0 16px;
     margin: 120px auto;
     width: $content-width;
   }
