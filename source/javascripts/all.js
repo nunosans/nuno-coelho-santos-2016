@@ -8,4 +8,10 @@ $('document').ready(function() {
     $('.intro-complete').attr('data-layout', 'visible');
   });
 
+  $('*[data-action="hide-intro-complete"]').click(function(event) {
+    event.preventDefault();
+    $('.intro-short').attr('data-layout', 'visible');
+    $('.intro-complete').attr('data-layout', 'hidden');
+  });
+
 })
