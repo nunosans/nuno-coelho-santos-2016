@@ -1,0 +1,41 @@
+article.project {
+  padding: 40px 0;
+  clear: both;
+
+  header {
+    padding: 4px 0 12px;
+    @media (min-width: 849px) {
+      padding: 4px 0 16px;
+    }
+  }
+
+  section {
+    width: 100%;
+    padding: 4px 0 12px;
+    width: 100 - $gutter-width * 6;
+    line-height: 20px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    @media (min-width: 849px) {
+      padding: 18px 0 22px;
+      margin: -40px auto -100px;
+      width: $content-width;
+    }
+  }
+
+  main {
+    background-color: $background-project;
+
+    width: 100%;
+    padding: 120px $column-width 80px;
+    width: 100%;
+    line-height: 20px;
+    overflow: hidden;
+    @media (min-width: 849px) {
+      margin: -40px auto -100px;
+    }
+  }
+
+}

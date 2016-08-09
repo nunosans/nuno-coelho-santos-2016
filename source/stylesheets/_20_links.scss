@@ -1,11 +1,20 @@
-a {
+a,
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
   border-bottom: 1px solid rgba($accent, 0.5);
   display: inline-block;
+  background-color: transparent;
   -webkit-transition: 0.12s border-bottom-color ease-out;
      -moz-transition: 0.12s border-bottom-color ease-out;
       -ms-transition: 0.12s border-bottom-color ease-out;
        -o-transition: 0.12s border-bottom-color ease-out;
           transition: 0.12s border-bottom-color ease-out;
+  &:hover,
+  &:active {
+    outline: none;
+  }
   &:hover {
     border-bottom-color: $accent;
   }
