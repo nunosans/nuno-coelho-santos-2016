@@ -1,0 +1,113 @@
+article.project.project-currency {
+
+  .project-currency-iphone {
+    padding-right: 40%;
+    @media (min-width: 849px) {
+      width: 50%;
+      float: left;
+      padding-top: 70px;
+      padding-left: 5%;
+      padding-right: 15%;
+    }
+    .button.button-play {
+      display: block;
+      margin: 20px auto;
+    }
+  }
+
+  .project-currency-app-icon {
+    padding-left: 33%;
+    @media (min-width: 849px) {
+      padding-left: 10px;
+      float: left;
+      width: 50%;
+    }
+    img {
+      width: 84px;
+      height: 84px;
+      margin: -1px 0 0 -3px;
+      @media (min-width: 849px) {
+        width: 126px;
+        height: 126px;
+
+      }
+    }
+  }
+
+  .project-currency-symbols {
+    padding-left: 10%;
+    padding-right: 10%;
+    @media (min-width: 849px) {
+      float: left;
+      width: 50%;
+      padding-right: 10%;
+      padding-left: 10px;
+    }
+    p {
+      padding-top: 40px;
+      @media (min-width: 849px) {
+        padding-top: 60px;
+      }
+    }
+  }
+
+  .project-currency-storyboard {
+    padding-bottom: 20px;
+    @media (min-width: 849px) {
+      width: 50%;
+      clear: both;
+      float: left;
+      padding-right: 5%;
+      padding-bottom: 80px;
+    }
+    img {
+      margin-left: -13%;
+      width: 90%;
+      @media (min-width: 849px) {
+        margin-left: -14%;
+        width: 100%;
+      }
+    }
+  }
+
+  .project-currency-exploded-ui {
+    padding-left: 25%;
+    @media (min-width: 849px) {
+      width: 50%;
+      float: left;
+      padding-top: 120px;
+      padding-left: 10px;
+    }
+    img {
+      margin-left: -10%;
+      @media (min-width: 849px) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .project-currency-source-code {
+    @media (min-width: 849px) {
+      padding-right: 10%;
+    }
+    img {
+      width: 175%;
+      @media (min-width: 849px) {
+        width: 100%;
+        padding-top: 40px;
+      }
+    }
+  }
+
+  .project-currency-sales-graph {
+    img {
+      width: 200%;
+      margin-left: - ($gutter-width * 4);
+      @media (min-width: 849px) {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+  }
+
+}

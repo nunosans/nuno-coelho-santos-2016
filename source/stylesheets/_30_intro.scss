@@ -3,11 +3,10 @@ section.intro {
   padding: 10px 0 14px;
   width: 100 - $gutter-width * 6;
   line-height: 20px;
-  margin: 40px auto;
+  margin: 120px auto;
   clear: both;
   @media (min-width: 849px) {
     padding: 19px 0 22px;
-    margin: 120px auto;
     width: $content-width;
   }
   .smiley {

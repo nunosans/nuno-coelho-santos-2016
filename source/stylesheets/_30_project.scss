@@ -27,14 +27,31 @@ article.project {
 
   main {
     background-color: $background-project;
-
     width: 100%;
-    padding: 120px $column-width 80px;
+    padding: 80px $gutter-width * 3 40px;
     width: 100%;
     line-height: 20px;
     overflow: hidden;
+    margin: -90px auto -100px;
     @media (min-width: 849px) {
+      padding: 120px $column-width + $gutter-width * 2 80px;
       margin: -40px auto -100px;
+    }
+  }
+
+  .project-item {
+    padding-bottom: 40px;
+    overflow: visible;
+    @media (min-width: 849px) {
+      padding-bottom: 80px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    p {
+      padding: 20px 0;
+      max-width: 280px;
     }
   }
 
