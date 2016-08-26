@@ -9,9 +9,12 @@ article.project.project-currency {
       padding-left: 5%;
       padding-right: 15%;
     }
-    .button.button-play {
+    .button.button-play,
+    .button.button-pause {
       display: block;
       margin: 20px auto;
+      width: 69px;
+      text-align: left;
     }
   }
 
@@ -25,7 +28,7 @@ article.project.project-currency {
     img {
       width: 84px;
       height: 84px;
-      margin: -1px 0 0 -3px;
+      margin: 0 0 0 -3px;
       @media (min-width: 849px) {
         width: 126px;
         height: 126px;
@@ -53,6 +56,7 @@ article.project.project-currency {
 
   .project-currency-storyboard {
     padding-bottom: 20px;
+    overflow: visible;
     @media (min-width: 849px) {
       width: 50%;
       clear: both;

@@ -41,7 +41,7 @@ article.project {
 
   .project-item {
     padding-bottom: 40px;
-    overflow: visible;
+    overflow: hidden;
     @media (min-width: 849px) {
       padding-bottom: 80px;
     }
