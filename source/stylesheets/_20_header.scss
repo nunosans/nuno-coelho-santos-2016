@@ -6,7 +6,7 @@ header {
   margin: 20px auto;
   overflow: hidden;
   @media (min-width: 849px) {
-    padding: 5px 0 25px;
+    padding: 5px 0 20px;
     margin: 40px auto;
     width: $content-width;
   }
@@ -25,8 +25,7 @@ header {
       width: $inner-column-width * 3 + $inner-gutter-width * 2;
     }
     li {
-      padding-top: 5px;
-
+      padding-bottom: 5px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
