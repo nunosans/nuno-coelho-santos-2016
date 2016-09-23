@@ -3,17 +3,22 @@ button {
   cursor: pointer;
   border: none;
   padding: 0;
-  border-bottom: 1px solid rgba($accent, 0.5);
+  border-bottom: 1px solid rgba($accent, 0.4);
   display: inline-block;
   background-color: transparent;
-  -webkit-transition: 0.12s border-bottom-color ease-out;
-     -moz-transition: 0.12s border-bottom-color ease-out;
-      -ms-transition: 0.12s border-bottom-color ease-out;
-       -o-transition: 0.12s border-bottom-color ease-out;
-          transition: 0.12s border-bottom-color ease-out;
+  -webkit-transition: 0.48s border-bottom-color ease-out;
+     -moz-transition: 0.48s border-bottom-color ease-out;
+      -ms-transition: 0.48s border-bottom-color ease-out;
+       -o-transition: 0.48s border-bottom-color ease-out;
+          transition: 0.48s border-bottom-color ease-out;
   &:hover,
   &:active {
     outline: none;
+    -webkit-transition-duration: 0s;
+       -moz-transition-duration: 0s;
+        -ms-transition-duration: 0s;
+         -o-transition-duration: 0s;
+            transition-duration: 0s;
   }
   &:hover {
     border-bottom-color: $accent;
@@ -21,7 +26,7 @@ button {
 }
 
 .emphasize p a {
-  border-bottom: 3px solid rgba($accent, 0.85);
+  border-bottom: 3px solid rgba($accent, 0.35);
   display: inline-block;
   height: 38px;
   font-family: inherit;
