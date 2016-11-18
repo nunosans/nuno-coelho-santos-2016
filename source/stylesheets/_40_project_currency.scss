@@ -1,11 +1,20 @@
 article.project.project-currency {
 
+  .project-currency-goals {
+    padding-right: 40%;
+    @media (min-width: 849px) {
+      width: 50%;
+      float: right;
+      padding-right: 15%;
+    }
+  }
+
   .project-currency-iphone {
     padding-right: 40%;
     @media (min-width: 849px) {
       width: 50%;
       float: left;
-      padding-top: 70px;
+      padding-top: 170px;
       padding-left: 5%;
       padding-right: 15%;
     }
@@ -21,7 +30,7 @@ article.project.project-currency {
   .project-currency-app-icon {
     padding-left: 33%;
     @media (min-width: 849px) {
-      padding-left: 10px;
+      padding-left: 20%;
       float: left;
       width: 50%;
     }
@@ -50,66 +59,6 @@ article.project.project-currency {
       padding-top: 40px;
       @media (min-width: 849px) {
         padding-top: 60px;
-      }
-    }
-  }
-
-  .project-currency-storyboard {
-    padding-bottom: 20px;
-    overflow: visible;
-    @media (min-width: 849px) {
-      width: 50%;
-      clear: both;
-      float: left;
-      padding-right: 5%;
-      padding-bottom: 80px;
-    }
-    img {
-      margin-left: -13%;
-      width: 90%;
-      @media (min-width: 849px) {
-        margin-left: -14%;
-        width: 100%;
-      }
-    }
-  }
-
-  .project-currency-exploded-ui {
-    padding-left: 25%;
-    @media (min-width: 849px) {
-      width: 50%;
-      float: left;
-      padding-top: 120px;
-      padding-left: 10px;
-    }
-    img {
-      margin-left: -10%;
-      @media (min-width: 849px) {
-        margin-left: 0;
-      }
-    }
-  }
-
-  .project-currency-source-code {
-    @media (min-width: 849px) {
-      padding-right: 10%;
-    }
-    img {
-      width: 175%;
-      @media (min-width: 849px) {
-        width: 100%;
-        padding-top: 40px;
-      }
-    }
-  }
-
-  .project-currency-sales-graph {
-    img {
-      width: 200%;
-      margin-left: - ($gutter-width * 4);
-      @media (min-width: 849px) {
-        margin-left: 0;
-        width: 100%;
       }
     }
   }
