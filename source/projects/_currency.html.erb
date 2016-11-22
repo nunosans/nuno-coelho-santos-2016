@@ -10,14 +10,54 @@
 
   <main>
 
+    <div class="project-intro">
+      <h6>Project:</h6>
+      <p>
+        Currency for iOS
+      </p>
+      <h6>Role:</h6>
+      <p>
+        Product Designer &amp; iOS Developer
+      </p>
+      <h6>Date:</h6>
+      <p>
+        March 2016
+      </p>
+      <h6>Website:</h6>
+      <p>
+        <a href="http://currency.nunocoelhosantos.com/" taget="blank">http://currency.nunocoelhosantos.com/</a>
+      </p>
+      <h6>Description:</h6>
+      <p>
+        A side-project with the goal to create a product that does one job
+        incredibly well and learn a new programming language along the way.
+        Special thanks to
+        <a href="" target="_blank">Jonathon Toon</a>,
+        <a href="" target="_blank">Johnny Linnert</a>,
+        <a href="" target="_blank">Xin Nie</a>,
+        <a href="" target="_blank">Asuka Yamashita</a>,
+        <a href="" target="_blank">Alex Abian</a> and
+        <a href="" target="_blank">Tiago Alves</a>.
+      </p>
+    </div>
+
     <div class="project-item project-currency-goals">
       <p>
-        Visual noise such as country flags, settings, notifications and graphs
-        are not part of the interface. Users don’t need a walkthrough to
-        understand the app.
+        From using currency converter applications, free or paid, available on
+        the App Store I found that these were either unnecessarily complex,
+        unintuitive, or haven’t been updated new iPhone screen sizes. Very often
+        these apps have a walkthrough to explain the complex interactions or
+        features, when I thought they were meant to be simple.
+      </p>
+      <p>
+        I designed Currency to be the simplest and most intuitive currency
+        converter in the App Store, that would look perfect on any iPhone
+        screen. My target customer is a traveller in a foreign country and the
+        target moment is that traveller wanting to know the value of the foreign
+        currency in their home currency.
       </p>
       <img
-        src="./images/currency-goals-2x.png"
+        src="./images/currency-goals-2x.jpg"
         alt=""
         width="408"
         height="156"
@@ -26,7 +66,7 @@
 
     <div class="project-item project-currency-iphone">
       <img
-        src="./images/currency-iphone-2x.png"
+        src="./images/currency-iphone-2x.jpg"
         alt=""
         width="342"
         height="697"
@@ -34,13 +74,19 @@
       <button class="button button-play" data-action="play-currency-iphone">
         <span class="icon icon-play"></span>Play
       </button>
-      <button class="button button-pause" data-action="pause-currency-iphone">
+      <button class="button button-pause" data-action="pause-currency-iphone" data-layout="hidden">
         <span class="icon icon-pause"></span>Pause
       </button>
       <p>
-        Visual noise such as country flags, settings, notifications and graphs
-        are not part of the interface. Users don’t need a walkthrough to
-        understand the app.
+        The final design focuses on doing one job well: converting a foreign
+        currency into the customer’s home currency. Features such as currency
+        fluctuation graphs, in-app settings and notifications were not necessary
+        for this job.
+      </p>
+      <p>
+        One of the most unique aspects of Currency is the formatting of the
+        currencies, with the correct symbol, correct number of decimal places,
+        decimal divider and group dividers.
       </p>
     </div>
 
@@ -52,9 +98,8 @@
         height="126"
       >
       <p>
-        The icon is pure, simple, and follows the unbranded style of the
-        product. I wanted Currency to blend into the platfrom as if it was a
-        bundled utility.
+        The icon is designed to fit perfectly with iOS, presenting Currency as
+        if it is part of the operating system.
       </p>
     </div>
 
@@ -66,14 +111,106 @@
         height=""
       >
       <p>
-        In some currencies like the Euro or the Bitcoin, a country flag wouldn’t
-        correcly represent the currency. So flags were not included in the
-        design and users didn’t raise confusion around this decision. The
-        formatting of the currency values with the currency symbol and correct
-        use of commas or full stops to divide decimal places was said to be
-        useful when reading prices in a foreign country.
+        Most currency apps use country flags to illustrate the different
+        currencies. But some currencies like Bitcoin or the Euro don’t belong to
+        a specific country. For this reason I instead used currency symbols and
+        correct currency formatting, along with currency codes to correctly
+        represent the different currencies.
       </p>
     </div>
+
+    <div class="project-item project-currency-process">
+      <img
+        src="./images/currency-process-2x.jpg"
+        alt=""
+        width=""
+        height=""
+      >
+      <p>
+        Some early sketches displayed multiple currencies on the main screen and
+        used country flags. One of the early designs uses a blue and dark visual
+        style that I later on retired. While asking for feedback, friends seemed
+        confused about which number they were editing so I added a text input
+        blinking cursor.
+      </p>
+      <p>
+        The final design is bright and shows activity indicators when the
+        currency exchange rates are being updated. Other settings were added via
+        the iOS Settings based on user feedback.
+      </p>
+    </div>
+
+    <div class="project-item project-currency-development">
+      <img
+        src="./images/currency-storyboard-2x.png"
+        class="project-currency-image-storyboard"
+        alt=""
+        width=""
+        height=""
+        data-layout="narrow"
+      >
+      <img
+        src="./images/currency-exploded-ui-2x.png"
+        class="project-currency-image-exploded-ui"
+        alt=""
+        width=""
+        height=""
+        data-layout="narrow"
+      >
+      <img
+        src="./images/currency-source-code-2x.jpg"
+        class="project-currency-image-source-code"
+        alt=""
+        width=""
+        height=""
+        data-layout="narrow"
+      >
+      <img
+        src="./images/currency-development-2x.jpg"
+        class="project-currency-image-development"
+        alt=""
+        width=""
+        height=""
+        data-layout="wide"
+      >
+      <p>
+        This was the first app I developed for iOS, and my first time writing
+        Swift. Learning how to develop for iOS was a personal goal. I learnt by
+        reading Beginning iOS Development in Swift by Apress, by attending
+        Command Swift workshops organised by Johnny Linnert, and with some
+        help from other friends like Jonathon Toon and Tiago Alves.
+      </p>
+    </div>
+
+    <div class="project-item project-currency-localization">
+      <img
+        src="./images/currency-localization-2x.png"
+        alt=""
+        width=""
+        height=""
+      >
+      <p>
+        The application, website and marketing material was localised to the
+        US, the UK, Japan, China, Hong Kong, Taiwan, Latin America, Spain
+        and Portugal. Three months after release, 76% of the downloads came
+        from the Asia/Pacific region.
+      </p>
+    </div>
+
+    <div class="project-item project-currency-results">
+      <p>
+        Six months after release, Currency was downloaded over 6,000 times and
+        has an average rating of 4.5 stars. Download it for free and please
+        leave a nice review.
+      </p>
+      <img
+        src="./images/currency-photo-2x.jpg"
+        alt=""
+        width=""
+        height=""
+      >
+    </div>
+
 
   </main>
 

@@ -12,14 +12,14 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video,
 button, input, textarea {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
   font-family: "franklin-gothic-urw-1", "franklin-gothic-urw-2", "Franklin Gothic", "Franklin Gothic LT", "Franklin Gothic LT Com", "Franklin Gothic BT", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $text-primary;
 }
 
 h6 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .emphasize p {
@@ -27,7 +27,7 @@ h6 {
   font-size: 38px;
   line-height: 40px;
   padding: 0 0 40px;
-  @media (min-width: 849px) {
+  @media (min-width: 850px) {
     font-size: 72px;
     line-height: 80px;
   }

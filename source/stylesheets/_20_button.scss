@@ -1,5 +1,6 @@
 .button {
   cursor: pointer;
+  white-space: nowrap;
   &:active,
   &:focus {
     outline: none;
@@ -58,4 +59,12 @@
       background-image: url('../graphics/icon-pause-hover-3x.png');
     }
   }
+}
+
+.button.button-play,
+.button.button-pause {
+  display: block;
+  margin: 20px auto;
+  width: 69px;
+  text-align: left;
 }

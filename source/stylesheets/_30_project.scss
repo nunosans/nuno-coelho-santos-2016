@@ -1,58 +1,94 @@
 article.project {
-  padding: 40px 0;
+  margin: 50px auto;
+  width: 100%;
   clear: both;
+  float: left;
+  @media (min-width: 850px) {}
 
   header {
     padding: 4px 0 12px;
-    @media (min-width: 849px) {
+    @media (min-width: 850px) {
       padding: 4px 0 16px;
-      margin: 20px auto;
+      margin: 20px auto 18px;
     }
   }
 
   section {
-    width: 100%;
-    padding: 4px 0 12px;
     width: 100 - $gutter-width * 6;
+    padding: 18px 0 12px;
     line-height: 20px;
     margin: 20px auto;
     overflow: hidden;
     position: relative;
     z-index: 1;
-    @media (min-width: 849px) {
+    @media (min-width: 850px) {
       padding: 18px 0 22px;
-      margin: -40px auto -102px;
+      margin: 0 auto;
       width: $content-width;
     }
   }
 
   main {
-    background-color: $background-project;
     width: 100%;
-    padding: 80px $gutter-width * 3 40px;
-    width: 100%;
+    padding: 70px $gutter-width * 3 40px;
+    margin: -90px auto 0;
     line-height: 20px;
     overflow: hidden;
-    margin: -90px auto -100px;
-    @media (min-width: 849px) {
+    background-color: $background-project;
+    @media (min-width: 850px) {
       padding: 120px $column-width + $gutter-width * 2 80px;
-      margin: -40px auto -100px;
+      margin: -102px auto 0;
+    }
+  }
+
+  .project-intro {
+    width: 100%;
+    padding-bottom: 60px;
+    float: left;
+    clear: both;
+    h6 {
+      font-weight: inherit;
+      color: $text-secondary;
+      float: left;
+      clear: left;
+      width: 100%;
+      margin-bottom: 0;
+      @media (min-width: 850px) {
+        margin-bottom: 10px;
+        width: $inner-column-width + $inner-gutter-width;
+      }
+    }
+    p {
+      float: left;
+      width: 100%;
+      margin-bottom: 10px;
+      @media (min-width: 850px) {
+        width: $inner-column-width * 5 + $inner-gutter-width * 4;
+      }
     }
   }
 
   .project-item {
+    padding-bottom: 0;
+    width: 100%;
     padding-bottom: 40px;
-    overflow: hidden;
-    @media (min-width: 849px) {
+    @media (min-width: 850px) {
       padding-bottom: 80px;
     }
     img {
       width: 100%;
       height: auto;
+      margin: 20px auto;
+      display: block;
     }
     p {
-      padding: 20px 0;
-      max-width: 280px;
+      padding: 10px 0;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      @media (min-width: 850px) {
+        max-width: 280px;
+      }
     }
   }
 

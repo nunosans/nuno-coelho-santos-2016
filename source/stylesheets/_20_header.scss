@@ -5,7 +5,7 @@ header {
   line-height: 20px;
   margin: 20px auto;
   overflow: hidden;
-  @media (min-width: 849px) {
+  @media (min-width: 850px) {
     padding: 5px 0 20px;
     margin: 40px auto;
     width: $content-width;
@@ -13,7 +13,7 @@ header {
   h1 {
     float: left;
     width: $inner-column-width * 6 + $inner-gutter-width * 5;
-    @media (min-width: 849px) {
+    @media (min-width: 850px) {
       width: $inner-column-width * 4 + $inner-gutter-width * 3;
     }
   }
@@ -21,7 +21,7 @@ header {
     width: $inner-column-width * 2 + $inner-gutter-width * 1;
     margin-left: $inner-gutter-width;
     float: left;
-    @media (min-width: 849px) {
+    @media (min-width: 850px) {
       width: $inner-column-width * 3 + $inner-gutter-width * 2;
     }
     li {
@@ -37,7 +37,7 @@ header {
       font-weight: inherit;
       color: $text-secondary;
       float: left;
-      width: 70px;
+      width: 80px;
     }
   }
 }

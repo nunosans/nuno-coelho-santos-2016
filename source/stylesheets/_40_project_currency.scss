@@ -1,35 +1,39 @@
 article.project.project-currency {
+  main {
+    padding-bottom: 0;
+  }
 
   .project-currency-goals {
-    padding-right: 40%;
-    @media (min-width: 849px) {
+    margin-bottom: 40px;
+    @media (min-width: 850px) {
       width: 50%;
       float: right;
       padding-right: 15%;
     }
+    img {
+      width: 300px;
+      height: 116px;
+      margin: 20px 0 0 0;
+      @media (min-width: 850px) {}
+    }
   }
 
   .project-currency-iphone {
-    padding-right: 40%;
-    @media (min-width: 849px) {
+    @media (min-width: 850px) {
       width: 50%;
       float: left;
       padding-top: 170px;
       padding-left: 5%;
       padding-right: 15%;
     }
-    .button.button-play,
-    .button.button-pause {
-      display: block;
-      margin: 20px auto;
-      width: 69px;
-      text-align: left;
+    img {
+      width: 240px;
+      height: 489px;
     }
   }
 
   .project-currency-app-icon {
-    padding-left: 33%;
-    @media (min-width: 849px) {
+    @media (min-width: 850px) {
       padding-left: 20%;
       float: left;
       width: 50%;
@@ -37,29 +41,96 @@ article.project.project-currency {
     img {
       width: 84px;
       height: 84px;
-      margin: 0 0 0 -3px;
-      @media (min-width: 849px) {
+      @media (min-width: 850px) {
+        margin: 0 0 0 -3px;
         width: 126px;
         height: 126px;
-
       }
     }
   }
 
   .project-currency-symbols {
-    padding-left: 10%;
-    padding-right: 10%;
-    @media (min-width: 849px) {
+    @media (min-width: 850px) {
       float: left;
       width: 50%;
       padding-right: 10%;
       padding-left: 10px;
     }
+    img {
+      width: 260px;
+      height: 321px;
+    }
     p {
-      padding-top: 40px;
-      @media (min-width: 849px) {
+      @media (min-width: 850px) {
         padding-top: 60px;
       }
+    }
+  }
+
+  .project-currency-process {
+    @media (min-width: 850px) {}
+    img {
+      width: 103%;
+      @media (min-width: 850px) {}
+    }
+    p {
+      @media (min-width: 850px) {}
+    }
+  }
+
+  .project-currency-development {
+    @media (min-width: 850px) {}
+    img.project-currency-image-storyboard {
+      width: 61%;
+      position: relative;
+      z-index: 1;
+      left: -29%;
+
+    }
+    img.project-currency-image-exploded-ui {
+      width: 74%;
+      position: relative;
+      left: 22%;
+      margin-top: -20%;
+
+    }
+    img.project-currency-image-source-code {
+      width: 130%;
+      margin-top: 40px;
+      margin-left: 0;
+      margin-bottom: -40px;
+    }
+    img.project-currency-image-development {
+
+    }
+    p {
+      @media (min-width: 850px) {}
+    }
+  }
+
+  .project-currency-localization {
+    @media (min-width: 850px) {}
+    img {
+      width: 140%;
+      margin-left: -20%;
+      @media (min-width: 850px) {}
+    }
+    p {
+      @media (min-width: 850px) {}
+    }
+  }
+
+  .project-currency-results {
+    padding-bottom: 0;
+    @media (min-width: 850px) {}
+    img {
+      width: 120%;
+      margin-left: -10%;
+      margin-bottom: 0;
+      @media (min-width: 850px) {}
+    }
+    p {
+      @media (min-width: 850px) {}
     }
   }
 
