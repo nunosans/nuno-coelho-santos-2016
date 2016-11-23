@@ -1,5 +1,5 @@
 article.project {
-  margin: 50px auto;
+  margin: 70px auto;
   width: 100%;
   clear: both;
   float: left;
@@ -72,7 +72,9 @@ article.project {
     padding-bottom: 0;
     width: 100%;
     padding-bottom: 40px;
+    clear: both;
     @media (min-width: 850px) {
+      clear: none;
       padding-bottom: 80px;
     }
     img {
