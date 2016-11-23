@@ -1,0 +1,81 @@
+article.project.project-thread {
+
+  .project-thread-mobile-intro {
+    @media (min-width: 850px) {}
+    img {
+      width: 255px;
+      height: 76px;
+      margin: 20px 0 10px 0;
+      @media (min-width: 850px) {}
+    }
+  }
+
+  .project-thread-mobile-wireframes {
+    @media (min-width: 850px) {}
+    img {
+      width: 190%;
+      margin-bottom: -40px;
+      @media (min-width: 850px) {}
+    }
+  }
+
+  .project-thread-mobile-desktop {
+    img.project-thread-mobile-modal-wireframe {
+      width: 110%;
+      position: relative;
+      left: -44%;
+    }
+    img.project-thread-mobile-modal-mockup {
+      width: 108%;
+      position: relative;
+      z-index: 1;
+      left: 0;
+      margin-top: -24%;
+    }
+    img.project-thread-mobile-components {
+      width: 80%;
+      margin-left: 0;
+    }
+  }
+
+  .project-thread-browse-intro {
+    @media (min-width: 850px) {}
+    img {
+      width: 350px;
+      height: 98px;
+      margin: 20px 0 10px 0;
+      @media (min-width: 850px) {}
+    }
+  }
+
+  .project-thread-browse-mobile {
+    @media (min-width: 850px) {}
+    img.thread-browse-iphone-and-icons {
+      width: 453px;
+      height: 689px;
+      margin-left: 50%;
+      -webkit-transform: translate3d(-50%, 0, 0);
+    }
+    img.project-thread-browse-icons {
+
+    }
+    img.project-thread-browse-iphone {
+      width: 240px;
+      height: 497px;
+    }
+  }
+
+  .project-thread-browse-desktop {
+    img {
+      width: 124%;
+      margin-left: -12%;
+      box-shadow: 0 0 0 1px rgba(black, 0.12),
+                  -3px 3px 0 0 rgba(black, 0.06);
+      @media (min-width: 850px) {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+  }
+
+}

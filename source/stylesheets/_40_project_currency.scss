@@ -3,7 +3,7 @@ article.project.project-currency {
     padding-bottom: 0;
   }
 
-  .project-currency-goals {
+  .project-currency-intro {
     margin-bottom: 40px;
     @media (min-width: 850px) {
       width: 50%;
@@ -11,8 +11,8 @@ article.project.project-currency {
       padding-right: 15%;
     }
     img {
-      width: 290px;
-      height: 112px;
+      width: 286px;
+      height: 111px;
       margin: 20px 0 0 0;
       @media (min-width: 850px) {}
     }
@@ -28,7 +28,7 @@ article.project.project-currency {
     }
     img {
       width: 240px;
-      height: 489px;
+      height: 497px;
     }
   }
 
@@ -85,14 +85,12 @@ article.project.project-currency {
       position: relative;
       z-index: 1;
       left: -29%;
-
     }
     img.project-currency-image-exploded-ui {
-      width: 74%;
+      width: 68%;
       position: relative;
-      left: 22%;
+      left: 26%;
       margin-top: -20%;
-
     }
     img.project-currency-image-source-code {
       width: 130%;
@@ -100,9 +98,7 @@ article.project.project-currency {
       margin-left: 0;
       margin-bottom: -40px;
     }
-    img.project-currency-image-development {
-
-    }
+    img.project-currency-image-development {}
     p {
       @media (min-width: 850px) {}
     }
