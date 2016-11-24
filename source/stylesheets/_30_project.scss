@@ -1,27 +1,26 @@
 article.project {
-  margin: 70px auto;
+  margin: 66px auto;
   width: 100%;
   clear: both;
   float: left;
-  @media (min-width: 850px) {}
+  @media (min-width: 750px) {}
 
   header {
     padding: 4px 0 12px;
-    @media (min-width: 850px) {
+    @media (min-width: 750px) {
       padding: 4px 0 16px;
-      margin: 20px auto 18px;
+      margin: 22px auto 18px;
     }
   }
 
   section {
     width: 100 - $gutter-width * 6;
-    padding: 18px 0 12px;
-    line-height: 20px;
-    margin: 20px auto;
+    padding: 11px 0 12px;
+    margin: 0 auto;
     overflow: hidden;
     position: relative;
     z-index: 1;
-    @media (min-width: 850px) {
+    @media (min-width: 750px) {
       padding: 18px 0 22px;
       margin: 0 auto;
       width: $content-width;
@@ -30,74 +29,79 @@ article.project {
 
   main {
     width: 100%;
-    padding: 70px $gutter-width * 3 40px;
-    margin: -90px auto 0;
-    line-height: 20px;
+    padding: 39px $gutter-width * 3 44px;
+    margin: -74px auto 0;
     overflow: hidden;
     background-color: $background-project;
-    @media (min-width: 850px) {
-      padding: 120px $column-width + $gutter-width * 2 80px;
+    @media (min-width: 750px) {
+      padding: 110px $column-width + $gutter-width * 2 88px;
       margin: -102px auto 0;
     }
   }
 
   .project-intro {
     width: 100%;
-    padding-bottom: 60px;
+    margin-top: 22px;
+    margin-bottom: 42px;
     float: left;
     clear: both;
+    padding-left: $inner-gutter-width * 2;
+    position: relative;
     h6 {
       font-weight: inherit;
       color: $text-secondary;
       float: left;
       clear: left;
       width: 100%;
-      margin-bottom: 0;
-      @media (min-width: 850px) {
-        margin-bottom: 10px;
+      margin: 0;
+      @media (min-width: 750px) {
+        margin-top: 11px;
         width: $inner-column-width + $inner-gutter-width;
       }
     }
     p {
       float: left;
       width: 100%;
-      margin-bottom: 10px;
-      @media (min-width: 850px) {
+      padding-top: 0;
+      @media (min-width: 750px) {
         width: $inner-column-width * 5 + $inner-gutter-width * 4;
       }
+    }
+    &:before {
+      content: "";
+      display: block;
+      width: 1px;
+      height: auto;
+      position: absolute;
+      top: 5px;
+      bottom: 11px;
+      left: 0px;
+      background-color: darken($background-project, 10%);
     }
   }
 
   .project-item {
-    padding-bottom: 0;
     width: 100%;
-    padding-bottom: 40px;
     clear: both;
-    @media (min-width: 850px) {
+    @media (min-width: 750px) {
       clear: none;
-      padding-bottom: 80px;
+      padding-bottom: 88px;
     }
     img {
       width: 100%;
       height: auto;
-      margin: 20px auto;
+      margin: 66px auto;
       display: block;
+      @media (min-width: 750px) {
+        margin: 22px auto;
+      }
     }
     h6 {
       margin-bottom: 0;
       color: $text-secondary;
       margin-left: auto;
       margin-right: auto;
-      @media (min-width: 850px) {
-        max-width: 280px;
-      }
-    }
-    p {
-      padding: 10px 0;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      @media (min-width: 850px) {
+      @media (min-width: 750px) {
         max-width: 280px;
       }
     }

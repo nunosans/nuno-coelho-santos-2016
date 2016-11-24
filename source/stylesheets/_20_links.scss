@@ -5,6 +5,7 @@ button {
   padding: 0;
   border-bottom: 1px solid rgba($accent, 0.4);
   display: inline-block;
+  height: 21px;
   background-color: transparent;
   -webkit-transition: 0.48s border-bottom-color ease-out;
      -moz-transition: 0.48s border-bottom-color ease-out;
@@ -32,7 +33,7 @@ button {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  @media (min-width: 850px) {
+  @media (min-width: 750px) {
     border-bottom-width: 6px;
     height: 75px;
   }

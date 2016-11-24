@@ -1,13 +1,13 @@
 section.intro,
 section.outro {
   width: 100%;
-  padding: 19px $gutter-width * 3 21px;
+  padding: 11px $gutter-width * 3 17px;
   line-height: 20px;
-  margin: 70px auto 50px;
+  margin: 66px auto 22px;
   clear: both;
   float: left;
   overflow: hidden;
-  @media (min-width: 850px) {
+  @media (min-width: 750px) {
     padding: 19px $column-width + $gutter-width * 2 22px;
     margin: 140px auto;
   }
@@ -24,17 +24,16 @@ section.outro {
     @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
       background-image: url('../graphics/smiley-3x.png');
     }
-    @media (min-width: 850px) {
+    @media (min-width: 750px) {
       width: 119px;
       height: 34px;
       background-size: 119px 34px;
       margin: 26px 22px 0 10px;
     }
   }
-  a.read-more {
-    font-size: 15px;
-    line-height: 20px;
-    @media (min-width: 850px) {
+  button.read-more {
+    margin-top: 17px;
+    @media (min-width: 750px) {
       margin-top: 26px;
     }
   }

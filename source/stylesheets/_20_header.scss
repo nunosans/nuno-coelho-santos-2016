@@ -1,11 +1,10 @@
 header {
   width: 100%;
-  padding: 4px 0 12px;
+  padding: 5px 0 16px;
   width: 100 - $gutter-width * 6;
-  line-height: 20px;
-  margin: 20px auto;
+  margin: 22px auto;
   overflow: hidden;
-  @media (min-width: 850px) {
+  @media (min-width: 750px) {
     padding: 5px 0 20px;
     margin: 40px auto;
     width: $content-width;
@@ -13,7 +12,7 @@ header {
   h1 {
     float: left;
     width: $inner-column-width * 6 + $inner-gutter-width * 5;
-    @media (min-width: 850px) {
+    @media (min-width: 750px) {
       width: $inner-column-width * 4 + $inner-gutter-width * 3;
     }
   }
@@ -21,11 +20,11 @@ header {
     width: $inner-column-width * 2 + $inner-gutter-width * 1;
     margin-left: $inner-gutter-width;
     float: left;
-    @media (min-width: 850px) {
+    @media (min-width: 750px) {
       width: $inner-column-width * 3 + $inner-gutter-width * 2;
     }
     li {
-      padding-bottom: 5px;
+      padding-bottom: 5.5px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
