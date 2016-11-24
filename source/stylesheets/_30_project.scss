@@ -83,6 +83,15 @@ article.project {
       margin: 20px auto;
       display: block;
     }
+    h6 {
+      margin-bottom: 0;
+      color: $text-secondary;
+      margin-left: auto;
+      margin-right: auto;
+      @media (min-width: 850px) {
+        max-width: 280px;
+      }
+    }
     p {
       padding: 10px 0;
       width: 100%;
