@@ -1,5 +1,11 @@
 article.project.project-other {
 
+  .project-item {
+    img {
+      margin: 66px auto 26px;
+    }
+  }
+
   .project-other-a-year-in-an-instant {
     @media (min-width: 750px) {}
     img {
@@ -22,8 +28,8 @@ article.project.project-other {
     @media (min-width: 750px) {}
     img {
       width: 160%;
-      margin-top: -3%;
-      margin-bottom: -3%;
+      margin-top: 55px;
+      margin-bottom: -16px;
       margin-left: -5.5%;
 
       @media (min-width: 750px) {}
