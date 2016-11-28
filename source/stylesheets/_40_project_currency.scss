@@ -18,7 +18,10 @@ article.project.project-currency {
         width: 286px;
         height: 111px;
       }
-      @media (min-width: 750px) {}
+      @media (min-width: 750px) {
+        width: 408px;
+        height: 158px;
+      }
     }
   }
 
@@ -33,6 +36,10 @@ article.project.project-currency {
     img {
       width: 240px;
       height: 497px;
+      @media (min-width: 750px) {
+        width: 342px;
+        height: 708px;
+      }
     }
   }
 
@@ -46,7 +53,7 @@ article.project.project-currency {
       width: 84px;
       height: 84px;
       @media (min-width: 750px) {
-        margin: 0 0 0 -3px;
+        margin: 0 0 22px -3px;
         width: 126px;
         height: 126px;
       }
@@ -63,6 +70,10 @@ article.project.project-currency {
     img {
       width: 260px;
       height: 321px;
+      @media (min-width: 750px) {
+        width: 450px;
+        height: 555px;
+      }
     }
     p {
       @media (min-width: 750px) {
@@ -72,27 +83,63 @@ article.project.project-currency {
   }
 
   .project-currency-process {
-    @media (min-width: 750px) {}
+    @media (min-width: 750px) {
+      clear: both;
+      position: relative;
+    }
     img {
       width: 103%;
-      @media (min-width: 750px) {}
+      @media (min-width: 750px) {
+        width: $inner-column-width * 7 + $inner-gutter-width * 5;
+        margin-left: 0;
+      }
     }
     p {
-      @media (min-width: 750px) {}
+      @media (min-width: 750px) {
+        position: absolute;
+        top: -5.5px;
+        left: $inner-column-width * 7 + $inner-gutter-width * 7;
+      }
     }
   }
 
   .project-currency-development {
-    @media (min-width: 750px) {}
+    @media (min-width: 750px) {
+      position: relative;
+      height: 1264px;
+    }
     img.project-currency-image-development {
       width: 110%;
       margin-left: -5%;
     }
-    img.project-currency-image-storyboard {}
-    img.project-currency-image-exploded-ui {}
-    img.project-currency-image-source-code {}
+    img.project-currency-image-storyboard {
+      position: absolute;
+      z-index: 1;
+      width: 443px;
+      height: 400px;
+      top: 280px;
+      left: -64px;
+    }
+    img.project-currency-image-exploded-ui {
+      position: absolute;
+      z-index: 1;
+      width: 454px;
+      height: 453px;
+      top: 702px;
+      left: 84px;
+    }
+    img.project-currency-image-source-code {
+      margin-left: $inner-column-width * 4 + $inner-gutter-width * 4;
+      width: 920px;
+      height: 1098px;
+    }
     p {
-      @media (min-width: 750px) {}
+      @media (min-width: 750px) {
+        position: absolute;
+        z-index: 2;
+        top: -5.5px;
+        left: 0;
+      }
     }
   }
 
@@ -101,24 +148,38 @@ article.project.project-currency {
     img {
       width: 150%;
       margin-left: -25%;
-      @media (min-width: 750px) {}
+      @media (min-width: 750px) {
+        width: $inner-column-width * 11 + $inner-gutter-width * 11;
+        margin-left: - ($inner-column-width + $inner-gutter-width * 2) / 2;
+      }
     }
     p {
-      @media (min-width: 750px) {}
+      @media (min-width: 750px) {
+        margin-left: 66.5%;
+      }
     }
   }
 
   .project-currency-results {
     padding-bottom: 0;
-    @media (min-width: 750px) {}
+    @media (min-width: 750px) {
+      position: relative;
+    }
     img {
       width: 72%;
       margin-left: 33%;
       margin-bottom: 0;
-      @media (min-width: 750px) {}
+      @media (min-width: 750px) {
+        margin-left: $inner-column-width * 5 + $inner-gutter-width * 5;
+        width: $inner-column-width * 6 + $inner-gutter-width * 6;
+      }
     }
     p {
-      @media (min-width: 750px) {}
+      @media (min-width: 750px) {
+        position: absolute;
+        top: -5.5px;
+        left: $inner-column-width * 2 + $inner-gutter-width * 2;
+      }
     }
   }
 
