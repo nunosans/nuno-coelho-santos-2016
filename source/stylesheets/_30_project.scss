@@ -90,6 +90,7 @@ article.project {
     clear: both;
     @media (min-width: 750px) {
       clear: none;
+      padding-top: 44px;
       padding-bottom: 88px;
     }
     img {
@@ -104,8 +105,7 @@ article.project {
     h6 {
       margin-bottom: 0;
       color: $text-secondary;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 0;
       @media (min-width: 750px) {
         max-width: 280px;
       }

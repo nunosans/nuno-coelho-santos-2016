@@ -16,10 +16,17 @@ button, input, textarea {
   line-height: 22px;
   font-family: "franklin-gothic-urw-1", "franklin-gothic-urw-2", "Franklin Gothic", "Franklin Gothic LT", "Franklin Gothic LT Com", "Franklin Gothic BT", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $text-primary;
+  @media (min-width: 750px) {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
 h6 {
   margin-bottom: 5.5px;
+  @media (min-width: 750px) {
+    margin-bottom: 5px;
+  }
 }
 
 p {
@@ -28,7 +35,8 @@ p {
   margin-left: auto;
   margin-right: auto;
   @media (min-width: 750px) {
-    max-width: 280px;
+    padding: 5px 0;
+    max-width: 305px;
   }
 }
 

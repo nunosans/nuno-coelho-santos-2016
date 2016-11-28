@@ -24,6 +24,9 @@ button {
   &:hover {
     border-bottom-color: $accent;
   }
+  @media (min-width: 750px) {
+    height: 19px;
+  }
 }
 
 .emphasize p a {
