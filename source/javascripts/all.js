@@ -14,12 +14,14 @@ $('document').ready(function() {
 
   $('button[data-action="play-currency-iphone"]').click(function(event) {
     event.preventDefault();
+    $('.project-currency-iphone-video').find('video').get(0).play();
     $('button[data-action="play-currency-iphone"]').attr('data-layout', 'hidden');
     $('button[data-action="pause-currency-iphone"]').attr('data-layout', 'visible');
   });
 
   $('button[data-action="pause-currency-iphone"]').click(function(event) {
     event.preventDefault();
+    $('.project-currency-iphone-video').find('video').get(0).pause();
     $('button[data-action="play-currency-iphone"]').attr('data-layout', 'visible');
     $('button[data-action="pause-currency-iphone"]').attr('data-layout', 'hidden');
   });
@@ -28,28 +30,16 @@ $('document').ready(function() {
 
   $('button[data-action="play-thread-browse-mobile"]').click(function(event) {
     event.preventDefault();
+    $('.project-thread-browse-mobile-video').find('video').get(0).play();
     $('button[data-action="play-thread-browse-mobile"]').attr('data-layout', 'hidden');
     $('button[data-action="pause-thread-browse-mobile"]').attr('data-layout', 'visible');
   });
 
   $('button[data-action="pause-thread-browse-mobile"]').click(function(event) {
     event.preventDefault();
+    $('.project-thread-browse-mobile-video').find('video').get(0).pause();
     $('button[data-action="play-thread-browse-mobile"]').attr('data-layout', 'visible');
     $('button[data-action="pause-thread-browse-mobile"]').attr('data-layout', 'hidden');
-  });
-
-  // Play and pause Thread Browse Desktop video.
-
-  $('button[data-action="play-thread-browse-desktop"]').click(function(event) {
-    event.preventDefault();
-    $('button[data-action="play-thread-browse-desktop"]').attr('data-layout', 'hidden');
-    $('button[data-action="pause-thread-browse-desktop"]').attr('data-layout', 'visible');
-  });
-
-  $('button[data-action="pause-thread-browse-desktop"]').click(function(event) {
-    event.preventDefault();
-    $('button[data-action="play-thread-browse-desktop"]').attr('data-layout', 'visible');
-    $('button[data-action="pause-thread-browse-desktop"]').attr('data-layout', 'hidden');
   });
 
   // Hide and show columns.
