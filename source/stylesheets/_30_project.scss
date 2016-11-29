@@ -50,7 +50,7 @@ article.project {
     overflow: hidden;
     @media (min-width: 750px) {
       float: none;
-      padding-left: $inner-gutter-width;
+      padding-left: 0;
     }
     h6 {
       font-weight: inherit;
@@ -69,7 +69,7 @@ article.project {
       padding-top: 0;
       @media (min-width: 750px) {
         max-width: none;
-        width: $inner-column-width * 5 + $inner-gutter-width * 4;
+        width: $inner-column-width * 5 + $inner-gutter-width * 5;
       }
     }
     &:before {
@@ -82,6 +82,9 @@ article.project {
       bottom: 11px;
       left: 0px;
       background-color: darken($background-project, 10%);
+      @media (min-width: 750px) {
+        content: none;
+      }
     }
   }
 

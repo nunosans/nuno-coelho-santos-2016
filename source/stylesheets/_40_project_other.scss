@@ -110,8 +110,12 @@ article.project.project-other {
     img.project-other-ustwo-rebrand-image {
       position: absolute;
       z-index: 1;
-      top: 144px;
-      left: 26%;
+      top: 33px;
+      left: 15%;
+      @media (min-width: 750px) {
+        left: 26%;
+        top: 144px;
+      }
     }
     h6 {
       margin-top: 122px;

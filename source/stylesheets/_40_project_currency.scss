@@ -6,9 +6,9 @@ article.project.project-currency {
   .project-currency-intro {
     margin-bottom: 40px;
     @media (min-width: 750px) {
-      width: 50%;
+      width: $inner-column-width * 4 + $inner-gutter-width * 3;
+      margin-right: $inner-column-width + $inner-gutter-width;
       float: right;
-      padding-right: 15%;
     }
     img {
       width: 229px;
@@ -27,11 +27,10 @@ article.project.project-currency {
 
   .project-currency-iphone {
     @media (min-width: 750px) {
-      width: 50%;
       float: left;
-      padding-top: 170px;
-      padding-left: 5%;
-      padding-right: 15%;
+      width: $inner-column-width * 3 + $inner-gutter-width * 3;
+      margin-left: $inner-column-width + $inner-gutter-width;
+      margin-top: 170px;
     }
     img {
       width: 240px;
@@ -39,15 +38,16 @@ article.project.project-currency {
       @media (min-width: 750px) {
         width: 342px;
         height: 708px;
+        margin-left: -2px;
       }
     }
   }
 
   .project-currency-app-icon {
     @media (min-width: 750px) {
-      padding-left: 20%;
+      width: $inner-column-width * 4 + $inner-gutter-width * 3;
+      margin-left: $inner-column-width * 2 + $inner-gutter-width * 2;
       float: left;
-      width: 50%;
     }
     img {
       width: 84px;
@@ -62,10 +62,9 @@ article.project.project-currency {
 
   .project-currency-symbols {
     @media (min-width: 750px) {
+      width: $inner-column-width * 4 + $inner-gutter-width * 3;
+      margin-left: $inner-column-width + $inner-gutter-width;
       float: left;
-      width: 50%;
-      padding-right: 10%;
-      padding-left: 10px;
     }
     img {
       width: 260px;

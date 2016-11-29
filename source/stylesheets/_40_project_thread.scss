@@ -4,7 +4,7 @@ article.project.project-thread {
     @media (min-width: 750px) {
       float: left;
       width: $inner-column-width * 3 + $inner-gutter-width * 2;
-      margin-left: $inner-column-width + $inner-gutter-width * 2;
+      margin-left: $inner-column-width + $inner-gutter-width;
     }
   }
 
@@ -12,6 +12,7 @@ article.project.project-thread {
     @media (min-width: 750px) {
       float: left;
       width: $inner-column-width * 3 + $inner-gutter-width * 2;
+      margin-left: $inner-gutter-width;
     }
   }
 

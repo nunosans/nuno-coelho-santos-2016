@@ -63,8 +63,11 @@
 
 .button.button-play,
 .button.button-pause {
-  display: block;
+  display: none;
   margin: 20px auto;
   width: 69px;
   text-align: left;
+  @media (min-width: 750px) {
+    display: block;
+  }
 }
