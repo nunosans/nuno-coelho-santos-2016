@@ -34,7 +34,9 @@ article.project.project-currency {
     }
     .iphone-with-video {
       @media (min-width: 750px) {
-        margin-left: -9.3%;
+        position: relative;
+        left: 50%;
+        margin-left: -171px;
       }
     }
   }
@@ -124,7 +126,12 @@ article.project.project-currency {
       left: 84px;
     }
     img.project-currency-image-source-code {
-      margin-left: $inner-column-width * 4 + $inner-gutter-width * 4;
+      @media (min-width: 750px) {
+        margin-left: $inner-column-width * 5 + $inner-gutter-width * 5;
+      }
+      @media (min-width: 1250px) {
+        margin-left: $inner-column-width * 4 + $inner-gutter-width * 4;
+      }
       width: 920px;
       height: 1098px;
     }
@@ -174,6 +181,9 @@ article.project.project-currency {
       @media (min-width: 750px) {
         position: absolute;
         top: 66px;
+        left: $inner-column-width + $inner-gutter-width;
+      }
+      @media (min-width: 1250px) {
         left: $inner-column-width * 2 + $inner-gutter-width * 2;
       }
     }

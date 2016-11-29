@@ -89,7 +89,9 @@ article.project.project-thread {
     img.project-thread-mobile-modals-wide {
       width: 1280px;
       height: 1650px;
-      margin-left: -52.6%;
+      position: relative;
+      left: 50%;
+      margin-left: -1206px;
     }
     img.project-thread-mobile-components {
       width: 80%;
@@ -158,11 +160,21 @@ article.project.project-thread {
     @media (min-width: 750px) {
       position: relative;
     }
-    img.thread-browse-iphone-and-icons {
+    .project-thread-browse-mobile {
       width: 453px;
       height: 689px;
-      margin-left: 50%;
-      -webkit-transform: translate3d(-50%, 0, 0);
+      position: relative;
+      left: 50%;
+      padding: 256px 119px 68px 128px;
+      margin-left: -226px;
+      background-image: url('../images/nuno-coelho-santos-thread-browse-iphone-and-icons-2x.jpg');
+      background-size: 453px 689px;
+      @media (-webkit-min-device-pixel-ratio: 1.5) {
+        background-image: url('../images/nuno-coelho-santos-thread-browse-iphone-and-icons-2x.jpg');
+      }
+      @media (-webkit-min-device-pixel-ratio: 2.5) {
+        background-image: url('../images/nuno-coelho-santos-thread-browse-iphone-and-icons-2x.jpg');
+      }
     }
     img.project-thread-browse-icons {
       @media (min-width: 750px) {
