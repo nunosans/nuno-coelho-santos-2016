@@ -2,7 +2,7 @@ article.project.project-other {
 
   .project-item {
     img {
-      margin: 66px auto 26px;
+      margin: 66px auto 22px;
     }
   }
 
@@ -65,12 +65,12 @@ article.project.project-other {
       margin-top: -352px;
     }
     img {
-      width: 206px;
-      height: 434px;
+      width: 209px;
+      height: 440px;
       margin-left: -2px;
       @media (min-width: 750px) {
-        width: 264px;
-        height: 556px;
+        width: 297px;
+        height: 626px;
       }
     }
   }
@@ -88,7 +88,7 @@ article.project.project-other {
     @media (min-width: 750px) {
       float: left;
       width: $inner-column-width * 4 + $inner-gutter-width * 3;
-      margin-left: $inner-column-width + $inner-gutter-width * 2;
+      margin-left: $inner-column-width * 2 + $inner-gutter-width * 3;
       margin-top: 88px;
     }
     img {
@@ -97,13 +97,24 @@ article.project.project-other {
   }
 
   .project-other-ustwo-rebrand {
+    position: relative;
     @media (min-width: 750px) {
       float: left;
       width: $inner-column-width * 4 + $inner-gutter-width * 3;
       margin-top: -395px;
     }
-    img {
-      @media (min-width: 750px) {}
+    img.project-other-ustwo-rebrand-logo {
+      position: relative;
+      z-index: 2;
+    }
+    img.project-other-ustwo-rebrand-image {
+      position: absolute;
+      z-index: 1;
+      top: 144px;
+      left: 26%;
+    }
+    h6 {
+      margin-top: 122px;
     }
   }
 
@@ -125,14 +136,14 @@ article.project.project-other {
     @media (min-width: 750px) {
       float: left;
       width: $inner-column-width * 4 + $inner-gutter-width * 3;
-      margin-left: $inner-column-width + $inner-gutter-width * 2;
+      margin-left: $inner-column-width * 2 + $inner-gutter-width * 3;
     }
     img {
       width: 70%;
       margin-left: 15%;
       @media (min-width: 750px) {
         margin-left: 0;
-        margin-top: -30px
+        margin-top: -69px
       }
     }
   }

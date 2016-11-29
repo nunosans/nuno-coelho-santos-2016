@@ -16,9 +16,10 @@ footer {
     color: $text-secondary;
     max-width: none;
   }
-  a {
+  a, button {
     color: inherit;
     border: none;
+    display: inline-block;
     -webkit-transition: 0.48s color ease-out;
        -moz-transition: 0.48s color ease-out;
         -ms-transition: 0.48s color ease-out;

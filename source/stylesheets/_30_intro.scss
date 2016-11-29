@@ -1,35 +1,47 @@
-section.intro,
-section.outro {
-  width: 100%;
-  padding: 11px $gutter-width * 3 17px;
-  line-height: 20px;
-  margin: 66px auto 22px;
+article.intro,
+article.outro {
   clear: both;
   float: left;
   overflow: hidden;
-  @media (min-width: 750px) {
-    padding: 19px $column-width + $gutter-width * 2 22px;
-    margin: 140px auto;
-  }
-  .smiley {
-    display: inline-block;
-    width: 66px;
-    height: 19px;
-    background-image: url('../graphics/smiley-1x.png');
-    background-size: 66px auto;
-    margin: 12px 12px 0 8px;
-    @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
-      background-image: url('../graphics/smiley-2x.png');
-    }
-    @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
-      background-image: url('../graphics/smiley-3x.png');
-    }
+  width: 100%;
+  section {
+    width: 100%;
+    padding: 11px $gutter-width * 3 17px;
+    line-height: 20px;
+    margin: 66px auto 22px;
+    clear: both;
+    float: left;
     @media (min-width: 750px) {
-      width: 119px;
-      height: 34px;
-      background-size: 119px 34px;
-      margin: 26px 22px 0 10px;
+      padding: 19px $column-width + $gutter-width * 2 22px;
+      margin: 140px auto;
     }
+    .smiley {
+      display: inline-block;
+      width: 66px;
+      height: 19px;
+      background-image: url('../graphics/smiley-1x.png');
+      background-size: 66px auto;
+      margin: 12px 12px 0 8px;
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+        background-image: url('../graphics/smiley-2x.png');
+      }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+        background-image: url('../graphics/smiley-3x.png');
+      }
+      @media (min-width: 750px) {
+        width: 119px;
+        height: 34px;
+        background-size: 119px 34px;
+        margin: 26px 22px 0 10px;
+      }
+    }
+  }
+}
+
+
+article.intro section.intro-short {
+  p {
+    display: inline;
   }
   button.read-more {
     margin-top: 17px;
@@ -37,7 +49,16 @@ section.outro {
       margin-top: 26px;
     }
   }
-  &.intro-short p {
-    display: inline;
+}
+
+article.intro section.intro-complete {
+  margin-bottom: 0;
+}
+
+article.intro section.intro-bio {
+  margin-top: 0;
+  img {
+    display: block;
+    margin: -132px auto 0;
   }
 }
