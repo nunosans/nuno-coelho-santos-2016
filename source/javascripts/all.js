@@ -1,6 +1,12 @@
-// This is where it all goes :)
-
 $('document').ready(function() {
+
+  // Lazy load images.
+
+  $("img.lazy-load").lazyload({
+    threshold: 800,
+    effect: "fadeIn",
+    effectspeed: 400
+  });
 
   // Expand introduction text.
 

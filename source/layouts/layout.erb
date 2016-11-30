@@ -58,7 +58,7 @@
     <meta property="og:description" content="Profile and recent work">
     <meta property="og:locale" content="en_US">
     <!-- Stylesheets -->
-    <%= stylesheet_link_tag :site %>
+    <%= stylesheet_link_tag "site" %>
     <!-- Typekit -->
     <script src="http://use.typekit.com/qxu7res.js"></script>
     <script>try{Typekit.load();}catch(e){};</script>
@@ -73,6 +73,7 @@
 
     <!-- JavaScript. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <%= javascript_include_tag :all %>
+    <%= javascript_include_tag "jquery.lazyload" %>
+    <%= javascript_include_tag "all" %>
   </body>
 </html>
