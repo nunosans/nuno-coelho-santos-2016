@@ -11,7 +11,8 @@
   -webkit-transition: 0.12s opacity ease-out;
 }
 
-html.wf-loading {
+html.wf-loading,
+html.wf-local-loading {
 
   #loading {
     opacity: 1;

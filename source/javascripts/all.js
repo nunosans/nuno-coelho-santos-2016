@@ -57,7 +57,7 @@ $('document').ready(function() {
   };
 
   waitForWebfonts(['Grifo M'], function() {
-    $('html').addClass('wf-local-active');
+    $('html').removeClass('wf-local-loading');
   });
 
   // Lazy load images.
