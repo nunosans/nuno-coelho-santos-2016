@@ -68,12 +68,21 @@ $('document').ready(function() {
     effectspeed: 400
   });*/
 
-  // Expand introduction text.
+  // Expand and collapse introduction text.
 
   $('button[data-action="show-intro-complete"]').click(function(event) {
     event.preventDefault();
     $('.intro-short').attr('data-layout', 'hidden');
     $('.intro-complete, .intro-bio').attr('data-layout', 'visible');
+  });
+
+  $('section[data-action="hide-intro-complete"]').click(function(event) {
+    if ($(event.target).is('a')) {
+      return;
+    }
+    event.preventDefault();
+    $('.intro-short').attr('data-layout', 'visible');
+    $('.intro-complete, .intro-bio').attr('data-layout', 'hidden');
   });
 
   // Play and pause Currency for iOS video.
