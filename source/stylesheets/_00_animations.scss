@@ -1,0 +1,17 @@
+@-webkit-keyframes tick-clockwise {
+  0%   { -webkit-transform: rotate(0); }
+  92%  { -webkit-transform: rotate(0); }
+  94%  { -webkit-transform: rotate(45deg); }
+  96%  { -webkit-transform: rotate(0); }
+  98%  { -webkit-transform: rotate(45deg); }
+  100% { -webkit-transform: rotate(0); }
+}
+
+@-webkit-keyframes tick-counterclockwise {
+  0%   { -webkit-transform: rotate(0); }
+  92%  { -webkit-transform: rotate(0); }
+  94%  { -webkit-transform: rotate(-90deg); }
+  96%  { -webkit-transform: rotate(0); }
+  98%  { -webkit-transform: rotate(-90deg); }
+  100% { -webkit-transform: rotate(0); }
+}
