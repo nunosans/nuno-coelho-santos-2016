@@ -1,0 +1,96 @@
+.smiley {
+  display: inline-block;
+  width: 119px;
+  height: 34px;
+  margin: 12px 12px 0 8px;
+  position: relative;
+  .smiley-left-cheek,
+  .smiley-right-cheek {
+    display: block;
+    background-color: transparent;
+    border: 2px solid $accent;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    position: absolute;
+    top: 19px;
+  }
+  .smiley-left-cheek {
+    left: 0;
+  }
+  .smiley-right-cheek {
+    right: 0;
+  }
+  .smiley-left-eye,
+  .smiley-right-eye {
+    display: block;
+    background-color: transparent;
+    border: 2px solid $accent;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    .smiley-eye-moon {
+      display: block;
+      background-color: transparent;
+      width: 9px;
+      height: 17px;
+      position: absolute;
+      background-size: 9px 17px;
+      background-image: url('../graphics/smiley-eye-moon-1x.png');
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 1.5),
+      only screen and (   min--moz-device-pixel-ratio: 1.5),
+      only screen and (        min-device-pixel-ratio: 1.5) {
+        background-image: url('../graphics/smiley-eye-moon-2x.png');
+      }
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 2.5),
+      only screen and (   min--moz-device-pixel-ratio: 2.5),
+      only screen and (        min-device-pixel-ratio: 2.5) {
+        background-image: url('../graphics/smiley-eye-moon-3x.png');
+      }
+    }
+    .smiley-eye-moon:nth-child(1) {
+      top: -2px;
+      right: -2px;
+    }
+    .smiley-eye-moon:nth-child(2) {
+      top: 3px;
+      left: 3px;
+      -webkit-transform: rotate(90deg);
+         -moz-transform: rotate(90deg);
+              transform: rotate(90deg);
+    }
+  }
+  .smiley-left-eye {
+    left: 18px;
+  }
+  .smiley-right-eye {
+    right: 18px;
+  }
+  .smiley-mouth {
+    display: block;
+    background-color: transparent;
+    width: 39px;
+    height: 9px;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    background-image: url('../graphics/smiley-mouth-1x.png');
+    background-size: 39px 9px;
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (   min--moz-device-pixel-ratio: 1.5),
+    only screen and (        min-device-pixel-ratio: 1.5) {
+      background-image: url('../graphics/smiley-mouth-2x.png');
+    }
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2.5),
+    only screen and (   min--moz-device-pixel-ratio: 2.5),
+    only screen and (        min-device-pixel-ratio: 2.5) {
+      background-image: url('../graphics/smiley-mouth-3x.png');
+    }
+  }
+}

@@ -8,10 +8,16 @@
   padding: 62px 16px 70px 17px;
   background-image: url('../graphics/iphone-1x.jpg');
   background-size: 240px 497px;
-  @media (-webkit-min-device-pixel-ratio: 1.5) {
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (   min--moz-device-pixel-ratio: 1.5),
+  only screen and (        min-device-pixel-ratio: 1.5) {
     background-image: url('../graphics/iphone-2x.jpg');
   }
-  @media (-webkit-min-device-pixel-ratio: 2.5) {
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2.5),
+  only screen and (   min--moz-device-pixel-ratio: 2.5),
+  only screen and (        min-device-pixel-ratio: 2.5) {
     background-image: url('../graphics/iphone-3x.jpg');
   }
   @media (min-width: 750px) {

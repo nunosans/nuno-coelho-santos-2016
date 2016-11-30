@@ -1,9 +1,10 @@
 @charset "utf-8";
 
 @import "00_reset";
-@import "00_variables";
-@import "00_layout";
 @import "00_font_face";
+@import "00_variables";
+@import "00_animations";
+@import "00_layout";
 
 @import "10_column_grid";
 @import "10_baseline_grid";
@@ -15,11 +16,12 @@
 @import "20_button";
 @import "20_icon";
 
-@import "30_intro";
 @import "30_project";
+@import "30_smiley";
 @import "30_iphone_with_video";
 
 @import "40_loading";
+@import "40_intro_and_outro";
 @import "40_project_currency";
 @import "40_project_thread";
 @import "40_project_other";

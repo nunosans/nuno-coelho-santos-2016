@@ -15,26 +15,6 @@ article.outro {
       padding: 19px $column-width + $gutter-width * 2 22px;
       margin: 140px auto;
     }
-    .smiley {
-      display: inline-block;
-      width: 66px;
-      height: 19px;
-      background-image: url('../graphics/smiley-1x.png');
-      background-size: 66px auto;
-      margin: 12px 12px 0 8px;
-      @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
-        background-image: url('../graphics/smiley-2x.png');
-      }
-      @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
-        background-image: url('../graphics/smiley-3x.png');
-      }
-      @media (min-width: 750px) {
-        width: 119px;
-        height: 34px;
-        background-size: 119px 34px;
-        margin: 26px 22px 0 10px;
-      }
-    }
   }
 }
 
