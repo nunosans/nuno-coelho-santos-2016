@@ -1,19 +1,19 @@
 @-webkit-keyframes tick-clockwise {
   0%   { -webkit-transform: rotate(0); }
-  42%  { -webkit-transform: rotate(0); }
-  44%  { -webkit-transform: rotate(45deg); }
-  46%  { -webkit-transform: rotate(0); }
-  48%  { -webkit-transform: rotate(45deg); }
-  50%  { -webkit-transform: rotate(0); }
+  22%  { -webkit-transform: rotate(0); }
+  24%  { -webkit-transform: rotate(45deg); }
+  26%  { -webkit-transform: rotate(0); }
+  28%  { -webkit-transform: rotate(45deg); }
+  30%  { -webkit-transform: rotate(0); }
   100% { -webkit-transform: rotate(0); }
 }
 
 @-webkit-keyframes tick-counterclockwise {
   0%   { -webkit-transform: rotate(0); }
-  42%  { -webkit-transform: rotate(0); }
-  44%  { -webkit-transform: rotate(-90deg); }
-  46%  { -webkit-transform: rotate(0); }
-  48%  { -webkit-transform: rotate(-90deg); }
-  50%  { -webkit-transform: rotate(0); }
+  22%  { -webkit-transform: rotate(0); }
+  24%  { -webkit-transform: rotate(-90deg); }
+  26%  { -webkit-transform: rotate(0); }
+  28%  { -webkit-transform: rotate(-90deg); }
+  30%  { -webkit-transform: rotate(0); }
   100% { -webkit-transform: rotate(0); }
 }

@@ -1,7 +1,6 @@
 .iphone-with-video {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 66px auto;
   clear: both;
   width: 240px;
   height: 497px;
@@ -24,7 +23,7 @@
     width: 342px;
     height: 708px;
     background-size: 342px 708px;
-    margin-bottom: 0;
+    margin: 22px auto 0 auto;
     padding: 89px 24px 101px 25px;
   }
   video {

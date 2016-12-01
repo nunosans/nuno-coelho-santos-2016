@@ -37,6 +37,8 @@ article.project.project-other {
 
   .project-other-1975 {
     @media (min-width: 750px) {
+      clear: both;
+      padding-top: 0;
       margin-left: $inner-column-width * 4 + $inner-gutter-width * 4;
     }
     img {
