@@ -4,8 +4,6 @@
 
 This is the 2016 version of my portfolio. In 2011, when I designed the current version of my portfolio, the focus was to show a range of work in a design that I would be proud down the line. Both goals were achieved. For the 2016 version I want to show only 3 projects in much more depth than before. This comes naturally as I engage in larger projects in my carrer. I also want a design that stays relevant for my future self in 5 years from now.
 
-You can view a work in progress version at http://new.nunocoelhosantos.com/
-
 ## Feedback
 
 The goal of sharing this with you at this stage is to get early feedback. Please get in touch with me with any suggestions you might have. Thank you in advance.
@@ -21,6 +19,12 @@ $ bundle install
 
 To start the local server, run the following command on the project directory:
 ```
-$ middleman server
+$ bundle exec middleman server
 ```
-And visit http://localhost:4567/ on your browser.
+And visit `http://localhost:4567/` on your browser.
+
+To build the website, run the following command on the project directory:
+```
+$ bundle exec middleman build
+```
+
