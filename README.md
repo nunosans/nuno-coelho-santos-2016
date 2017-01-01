@@ -10,21 +10,24 @@ The goal of sharing this with you at this stage is to get early feedback. Please
 
 ## Installation
 
-This project is built using [Middleman](https://middlemanapp.com).
+This website is built with [Middleman](https://middlemanapp.com), a static website generator framework.
 
-Before running the project, you must install all dependencies. On the project directory run:
+To install [Middleman](https://middlemanapp.com), please run:
+```
+$ gem install middleman
+```
+
+To install all dependencies, run on the project directory:
 ```
 $ bundle install
 ```
 
-To start the local server, run the following command on the project directory:
+To run the local web server, run the following command on the project directory:
 ```
 $ bundle exec middleman server
 ```
-And visit `http://localhost:4567/` on your browser.
 
 To build the website, run the following command on the project directory:
 ```
 $ bundle exec middleman build
 ```
-
