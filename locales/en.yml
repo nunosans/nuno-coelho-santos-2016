@@ -1,0 +1,48 @@
+---
+en:
+
+  # layout
+  title: 'Work &amp; Profile'
+  description: 'Profile and recent work of the portuguese graphic designer and developer'
+  description_og: 'Profile and recent work'
+  locale: 'en_US'
+
+  # index
+
+  # _header
+  email_label: 'Email'
+  mobile_label: 'Mobile'
+  twitter_label: 'Twitter'
+  github_label: 'GitHub'
+  dribbble_label: 'Dribbble'
+  instagram_label: 'Instagram'
+
+  # _intro
+  intro_short: 'I’m Nuno, a product designer based in London.'
+  intro_long: 'I’m Nuno, a product designer based in London. Specializing in user interface design, with a penchant for service design, prototyping, and development for the web or iOS.'
+  intro_currently: 'I currently work as a UI Designer at <a href="https://deepmind.com" target="_blank">Google DeepMind</a>.'
+  intro_previously: 'Previously I worked as a contractor for <a href="http://ideo.com/" target="_blank">IDEO</a>, I helped <a href="http://thread.com/" target="_blank">Thread</a> reinvent personal styling as a product designer, and prior to that, I worked as a designer and developer at <a href="http://ustwo.com/" target="_blank">ustwo</a>.'
+
+  # projects
+  project_label: 'Project:'
+  role_label: 'Role:'
+  date_label: 'Date:'
+  webiste_label: 'Website:'
+  description_label: 'Description:'
+
+  # _currency
+  currency_title: '<a href="http://currency.nunocoelhosantos.com/" target="_blank">Currency</a> is an incredibly simple currency converter for iOS. Download it for free on the <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
+  currency_project: 'Currency for iOS'
+  currency_role: 'Product Designer &amp; iOS Developer'
+  currency_date: 'January to March 2016'
+  currency_webiste: '<a href="http://currency.nunocoelhosantos.com/" target="_blank">currency.nunocoelhosantos.com'
+  currency_description: 'A side-project with the goal to create a product that does one job incredibly well and learn a new programming language along the way. Special thanks to <a href="https://twitter.com/jonathontoon/" target="_blank">Jonathon Toon</a>, <a href="https://twitter.com/johnnylinnert/" target="_blank">Johnny Linnert</a>, <a href="https://www.instagram.com/star_nie/" target="_blank">Xin Nie</a>, <a href="https://www.facebook.com/asuka.yamashita.944/" target="_blank">Asuka Yamashita</a>, <a href="https://www.instagram.com/alex_abn/" target="_blank">Alex Abian</a> and <a href="https://twitter.com/alvesjtiago/" target="_blank">Tiago Alves</a>.'
+  currency_intro_1: 'After having used various currency converter applications that are available on the App Store either free or paid, I found that these were either too complex, unintuitive, or yet to be updated to new iPhone screen sizes. Very often these apps have walkthroughs to explain the complex interactions, navigation or features they can provide to the user, instead of being simple to use.'
+  currency_intro_3: 'I designed Currency to be the simplest and most intuitive currency converter in the App Store, that would look perfect on any iPhone screen.'
+
+  # _thread
+  # _other
+  # _outro
+  # _colophon
+
+

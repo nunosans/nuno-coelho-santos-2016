@@ -9,6 +9,9 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# activate :i18n
+activate :i18n, :mount_at_root => :en
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
