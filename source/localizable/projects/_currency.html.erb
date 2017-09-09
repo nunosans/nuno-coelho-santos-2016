@@ -2,58 +2,41 @@
 
   <section class="emphasize">
     <p>
-      <a href="http://currency.nunocoelhosantos.com/" target="_blank">Currency</a>
-      is an incredibly simple currency converter for iOS. Download it for free on the
-      <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.
+      <%= t(:currency_title) %>
     </p>
   </section>
 
   <main>
 
     <div class="project-intro">
-      <h6>Project:</h6>
+      <h6><%= t(:project_label) %></h6>
       <p>
-        Currency for iOS
+        <%= t(:currency_project) %>
       </p>
-      <h6>Role:</h6>
+      <h6><%= t(:role_label) %></h6>
       <p>
-        Product Designer &amp; iOS Developer
+        <%= t(:currency_role) %>
       </p>
-      <h6>Date:</h6>
+      <h6><%= t(:date_label) %></h6>
       <p>
-        January to March 2016
+        <%= t(:currency_date) %>
       </p>
-      <h6>Website:</h6>
+      <h6><%= t(:website_label) %></h6>
       <p>
-        <a href="http://currency.nunocoelhosantos.com/" target="_blank">currency.nunocoelhosantos.com</a>
+        <%= t(:currency_website) %>
       </p>
-      <h6>Description:</h6>
+      <h6><%= t(:description_label) %></h6>
       <p>
-        A side-project with the goal to create a product that does one job
-        incredibly well and learn a new programming language along the way.
-        Special thanks to
-        <a href="https://twitter.com/jonathontoon/" target="_blank">Jonathon Toon</a>,
-        <a href="https://twitter.com/johnnylinnert/" target="_blank">Johnny Linnert</a>,
-        <a href="https://www.instagram.com/star_nie/" target="_blank">Xin Nie</a>,
-        <a href="https://www.facebook.com/asuka.yamashita.944/" target="_blank">Asuka Yamashita</a>,
-        <a href="https://www.instagram.com/alex_abn/" target="_blank">Alex Abian</a> and
-        <a href="https://twitter.com/alvesjtiago/" target="_blank">Tiago Alves</a>.
+        <%= t(:currency_description) %>
       </p>
     </div>
 
     <div class="project-item project-currency-intro">
       <p>
-        After having used various currency converter applications that are
-        available on the App Store either free or paid, I found that these
-        were either too complex, unintuitive, or yet to be updated to new
-        iPhone screen sizes. Very often these apps have walkthroughs to
-        explain the complex interactions, navigation or features they
-        can provide to the user, instead of being simple to use.
+        <%= t(:currency_body_1) %>
       </p>
       <p>
-        I designed Currency to be the simplest and most intuitive currency
-        converter in the App Store, that would look perfect on any iPhone
-        screen.
+        <%= t(:currency_body_2) %>
       </p>
       <img
         srcset="http://media.nunocoelhosantos.com.s3-website-us-east-1.amazonaws.com/images/nuno-coelho-santos-currency-goals-2x.jpg 2x, http://media.nunocoelhosantos.com.s3-website-us-east-1.amazonaws.com/images/nuno-coelho-santos-currency-goals-3x.jpg 3x"
@@ -82,25 +65,20 @@
         data-action="play-currency-iphone"
         data-layout="wide"
       >
-        <span class="icon icon-play"></span>Play
+        <span class="icon icon-play"></span><%= t(:play_label) %>
       </button>
       <button
         class="button button-pause"
         data-action="pause-currency-iphone"
         data-layout="hidden"
       >
-        <span class="icon icon-pause"></span>Pause
+        <span class="icon icon-pause"></span><%= t(:pause_label) %>
       </button>
       <p>
-        The final design focuses on doing one job well: converting a foreign
-        currency into the customer’s home currency. Features such as currency
-        fluctuation graphs, in-app settings and notifications were not necessary
-        for this job.
+        <%= t(:currency_body_3) %>
       </p>
       <p>
-        One of the most unique aspects of Currency is the formatting of the
-        currencies, with the correct symbol, correct number of decimal places,
-        decimal divider and group dividers.
+        <%= t(:currency_body_4) %>
       </p>
     </div>
 
@@ -113,8 +91,7 @@
         height="126"
       >
       <p>
-        The icon is designed to fit perfectly with iOS, presenting Currency as
-        if it is part of the operating system.
+        <%= t(:currency_body_5) %>
       </p>
     </div>
 
@@ -128,11 +105,7 @@
         height="543"
       >
       <p>
-        Most currency apps use country flags to illustrate the different
-        currencies. But some currencies like Bitcoin or the Euro don’t belong to
-        a specific country. For this reason I instead used currency symbols and
-        correct currency formatting, along with currency codes to correctly
-        represent the different currencies.
+        <%= t(:currency_body_6) %>
       </p>
     </div>
 
@@ -146,15 +119,7 @@
         height="714"
       >
       <p>
-        Some early sketches displayed multiple currencies on the main screen
-        and used country flags. One of the early designs uses a blue and dark
-        visual style that I later on retired. When I started development and
-        showed the app to my friends they seemed confused about which number
-        they were editing, so I added a text input blinking cursor.<br>
-        <br>
-        The final design is bright and shows activity indicators when the
-        currency exchange rates are being updated. Other settings were added
-        via the iOS Settings based on user request.
+        <%= t(:currency_body_7) %>
       </p>
     </div>
 
@@ -196,11 +161,7 @@
         data-layout="wide"
       >
       <p>
-        This was the first app I developed for iOS, and my first time writing
-        Swift. The entire development of the application took about 3 months,
-        with most of it being bug fixes and improvements to the code quality.
-        The source is available publicly on
-        <a href="https://github.com/nunosans/currency" target="blank">GitHub</a>.
+        <%= t(:currency_body_8) %>
       </p>
     </div>
 
@@ -214,18 +175,13 @@
         height="670"
       >
       <p>
-        The application, website and marketing material was localized to the
-        US, the UK, Japan, China, Hong Kong, Taiwan, Latin America, Spain
-        and Portugal. Three months after release, 76% of the downloads came
-        from the Asia/Pacific region.
+        <%= t(:currency_body_9) %>
       </p>
     </div>
 
     <div class="project-item project-currency-results">
       <p>
-        Six months after release, Currency was downloaded over 6,000 times and
-        has an average rating of 4.5 stars. You can download it for free on the
-        <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.
+        <%= t(:currency_body_10) %>
       </p>
       <img
         class="lazy-load"
@@ -236,7 +192,6 @@
         height="700"
       >
     </div>
-
 
   </main>
 
