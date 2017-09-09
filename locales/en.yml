@@ -7,8 +7,6 @@ en:
   description_og: 'Profile and recent work'
   locale: 'en_US'
 
-  # index
-
   # _header
   label_email: 'Email'
   label_mobile: 'Mobile'
