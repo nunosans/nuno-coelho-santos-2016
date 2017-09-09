@@ -10,12 +10,12 @@ en:
   # index
 
   # _header
-  email_label: 'Email'
-  mobile_label: 'Mobile'
-  twitter_label: 'Twitter'
-  github_label: 'GitHub'
-  dribbble_label: 'Dribbble'
-  instagram_label: 'Instagram'
+  label_email: 'Email'
+  label_mobile: 'Mobile'
+  label_twitter: 'Twitter'
+  label_github: 'GitHub'
+  label_dribbble: 'Dribbble'
+  label_instagram: 'Instagram'
 
   # _intro
   intro_short: 'I’m Nuno, a digital product designer based in London.'
@@ -25,13 +25,13 @@ en:
   intro_expand: 'Read more'
 
   # projects
-  project_label: 'Project:'
-  role_label: 'Role:'
-  date_label: 'Date:'
-  webiste_label: 'Website:'
-  description_label: 'Description:'
-  play_label: 'Play'
-  pause_label: 'Pause'
+  label_project: 'Project:'
+  label_role: 'Role:'
+  label_date: 'Date:'
+  label_website: 'Website:'
+  label_description: 'Description:'
+  label_play: 'Play'
+  label_pause: 'Pause'
 
   # _currency
   currency_title: '<a href="http://currency.nunocoelhosantos.com/" target="_blank">Currency</a> is an incredibly simple currency converter for iOS. Download it for free on the <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
