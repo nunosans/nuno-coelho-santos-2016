@@ -69,7 +69,7 @@ article.project {
       padding-top: 0;
       @media (min-width: 750px) {
         max-width: none;
-        width: $inner-column-width * 5 + $inner-gutter-width * 5;
+        width: $inner-column-width * 5 + $inner-gutter-width * 4;
       }
     }
     &:before {
