@@ -39,7 +39,7 @@ pt:
   currency_project: 'Currency para iOS'
   currency_role: 'Designer de Produto e Programador iOS'
   currency_date: 'Janeiro a Março 2016'
-  currency_website: '<a href="http://currency.nunocoelhosantos.com/" target="_blank">currency.nunocoelhosantos.com'
+  currency_website: '<a href="http://currency.nunocoelhosantos.com/" target="_blank">currency.nunocoelhosantos.com</a>'
   currency_description: 'Um projeto paralelo com o objetivo de criar um produto que faça um trabalho incrivelmente bem e que aprenda uma nova linguagem de programação ao longo do caminho. Agradecimentos especiais a <a href="https://twitter.com/jonathontoon/" target="_blank"> Jonathon Toon </a>, <a href = "https://twitter.com/johnnylinnert/" target="_blank">Johnny Linnert</a>, <a href="https://www.instagram.com/star_nie/" target="_blank">Xin Nie</a>, <a href="https://www.facebook.com/asuka.yamashita.944/ "target ="_blank">Asuka Yamashita</a>, <a href ="https://www.instagram.com/alex_abn/ "target ="_blank">Alex Abian</a> e <a href="https://twitter.com/alvesjtiago/" target="_blank">Tiago Alves</a>.'
   currency_body_1: 'Depois de ter usado vários aplicativos de conversão de moeda que estão disponíveis na App Store gratuitamente ou pagos, descobri que estes eram muito complexos, não intuitivos ou ainda não foram atualizados para novos tamanhos de tela do iPhone. Muitas vezes, esses aplicativos têm orientações para explicar as interações complexas, a navegação ou os recursos que podem fornecer ao usuário, em vez de serem simples de usar.'
   currency_body_2: 'Eu projetei Moeda para ser o conversor de moeda mais simples e intuitivo na App Store, que ficaria perfeito em qualquer tela do iPhone.'
