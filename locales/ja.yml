@@ -14,6 +14,9 @@ ja:
   label_github: 'GitHub'
   label_dribbble: 'Dribbble'
   label_instagram: 'Instagram'
+  label_blog: 'ブログ'
+  label_newsletter: 'ニュースレター'
+  label_newsletter_subscribe: '申し込む'
 
   # _intro
   intro_short: '私は<span lang="en">Nuno</span><i></i>（ヌノ）<i></i>、<i></i>ロンドンに拠点を置くデジタルプロダクトデザイナーです。'

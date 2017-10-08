@@ -14,6 +14,9 @@ en:
   label_github: 'GitHub'
   label_dribbble: 'Dribbble'
   label_instagram: 'Instagram'
+  label_blog: 'Blog'
+  label_newsletter: 'Newsletter'
+  label_newsletter_subscribe: 'Subscribe'
 
   # _intro
   intro_short: 'I’m Nuno, a digital product designer based in London.'
