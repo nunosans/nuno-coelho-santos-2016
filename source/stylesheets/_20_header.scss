@@ -16,7 +16,7 @@ header {
     }
   }
   div {
-    float: left;
+    float: right;
     width: $inner-column-width * 2 + $inner-gutter-width * 2;
     margin-left: $inner-gutter-width;
     @media (min-width: 750px) {
