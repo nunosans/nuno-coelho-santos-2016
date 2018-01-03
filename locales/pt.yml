@@ -20,8 +20,8 @@ pt:
 
   # _intro
   intro_short: 'Olá. Chamo-me Nuno, e sou um designer de produto digital a viver em Londres.'
-  intro_long: 'Olá. Chamo-me Nuno, e sou um designer de produto digital a viver em Londres. Especializo-me em design de interfaces e tenho interesse em desenvolvimento para web e iOS.'
-  intro_currently: 'Neste momento trabalho na <a href="https://deepmind.com" target="_blank">Google DeepMind</a> a criar o <a href="https://deepmind.com/applied/deepmind-health/working-nhs/how-were-helping-today/" target="_blank">Streams</a>, uma aplicação médica que está em uso nos hospitais do Reino Unido.'
+  intro_long: 'Olá. Chamo-me Nuno, e sou um designer de produto digital a viver em Londres. Especializo-me em interaction design e tenho interesse em desenvolvimento para web e iOS.'
+  intro_currently: 'Neste momento trabalho na <a href="https://deepmind.com" target="_blank">DeepMind</a> a criar o <a href="https://deepmind.com/applied/deepmind-health/working-nhs/how-were-helping-today/" target="_blank">Streams</a>, uma aplicação médica que está em uso nos hospitais do Reino Unido.'
   intro_previously: 'Préviamente trabalhei na <a href="http://ideo.com/" target="_blank">IDEO</a> em Tóquio, ajudei a <a href="http://thread.com/" target="_blank">Thread</a> a reinventar estilismo no Reino Unido, e antes disso, trabalhei na <a href="http://ustwo.com/" target="_blank">ustwo</a> em Londres e Nova Iorque.'
   intro_expand: 'Ler mais'
 
