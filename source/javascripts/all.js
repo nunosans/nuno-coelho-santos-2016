@@ -85,38 +85,6 @@ $('document').ready(function() {
     $('.intro-complete, .intro-bio').attr('data-layout', 'hidden');
   });
 
-  // Play and pause Currency for iOS video.
-
-  $('button[data-action="play-currency-iphone"]').click(function(event) {
-    event.preventDefault();
-    $('.project-currency-iphone-video').find('video').get(0).play();
-    $('button[data-action="play-currency-iphone"]').attr('data-layout', 'hidden');
-    $('button[data-action="pause-currency-iphone"]').attr('data-layout', 'visible');
-  });
-
-  $('button[data-action="pause-currency-iphone"]').click(function(event) {
-    event.preventDefault();
-    $('.project-currency-iphone-video').find('video').get(0).pause();
-    $('button[data-action="play-currency-iphone"]').attr('data-layout', 'visible');
-    $('button[data-action="pause-currency-iphone"]').attr('data-layout', 'hidden');
-  });
-
-  // Play and pause Thread Browse Mobile video.
-
-  $('button[data-action="play-thread-browse-mobile"]').click(function(event) {
-    event.preventDefault();
-    $('.project-thread-browse-mobile-video').find('video').get(0).play();
-    $('button[data-action="play-thread-browse-mobile"]').attr('data-layout', 'hidden');
-    $('button[data-action="pause-thread-browse-mobile"]').attr('data-layout', 'visible');
-  });
-
-  $('button[data-action="pause-thread-browse-mobile"]').click(function(event) {
-    event.preventDefault();
-    $('.project-thread-browse-mobile-video').find('video').get(0).pause();
-    $('button[data-action="play-thread-browse-mobile"]').attr('data-layout', 'visible');
-    $('button[data-action="pause-thread-browse-mobile"]').attr('data-layout', 'hidden');
-  });
-
   // Hide and show columns.
 
   $('button[data-action="show-columns"]').click(function(event) {
