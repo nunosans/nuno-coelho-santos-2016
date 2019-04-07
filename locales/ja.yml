@@ -22,7 +22,7 @@ ja:
   intro_short: '私は<span lang="en">Nuno</span><i></i>（ヌノ）<i></i>、<i></i>ロンドンに拠点を置くデジタルプロダクトデザイナーです。'
   intro_long: '私は<span lang="en">Nuno</span><i></i>（ヌノ）<i></i>、<i></i>ロンドンに拠点を置くデジタルプロダクトデザイナーです。ユーザーインターフェイスの設計を専門とし、<i></i><span lang="en">Web</span>や<span lang="en">iOS</span>用のプロトタイプ作成や開発に高い評価を与えます。'
   intro_currently: '私は現在、<i></i><a href="https://www.google.com/intl/en_us/health/about/" lang="en" target="_blank">グーグル</a>で<a href="https://www.digitalhealth.net/2017/12/google-deepmind-streams-royal-free/" lang="en" target="_blank">Streams</a>しています。'
-  intro_previously: '以前は<a href="http://ideo.com/" lang="en" target="_blank">IDEO</a>で働いていましたが、<i></i><a href="http://thread.com/" lang="en" target="_blank">Thread</a>は、<i></i>英国での個人的なスタイリングを再考し、<i></i>それ以前は、<i></i><a href="http://ustwo.com/" lang="en" target="_blank">ustwo</a>ロンドンとニューヨークの家族。'
+  intro_previously: '以前は<a href="https://ideo.com/" lang="en" target="_blank">IDEO</a>で働いていましたが、<i></i><a href="https://thread.com/" lang="en" target="_blank">Thread</a>は、<i></i>英国での個人的なスタイリングを再考し、<i></i>それ以前は、<i></i><a href="https://ustwo.com/" lang="en" target="_blank">ustwo</a>ロンドンとニューヨークの家族。'
   intro_expand: '続きを読む'
 
   # projects
@@ -35,11 +35,11 @@ ja:
   label_pause: '一時停止'
 
   # _currency
-  currency_title: '<a href="http://currency.nunocoelhosantos.com/" lang="en" target="_blank">Currency</a><i></i>（カレンシー）<i></i>は、<i></i><span lang="en">iOS</span>向けの信用できるほど単純な通貨コンバーターです。<i></i><a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" lang="en" target="_blank">App Store</a>で無料でダウンロードしてください。'
+  currency_title: '<a href="https://currency.nunocoelhosantos.com/" lang="en" target="_blank">Currency</a><i></i>（カレンシー）<i></i>は、<i></i><span lang="en">iOS</span>向けの信用できるほど単純な通貨コンバーターです。<i></i><a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" lang="en" target="_blank">App Store</a>で無料でダウンロードしてください。'
   currency_project: 'iOS向けCurrency（カレンシー）'
   currency_role: 'プロダクトデザイナーとiOSデベロッパー'
   currency_date: '2016年1月〜3月'
-  currency_website: '<a href="http://currency.nunocoelhosantos.com/" target="_blank">currency.nunocoelhosantos.com</a>'
+  currency_website: '<a href="https://currency.nunocoelhosantos.com/" target="_blank">currency.nunocoelhosantos.com</a>'
   currency_description: '信じられないほどうまく1つの仕事をし、その途中で新しいプログラミング言語を学ぶ製品を作るという目標を掲げたサイドプロジェクト。<a href="https://twitter.com/jonathontoon/" target="_blank">Jonathon Toon</a>、<a href ="https://twitter.com/johnnylinnert/" target="_blank">Johnny Linnert</a>、<a href="https://www.instagram.com/star_nie/" target="_blank">Xin Nie</a>、<a href = "https：/ / /www.facebook.com/asuka.yamashita.944/ "target =" _ blank ">山下飛行機</a>、<a href =" https://www.instagram.com/alex_abn/ "target ="_blank">Alex Abian</a>および<a href="https://twitter.com/alvesjtiago/" target="_blank">Tiago Alves</a>。'
   currency_body_1: 'App Storeで無料または有料のさまざまな通貨変換アプリケーションを使用した後、私はこれらが複雑すぎる、直感的でない、または新しいiPhoneの画面サイズに更新されていることがわかりました。非常に多くの場合、これらのアプリは、使用するのが簡単ではなく、ユーザーに提供できる複雑なやりとりやナビゲーションや機能を説明するためのウォークスルーを備えています。'
   currency_body_2: '私はCurrencyをApp Storeの最も簡単で直感的な通貨変換器に設計しました。それはiPhoneの画面で完璧に見えるでしょう。'
@@ -53,12 +53,12 @@ ja:
   currency_body_10: 'リリースから6ヶ月後、通貨は6,000回以上ダウンロードされ、平均格付けは4.5星です。<a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>で無料でダウンロードできます。'
 
   # _thread
-  thread_title: '<a href="http://thread.com/" lang="en" target="_blank">Thread</a>は、<i></i><span lang="ja">1</span>対<span lang="ja">1</span>の個人的なスタイリングと強力な衣服の推奨エンジンへのアクセスを提供します。'
+  thread_title: '<a href="https://thread.com/" lang="en" target="_blank">Thread</a>は、<i></i><span lang="ja">1</span>対<span lang="ja">1</span>の個人的なスタイリングと強力な衣服の推奨エンジンへのアクセスを提供します。'
   thread_project: 'Thread'
   thread_role: '製品設計者とフロントエンドWeb開発者'
   thread_date: '2014〜2016'
-  thread_website: '<a href="http://thread.com/" target="_blank">thread.com</a>'
-  thread_description: '<a href="http://thread.com/" target="_blank">Thread</a>は、現時点では英国の男性向けのオンライン・スタイリング・サービスであり、世界最高のファッション・スタイリストと人工知能を単一プラットフォームで結合し、ユーザーに無料のスタイリングを提供します。Threadは、<a href="https://twitter.com/kierano/" target="_blank">Kieran O’Neill</a>、<a href="https://twitter.com/_benji/" target="_blank">Benjamin Phillips</a>、<a href="https://twitter.com/benkucsan/" target="_blank">Ben Kucsan</a>によって設立された<a href="https://www.ycombinator.com/" target="_blank">YC’11</a>スタートアップ企業です。私は2014年に製品デザイナーとしてチームに加わり、これまでに会った賢い人たちと一緒に仕事をしました。'
+  thread_website: '<a href="https://thread.com/" target="_blank">thread.com</a>'
+  thread_description: '<a href="https://thread.com/" target="_blank">Thread</a>は、現時点では英国の男性向けのオンライン・スタイリング・サービスであり、世界最高のファッション・スタイリストと人工知能を単一プラットフォームで結合し、ユーザーに無料のスタイリングを提供します。Threadは、<a href="https://twitter.com/kierano/" target="_blank">Kieran O’Neill</a>、<a href="https://twitter.com/_benji/" target="_blank">Benjamin Phillips</a>、<a href="https://twitter.com/benkucsan/" target="_blank">Ben Kucsan</a>によって設立された<a href="https://www.ycombinator.com/" target="_blank">YC’11</a>スタートアップ企業です。私は2014年に製品デザイナーとしてチームに加わり、これまでに会った賢い人たちと一緒に仕事をしました。'
   thread_body_1: 'Threadでは、会社の長期ビジョンを定義し、それを製品、運用、スタイリング、マーケティングの目標に分解しました。私はThread製品チームの一員でしたが、毎週これらの課題の1つを取り上げ、毎週の目標として設定しました。'
   thread_body_2: 'Threadの典型的な週には、月曜日のブレーンストーミングとスケッチ、火曜日のビジュアルデザインと評論家、水曜日のプロトタイプとテスト、木曜日と金曜日の開発とテストが含まれます。毎週金曜日、私たちは作業をデモし、これらのソリューションのいくつかは翌週の月曜日に出荷されます。'
   thread_body_3: 'Threadユーザーは、時間の経過と共にますますモバイルからThreadを訪問しますが、内部的にはデスクトップのブラウザで最初に考えるように設計されていました。このプロジェクトでは、理想的なモバイルエクスペリエンスがどのようなものか、モバイル第一のアプローチに合うように設計と開発プロセスを改革する方法を検討しました。'
@@ -72,17 +72,17 @@ ja:
   # _other
   other_title: '他のプロジェクトには、<i></i>ブランディング、<i></i>写真、<i></i>ソフトウェア開発が含まれます。'
   other_a_year_in_an_instant_title: 'インスタント年間'
-  other_a_year_in_an_instant_body: '日本に住んでいた最初の365日間、毎日インスタント写真を撮ってオンラインで公開しました。これは成功したKickstarterプロジェクトで、80人の支持者が自分の好きな写真を自分のブログから主張できるようになりました。<a href="http://ayearinaninstant.com/" target="_blank">こちら</a>の日記を読んでください。'
+  other_a_year_in_an_instant_body: '日本に住んでいた最初の365日間、毎日インスタント写真を撮ってオンラインで公開しました。これは成功したKickstarterプロジェクトで、80人の支持者が自分の好きな写真を自分のブログから主張できるようになりました。<a href="https://ayearinaninstant.com/" target="_blank">こちら</a>の日記を読んでください。'
   other_15_days_in_japan_title: '15 Days in Japan'
-  other_15_days_in_japan_body: '私の最も人気のあるサイドプロジェクトの1つ。私が言語を話さなかった国で自分の経験を完全に旅行することを文書化した旅行ブログ。すべての写真は富士X100で撮ったものです。<a href="http://15daysinjapan.com/" target="_blank">こちら</a>の記事をご覧ください。'
+  other_15_days_in_japan_body: '私の最も人気のあるサイドプロジェクトの1つ。私が言語を話さなかった国で自分の経験を完全に旅行することを文書化した旅行ブログ。すべての写真は富士X100で撮ったものです。<a href="https://15daysinjapan.com/" target="_blank">こちら</a>の記事をご覧ください。'
   other_1975_title: '1975'
-  other_1975_body: '旅行者が日々の写真日記に旅行を記録するサイドプロジェクト。このプロジェクトはRuby on Railsアプリケーションの開発経験を増やす機会でした。<a href="http://1975.io/" target="_blank">ここに登録</a>してください。'
+  other_1975_body: '旅行者が日々の写真日記に旅行を記録するサイドプロジェクト。このプロジェクトはRuby on Railsアプリケーションの開発経験を増やす機会でした。<a href="https://1975.io/" target="_blank">ここに登録</a>してください。'
   other_the_scientist_title: 'The Scientist'
   other_the_scientist_body: 'The Scientist科学者は、iOSの科学論文アグリゲータと読者です。信じられないほど読みやすいタイポグラフィに焦点を当ててデザインが輝きます。<a href="https://itunes.apple.com/app/the-scientist/id657192313?l=en&mt=8" target="_blank"> App Store</a>で入手してください。'
   other_stylized_title: 'Stylize/d'
-  other_stylized_body: 'アイデンティティとウェブデザインプロジェクトは、<a href="http://martasantos.co.uk" target="_blank">Marta dos Santos</a>と一緒に活動しました。Stylize/dは最終的なファッション論説とそれを作る過程を示すことを熱望しているファッションブログです。このモダニズムのアイデンティティーは、ほとんどのアマチュア・ファッション・ブログからピンク・トーンと筆記体で構成されています。'
+  other_stylized_body: 'アイデンティティとウェブデザインプロジェクトは、<a href="https://martasantos.co.uk" target="_blank">Marta dos Santos</a>と一緒に活動しました。Stylize/dは最終的なファッション論説とそれを作る過程を示すことを熱望しているファッションブログです。このモダニズムのアイデンティティーは、ほとんどのアマチュア・ファッション・ブログからピンク・トーンと筆記体で構成されています。'
   other_ustwo_rebrand_title: 'ustwo ブランド再編成'
-  other_ustwo_rebrand_body: '私はustwoのためのリブランドのコンセプトに全面的に率直な会社の文化に触発されました。これには、新しいロゴ、ウェブサイトデザイン、書体、声調が含まれていました。いくらか洗練された後、これはスタジオの新しいアイデンティティになりました。<a href="http://ustwo.com/" target="_blank">こちらをご覧ください</a>。'
+  other_ustwo_rebrand_body: '私はustwoのためのリブランドのコンセプトに全面的に率直な会社の文化に触発されました。これには、新しいロゴ、ウェブサイトデザイン、書体、声調が含まれていました。いくらか洗練された後、これはスタジオの新しいアイデンティティになりました。<a href="https://ustwo.com/" target="_blank">こちらをご覧ください</a>。'
   other_marili_andre_title: 'Marili André'
   other_marili_andre_body: 'ファッションフォトグラファー、映画制作者、Marili Andréのロゴデザイン。ロンドンCentral Saint Martins（セントラル・セント・マーティンズ）の学生。接続された図形は、ハイエンドファッションブランドのスタイルを明確に踏襲しながら、彼女の作品の動きを表現しようとします。'
 
@@ -90,4 +90,4 @@ ja:
   outro: '読んでくれてありがとう。さらに議論したり、フィードバックを共有したり、質問をしたりしたい場合は、お気軽にお問い合わせください。'
 
   # _colophon
-  colophon: 'このウェブサイトは<a href="https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;" target="_blank">Franklin Gothic URW</a>（<a href="https://www.urwpp.de/en/" target="_blank">URW++</a>、<a href="https://typekit.com/" target="_blank">Typekit</a>）と<a href="http://r-typography.com/10_grifo/" target="_blank">Grifo</a>（<a href="http://r-typography.com/" target="_blank">R-Typography</a>）で設定されています。上の他のすべてのコンテンツはNuno Coelho Santosによって著作されています。すべての資産は、英国のロンドンにある<a href="https://www.linode.com/" target="_blank">Linode</a>によってホストされています。<a href="https://www.google.com/analytics/" target="_blank">Googleアナリティクス</a>を使用して統計情報をトラッキングします。<a href="http://2011.nunocoelhosantos.com/">2011年のポートフォリオ</a>をご覧ください。. <button data-action="show-columns" data-layout="wide">列を表示する。</button><button data-action="hide-columns" data-layout="hidden">列を非表示にする。</button>'
+  colophon: 'このウェブサイトは<a href="https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;" target="_blank">Franklin Gothic URW</a>（<a href="https://www.urwpp.de/en/" target="_blank">URW++</a>、<a href="https://typekit.com/" target="_blank">Typekit</a>）と<a href="https://r-typography.com/10_grifo/" target="_blank">Grifo</a>（<a href="https://r-typography.com/" target="_blank">R-Typography</a>）で設定されています。上の他のすべてのコンテンツはNuno Coelho Santosによって著作されています。すべての資産は、英国のロンドンにある<a href="https://www.linode.com/" target="_blank">Linode</a>によってホストされています。<a href="https://www.google.com/analytics/" target="_blank">Googleアナリティクス</a>を使用して統計情報をトラッキングします。<a href="https://2011.nunocoelhosantos.com/">2011年のポートフォリオ</a>をご覧ください。. <button data-action="show-columns" data-layout="wide">列を表示する。</button><button data-action="hide-columns" data-layout="hidden">列を非表示にする。</button>'
