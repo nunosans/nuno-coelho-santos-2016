@@ -35,7 +35,7 @@ ja:
   label_pause: '一時停止'
 
   # _currency
-  currency_title: '<a href="https://currency.nunocoelhosantos.com/" lang="en" target="_blank">Currency</a><i></i>（カレンシー）<i></i>は、<i></i><span lang="en">iOS</span>向けの信用できるほど単純な通貨コンバーターです。<i></i><a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" lang="en" target="_blank">App Store</a>で無料でダウンロードしてください。'
+  currency_title: '<a href="https://currency.nunocoelhosantos.com/" lang="en" target="_blank">Currency</a><i></i>（カレンシー）<i></i>は、<i></i><span lang="en">iOS</span>向けの信用できるほど単純な通貨コンバーターです。<i></i><a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" lang="en" target="_blank">App Store</a>でダウンロードしてください。'
   currency_project: 'iOS向けCurrency（カレンシー）'
   currency_role: 'プロダクトデザイナーとiOSデベロッパー'
   currency_date: '2016年1月〜3月'
@@ -53,7 +53,7 @@ ja:
   currency_body_10: 'リリースから6ヶ月後、通貨は6,000回以上ダウンロードされ、平均格付けは4.5星です。<a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>で無料でダウンロードできます。'
 
   # _thread
-  thread_title: '<a href="https://thread.com/" lang="en" target="_blank">Thread</a>は、<i></i><span lang="ja">1</span>対<span lang="ja">1</span>の個人的なスタイリングと強力な衣服の推奨エンジンへのアクセスを提供します。'
+  thread_title: '<a href="https://thread.com/" lang="en" target="_blank">Thread</a>（スレッド）は、<i></i><span lang="ja">1</span>対<span lang="ja">1</span>の個人的なスタイリングと強力な衣服の推奨エンジンへのアクセスを提供します。'
   thread_project: 'Thread'
   thread_role: '製品設計者とフロントエンドWeb開発者'
   thread_date: '2014〜2016'

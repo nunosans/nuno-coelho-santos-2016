@@ -35,7 +35,7 @@ pt:
   label_pause: 'Pausa'
 
   # _currency
-  currency_title: 'O <a href="https://currency.nunocoelhosantos.com/" target="_blank">Currency</a> é um conversor de moedas minimalista para iOS. Descarrega a app de graça na <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
+  currency_title: 'O <a href="https://currency.nunocoelhosantos.com/" target="_blank">Currency</a> é um conversor de moedas minimalista para iOS. Descarrega a app na <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
   currency_project: 'Currency para iOS'
   currency_role: 'Designer de Produto e Programador iOS'
   currency_date: 'Janeiro a Março 2016'
@@ -50,7 +50,7 @@ pt:
   currency_body_7: 'Alguns esboços anteriores exibiram várias moedas na tela principal e bandeiras de país usadas. Um dos projetos iniciais usa um estilo visual azul e escuro que mais tarde me aposentei. Quando eu comecei o desenvolvimento e mostrei o aplicativo para meus amigos, eles pareciam confusos sobre o número que estavam editando, então eu adicionei um cursor de pisca de entrada de texto. <br> <br> O design final é brilhante e mostra indicadores de atividade quando as taxas de câmbio estão sendo atualizados. Outras configurações foram adicionadas através das configurações do iOS com base na solicitação do usuário.'
   currency_body_8: 'Este foi o primeiro aplicativo que desenvolvi para iOS, e minha primeira vez escrevendo Swift. Todo o desenvolvimento da aplicação demorou cerca de 3 meses, sendo a maioria das correcções de erros e melhorias na qualidade do código. A fonte está disponível publicamente em <a href="https://github.com/nunosans/currency" target="blank">GitHub</a>.'
   currency_body_9: 'A aplicação, o site e o material de marketing foram localizados nos EUA, Reino Unido, Japão, China, Hong Kong, Taiwan, América Latina, Espanha e Portugal. Três meses após o lançamento, 76% dos downloads vieram da região Ásia / Pacífico.'
-  currency_body_10: 'Seis meses após o lançamento, a moeda foi baixada em mais de 6.000 vezes e tem uma classificação média de 4,5 estrelas. Você pode baixá-lo gratuitamente na <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
+  currency_body_10: 'Seis meses após o lançamento, a moeda foi baixada em mais de 6.000 vezes e tem uma classificação média de 4,5 estrelas. Você pode baixá-lo na <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
 
   # _thread
   thread_title: '<a href="https://thread.com/" target="_blank">Thread</a> offers one-to-one personal styling and access to a powerful clothing recommendation engine.'

@@ -35,7 +35,7 @@ en:
   label_pause: 'Pause'
 
   # _currency
-  currency_title: '<a href="https://currency.nunocoelhosantos.com/" target="_blank">Currency</a> is an incredibly simple currency converter for iOS. Download it for free on the <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
+  currency_title: '<a href="https://currency.nunocoelhosantos.com/" target="_blank">Currency</a> is an incredibly simple currency converter for iOS. Download it on the <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
   currency_project: 'Currency for iOS'
   currency_role: 'Product Designer &amp; iOS Developer'
   currency_date: 'January to March 2016'
@@ -50,7 +50,7 @@ en:
   currency_body_7: 'Some early sketches displayed multiple currencies on the main screen and used country flags. One of the early designs uses a blue and dark visual style that I later on retired. When I started development and showed the app to my friends they seemed confused about which number they were editing, so I added a text input blinking cursor.<br> <br> The final design is bright and shows activity indicators when the currency exchange rates are being updated. Other settings were added via the iOS Settings based on user request.'
   currency_body_8: 'This was the first app I developed for iOS, and my first time writing Swift. The entire development of the application took about 3 months, with most of it being bug fixes and improvements to the code quality. The source is available publicly on <a href="https://github.com/nunosans/currency" target="blank">GitHub</a>.'
   currency_body_9: 'The application, website and marketing material was localized to the US, the UK, Japan, China, Hong Kong, Taiwan, Latin America, Spain and Portugal. Three months after release, 76% of the downloads came from the Asia/Pacific region.'
-  currency_body_10: 'Six months after release, Currency was downloaded over 6,000 times and has an average rating of 4.5 stars. You can download it for free on the <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
+  currency_body_10: 'Six months after release, Currency was downloaded over 6,000 times and has an average rating of 4.5 stars. You can download it on the <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
 
   # _thread
   thread_title: '<a href="https://thread.com/" target="_blank">Thread</a> offers one-to-one personal styling and access to a powerful clothing recommendation engine.'

@@ -1,4 +1,7 @@
-@import url(//fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
+@import url('https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:600');
+
 
 body.ja {
 
@@ -16,10 +19,10 @@ body.ja {
   menu, nav, output, ruby, section, summary,
   time, mark, audio, video,
   button, input, textarea {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 28px;
     @media (min-width: 750px) {
-      font-size: 16px;
+      font-size: 17px;
       line-height: 28px;
     }
   }
@@ -32,31 +35,41 @@ body.ja {
   }
 
   .emphasize p {
-    font-family: "Grifo M", "Rounded Mplus 1c", sans-serif;
-    font-size: 32px;
+    // font-family: "Grifo M", "Rounded Mplus 1c", sans-serif;
+    // font-family: "Grifo M", "Sawarabi Mincho", sans-serif;
+    // font-family: "Grifo M", "Noto Serif JP", sans-serif;
+    font-family: 'Noto Serif JP', serif;
+    // font-size: 32px;
+    font-size: 36px;
     line-height: 52px;
     letter-spacing: 2px;
     text-align: left;
+    font-weight: 600;
     @media (min-width: 750px) {
-      font-size: 52px;
+      // font-size: 52px;
+      font-size: 58px;
       line-height: 86px;
       letter-spacing: 3px;
       max-width: none;
     }
     *[lang="en"] {
-      font-size: 40px;
+      // font-size: 40px;
+      font-size: 32px;
       font-family: inherit;
       display: inline-block;
-      padding: 0 2px;
+      // padding: 0 2px;
       letter-spacing: 0;
       @media (min-width: 750px) {
-        padding: 0 4px;
-        font-size: 68px;
+        // padding: 0 4px;
+        // font-size: 68px;
+        font-size: 52px;
       }
     }
     *[lang="ja"] {
       font-size: inherit;
-      font-family: "Rounded Mplus 1c", sans-serif;
+      // font-family: "Rounded Mplus 1c", sans-serif;
+      // font-family: 'Sawarabi Mincho', sans-serif;
+      font-family: 'Noto Serif JP', serif;
     }
     // Use i tags as negative space blocks.
     i {
@@ -91,6 +104,10 @@ body.ja {
       @media (min-width: 750px) {
         width: $inner-column-width * 2 + $inner-gutter-width * 2;
       }
+    }
+
+    .project-item p {
+      padding-right: 12px;
     }
 
     main {
