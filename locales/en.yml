@@ -72,9 +72,9 @@ en:
   # _other
   other_title: 'Other projects involve branding, photography, and software development.'
   other_a_year_in_an_instant_title: 'A Year in an Instant'
-  other_a_year_in_an_instant_body: 'For my first 365 days living in Japan I took an instant photo every day and published it online. This was a successful Kickstarter project where the 80 backers get to claim their favorite photo from the blog for themselves. <a href="https://ayearinaninstant.com/" target="_blank">Read the diary here</a>.'
+  other_a_year_in_an_instant_body: 'When I moved to Japan I documented the first 365 days living there with instant photo each day. This is a Kickstarter project where the backers get to claim their favorite photo. <a href="https://ayearinaninstant.com/" target="_blank">Read it here</a>.'
   other_15_days_in_japan_title: '15 Days in Japan'
-  other_15_days_in_japan_body: 'One of my most popular side-projects. A travel blog where I documented my experience traveling completely on my own in a country where I didn’t speak the language. All photos were taken with a Fuji X100. <a href="https://15daysinjapan.com/" target="_blank">See the story here</a>.'
+  other_15_days_in_japan_body: 'My most popular side-project—a travel blog where I documented my every step of my first 15 days in Japan. <a href="https://15daysinjapan.com/" target="_blank">Read it here</a>.'
   other_1975_title: '1975'
   other_1975_body: 'A side-project where travelers document their trip on a day-by-day photo diary. This project was an opportunity to give me more experience developing Ruby on Rails applications. <a href="https://1975.io/" target="_blank">Sign up here</a>.'
   other_the_scientist_title: 'The Scientist'
@@ -82,9 +82,11 @@ en:
   other_stylized_title: 'Stylize/d'
   other_stylized_body: 'Identity and web design project worked on alongside <a href="https://martasantos.co.uk" target="_blank">Marta Dos Santos</a>. Stylize/d is a fashion blog eager to show the final fashion editorials and the process in making them. This modernist identity stays away from most amateur fashion blogs with pink tones and cursive typefaces.'
   other_ustwo_rebrand_title: 'ustwo rebrand'
-  other_ustwo_rebrand_body: 'I worked on a rebrand concept for ustwo entirely inspired by the candid and daring company culture. This included a new logo, website design, typeface and tone of voice. After some refinement, this became the studio’s new identity. <a href="https://ustwo.com/" target="_blank">See it here</a>.'
+  other_ustwo_rebrand_body: 'The rebrand for ustwo entirely inspired by the candid and daring company culture. This included a new logo, website design, typeface and tone of voice. <a href="https://ustwo.com/" target="_blank">See it here</a>.'
   other_marili_andre_title: 'Marili André'
   other_marili_andre_body: 'Logo design for Marili André, a fashion photographer and filmmaker. Fellow student at Central Saint Martins, London. The connected shapes try to represent the motion in her work, while clearly following the style of high end fashion brands.'
+  other_instagram_redesign_title: 'Instagram redesign'
+  other_instagram_redesign_body: 'A visual design excersie as part of my training at ustwo. <a href="https://www.ustwo.com/blog/redesigning-instagram" target="_blank">See the process here</a>.'
 
   # _outro
   outro: 'Thank you for reading. If you would like to discuss more, share feedback or ask any questions, please get in touch.'
