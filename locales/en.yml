@@ -3,7 +3,7 @@ en:
 
   # layout
   title: 'Work &amp; Profile'
-  description: 'Profile and recent work of the portuguese graphic designer and developer'
+  description: 'Profile and recent work of the Portuguese graphic designer and developer'
   description_og: 'Profile and recent work'
   locale: 'en_US'
 
@@ -86,10 +86,10 @@ en:
   other_marili_andre_title: 'Marili André'
   other_marili_andre_body: 'Logo design for Marili André, a fashion photographer and filmmaker. Fellow student at Central Saint Martins, London. The connected shapes try to represent the motion in her work, while clearly following the style of high end fashion brands.'
   other_instagram_redesign_title: 'Instagram redesign'
-  other_instagram_redesign_body: 'A visual design excersie as part of my training at ustwo. <a href="https://www.ustwo.com/blog/redesigning-instagram" target="_blank">See the process here</a>.'
+  other_instagram_redesign_body: 'A visual design exercise as part of my training at ustwo. <a href="https://www.ustwo.com/blog/redesigning-instagram" target="_blank">See the process here</a>.'
 
   # _outro
   outro: 'Thank you for reading. If you would like to discuss more, share feedback or ask any questions, please get in touch.'
 
   # _colophon
-  colophon: 'This website is set in <a href="https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;" target="_blank">Franklin Gothic URW</a> from <a href="https://www.urwpp.de/en/" target="_blank">URW++</a> served by <a href="https://typekit.com/" target="_blank">Typekit</a>, and <a href="https://r-typography.com/10_grifo/" target="_blank">Grifo</a> by <a href="https://r-typography.com/" target="_blank">R-Typography</a>. All other content on this website is produced by and copyright 2017 by Nuno Coelho Santos. All assets are hosted by <a href="https://www.linode.com/" target="_blank">Linode</a> in London, UK. Stats are tracked using <a href="https://www.google.com/analytics/" target="_blank">Google Analytics</a>. <a href="https://2011.nunocoelhosantos.com/">See 2011 portfolio</a>. <button data-action="show-columns" data-layout="wide">Show columns.</button><button data-action="hide-columns" data-layout="hidden">Hide columns.</button>'
+  colophon: 'This website is set in <a href="https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;" target="_blank">Franklin Gothic URW</a> from <a href="https://www.urwpp.de/en/" target="_blank">URW++</a> served by <a href="https://typekit.com/" target="_blank">Typekit</a>, and <a href="https://r-typography.com/10_grifo/" target="_blank">Grifo</a> by <a href="https://r-typography.com/" target="_blank">R-Typography</a>. All other content on this website is produced by and copyright 2020 by Nuno Coelho Santos. All assets are hosted by <a href="https://www.linode.com/" target="_blank">Linode</a> in London, UK. Stats are tracked using <a href="https://www.google.com/analytics/" target="_blank">Google Analytics</a>. <a href="https://2011.nunocoelhosantos.com/">See 2011 portfolio</a>. <button data-action="show-columns" data-layout="wide">Show columns.</button><button data-action="hide-columns" data-layout="hidden">Hide columns.</button>'
