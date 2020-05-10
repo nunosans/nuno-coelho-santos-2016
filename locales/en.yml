@@ -20,7 +20,7 @@ en:
 
   # _intro
   intro_short: 'I’m Nuno, a digital product designer based in London.'
-  intro_long: 'I’m Nuno, a digital product designer based in London. Specializing in interface design, with an interest in user research and development for web or iOS.'
+  intro_long: 'I’m Nuno, a digital product designer based in London. Specializing in user interface design, with experience on web and iOS development.'
   intro_currently: 'I currently work at <a href="https://www.google.com/intl/en_us/health/about/" target="_blank">Google</a> to bring <a href="https://www.digitalhealth.net/2017/12/google-deepmind-streams-royal-free/" target="_blank">Streams</a> to hospitals across the UK.'
   intro_previously: 'Previously I worked with the <a href="https://ideo.com/" target="_blank">IDEO</a> team in Tokyo, I helped <a href="https://thread.com/" target="_blank">Thread</a> reinvent personal styling in the UK, and prior to that, I was with the <a href="https://ustwo.com/" target="_blank">ustwo</a> family in London and New York.'
   intro_expand: 'Read more'
@@ -34,8 +34,38 @@ en:
   label_play: 'Play'
   label_pause: 'Pause'
 
+  # _clinicians
+  clinicians_title: 'Google for Clinicians helps doctors easily find all the information about their patients'
+  clinicians_project: 'Google for Clinicians'
+  clinicians_role: 'UX Designer'
+  clinicians_date: '2019–2020'
+  clinicians_website: 'health.google'
+  clinicians_description: ''
+  clinicians_body_1: ''
+  clinicians_body_2: ''
+  clinicians_body_3: ''
+  clinicians_body_4: ''
+  clinicians_body_5: ''
+  clinicians_body_6: ''
+  clinicians_body_7: ''
+
+  # _streams
+  streams_title: 'Streams helps doctors receive and manage patient alerts for Acute Kidney Injury'
+  streams_project: ''
+  streams_role: ''
+  streams_date: ''
+  streams_website: ''
+  streams_description: ''
+  streams_body_1: ''
+  streams_body_2: ''
+  streams_body_3: ''
+  streams_body_4: ''
+  streams_body_5: ''
+  streams_body_6: ''
+  streams_body_7: ''
+
   # _currency
-  currency_title: '<a href="https://currency.nunocoelhosantos.com/" target="_blank">Currency</a> is an incredibly simple currency converter for iOS. Download it on the <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
+  currency_title: '<a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">Currency</a> is the simplest and most easy-to-use currency coversion application for iPhone.'
   currency_project: 'Currency for iOS'
   currency_role: 'Product Designer &amp; iOS Developer'
   currency_date: 'January to March 2016'
