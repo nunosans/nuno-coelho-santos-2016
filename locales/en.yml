@@ -21,7 +21,7 @@ en:
   # _intro
   intro_short: 'I’m Nuno, a digital product designer based in London.'
   intro_long: 'I’m Nuno, a digital product designer based in London. Specializing in user interface design, with experience on web and iOS development.'
-  intro_currently: 'I currently work at <a href="https://www.google.com/intl/en_us/health/about/" target="_blank">Google</a> to bring <a href="https://www.digitalhealth.net/2017/12/google-deepmind-streams-royal-free/" target="_blank">Streams</a> to hospitals across the UK.'
+  intro_currently: 'I currently work at <a href="http://health.google.com" target="_blank">Google</a> to bring new healthcare products to the US and the UK.'
   intro_previously: 'Previously I worked with the <a href="https://ideo.com/" target="_blank">IDEO</a> team in Tokyo, I helped <a href="https://thread.com/" target="_blank">Thread</a> reinvent personal styling in the UK, and prior to that, I was with the <a href="https://ustwo.com/" target="_blank">ustwo</a> family in London and New York.'
   intro_expand: 'Read more'
 
