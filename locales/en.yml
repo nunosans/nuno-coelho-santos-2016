@@ -35,7 +35,7 @@ en:
   label_pause: 'Pause'
 
   # _clinicians
-  clinicians_title: 'Google for Clinicians helps doctors easily find all the information about their patients'
+  clinicians_title: '<a href="" target="_blank">Google for Clinicians</a> gives health professionals easy access to all the information about their patients.'
   clinicians_project: 'Google for Clinicians'
   clinicians_role: 'UX Designer'
   clinicians_date: '2019–2020'
@@ -50,7 +50,7 @@ en:
   clinicians_body_7: ''
 
   # _streams
-  streams_title: 'Streams helps doctors receive and manage patient alerts for Acute Kidney Injury'
+  streams_title: '<a href="" target="_blank">Streams</a> helps doctors and nurses quickly handle patient deterioration.'
   streams_project: ''
   streams_role: ''
   streams_date: ''
