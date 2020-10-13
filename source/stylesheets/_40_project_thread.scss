@@ -26,24 +26,10 @@ article.project.project-thread {
   }
 
   .project-thread-mobile-intro {
+    max-width: 420px;
     @media (min-width: 750px) {
       clear: both;
       padding-bottom: 0;
-    }
-    img {
-      width: 204px;
-      height: 61px;
-      margin: 22px 0 11px 0;
-      @media (min-width: 350px) {
-        width: 255px;
-        height: 76px;
-      }
-      @media (min-width: 750px) {
-        width: 364px;
-        height: 108px;
-        margin-left: -2px;
-        margin-bottom: 22px;
-      }
     }
   }
 
@@ -117,24 +103,10 @@ article.project.project-thread {
   }
 
   .project-thread-browse-intro {
+    max-width: 480px;
     @media (min-width: 750px) {
       padding-bottom: 0;
       margin-left: $inner-column-width * 2 + $inner-gutter-width * 2;
-    }
-    img {
-      width: 280px;
-      height: 78px;
-      margin: 20px 0 10px 0;
-      @media (min-width: 350px) {
-        width: 350px;
-        height: 98px;
-      }
-      @media (min-width: 750px) {
-        width: 500px;
-        height: 140px;
-        margin-left: -4px;
-        margin-bottom: 22px;
-      }
     }
   }
 

@@ -17,8 +17,8 @@ button, input, textarea {
   font-family: "franklin-gothic-urw-1", "franklin-gothic-urw-2", "Franklin Gothic", "Franklin Gothic LT", "Franklin Gothic LT Com", "Franklin Gothic BT", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $text-primary;
   @media (min-width: 750px) {
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 22px;
   }
 }
 
@@ -55,7 +55,8 @@ ul {
   }
 }
 
-.emphasize p {
+.emphasize p,
+p.emphasize {
   font-family: "Grifo M";
   font-size: 40px;
   line-height: 44px;
@@ -64,6 +65,20 @@ ul {
   @media (min-width: 750px) {
     font-size: 72px;
     line-height: 80px;
+  }
+}
+
+.scribble p,
+p.scribble {
+  font-family: "CAPUT";
+  font-size: 22px;
+  line-height: 34px;
+  padding: 40px 0 16px;
+  max-width: none;
+  word-spacing: 5px;
+  @media (min-width: 750px) {
+    font-size: 26px;
+    line-height: 38px;
   }
 }
 
