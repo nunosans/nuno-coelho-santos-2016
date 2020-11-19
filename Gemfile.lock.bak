@@ -129,10 +129,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  middleman (~> 4.3.11)
+  middleman (>= 4.3)
   middleman-compass (>= 4.0.0)
   middleman-livereload
   middleman-minify-html
 
 BUNDLED WITH
-   2.1.4
+   1.17.2

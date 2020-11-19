@@ -34,7 +34,8 @@ body.ja {
     }
   }
 
-  .emphasize p {
+  .emphasize p,
+  p.emphasize {
     // font-family: "Grifo M", "Rounded Mplus 1c", sans-serif;
     // font-family: "Grifo M", "Sawarabi Mincho", sans-serif;
     // font-family: "Grifo M", "Noto Serif JP", sans-serif;
@@ -80,6 +81,20 @@ body.ja {
       @media (min-width: 750px) {
         margin-left: -22px;
       }
+    }
+  }
+
+  .scribble p,
+  p.scribble {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 22px;
+    line-height: 34px;
+    padding: 40px 0 16px;
+    max-width: none;
+    word-spacing: 5px;
+    @media (min-width: 750px) {
+      font-size: 26px;
+      line-height: 38px;
     }
   }
 
