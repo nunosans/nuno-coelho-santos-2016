@@ -2,99 +2,162 @@
 pt:
 
   # layout
-  title: 'Portfolio e Perfil'
-  description: 'Perfil e trabalho recente do designer gráfico e programador'
-  description_og: 'Perfil e trabalho recente'
-  locale: 'pt_PT'
+  title: ''
+  description: ''
+  description_og: ''
+  locale: ''
 
   # _header
-  label_email: 'Email'
-  label_mobile: 'Telemóvel'
-  label_twitter: 'Twitter'
-  label_github: 'GitHub'
-  label_dribbble: 'Dribbble'
-  label_instagram: 'Instagram'
-  label_blog: 'Blog'
-  label_newsletter: 'Newsletter'
-  label_newsletter_subscribe: 'Subscrever'
+  label_email: ''
+  label_mobile: ''
+  label_twitter: ''
+  label_github: ''
+  label_dribbble: ''
+  label_instagram: ''
+  label_blog: ''
+  label_newsletter: ''
+  label_newsletter_subscribe: ''
+  label_linkedin: ''
 
   # _intro
-  intro_short: 'Olá. Chamo-me Nuno, e sou um designer de produto digital a viver em Londres.'
-  intro_long: 'Olá. Chamo-me Nuno, e sou um designer de produto digital a viver em Londres. Especializo-me em interaction design e tenho interesse em desenvolvimento para web e iOS.'
-  intro_currently: 'Neste momento trabalho na <a href="https://www.google.com/intl/en_us/health/about/" target="_blank">Google</a> a criar o <a href="https://www.digitalhealth.net/2017/12/google-deepmind-streams-royal-free/" target="_blank">Streams</a>, uma aplicação médica que está em uso nos hospitais do Reino Unido.'
-  intro_previously: 'Préviamente trabalhei na <a href="https://ideo.com/" target="_blank">IDEO</a> em Tóquio, ajudei a <a href="https://thread.com/" target="_blank">Thread</a> a reinventar estilismo no Reino Unido, e antes disso, trabalhei na <a href="https://ustwo.com/" target="_blank">ustwo</a> em Londres e Nova Iorque.'
-  intro_expand: 'Ler mais'
-  feature_speaker: 'Orador'
-  feature_interview: 'Entrevista'
-  feature_feature: 'Exposição'
-  feature_panel: 'Panel'
+  intro_short: ''
+  intro_long: ''
+  # intro_currently: ''
+    # https://www.whatsapp.com
+  intro_currently: ''
+    # https://health.google
+  # intro_previously: ''
+    # https://health.google
+  intro_previously: ''
+    # https://www.ideo.com
+    # https://www.thread.com
+    # https://www.ustwo.com
+  intro_expand: ''
+  feature_speaker: ''
+  feature_interview: ''
+  feature_feature: ''
+  feature_panel: ''
 
   # projects
-  label_project: 'Projeto:'
-  label_role: 'Cargo:'
-  label_date: 'Data:'
-  label_website: 'Website:'
-  label_description: 'Descrição:'
-  label_play: 'Reproduzir'
-  label_pause: 'Pausa'
+  label_role: ''
+  label_date: ''
+  label_website: ''
+  label_play: ''
+  label_pause: ''
+
+  # _streams
+  streams_title: ''
+  streams_role: ''
+  streams_date: ''
+  streams_website: ''
+    # http://deepmind.com/health/
+  streams_body_1: ''
+    # http://deepmind.com/health/
+  streams_body_2: ''
+  streams_body_3: ''
+  streams_body_4: ''
+  streams_body_5: ''
+  streams_body_6: ''
+  streams_body_7: ''
+  streams_body_8: ''
+  streams_body_9: ''
+  streams_body_10: ''
+  streams_body_11: ''
 
   # _currency
-  currency_title: 'O <a href="https://currency.nunocoelhosantos.com/" target="_blank">Currency</a> é um conversor de moedas minimalista para iOS. Descarrega a app na <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
-  currency_project: 'Currency para iOS'
-  currency_role: 'Designer de Produto e Programador iOS'
-  currency_date: 'Janeiro a Março 2016'
-  currency_website: '<a href="https://currency.nunocoelhosantos.com/" target="_blank">currency.nunocoelhosantos.com</a>'
-  currency_description: 'Um projeto paralelo com o objetivo de criar um produto que faça um trabalho incrivelmente bem e que aprenda uma nova linguagem de programação ao longo do caminho. Agradecimentos especiais a <a href="https://twitter.com/jonathontoon/" target="_blank"> Jonathon Toon </a>, <a href = "https://twitter.com/johnnylinnert/" target="_blank">Johnny Linnert</a>, <a href="https://www.instagram.com/star_nie/" target="_blank">Xin Nie</a>, <a href="https://www.facebook.com/asuka.yamashita.944/ "target ="_blank">Asuka Yamashita</a>, <a href ="https://www.instagram.com/alex_abn/ "target ="_blank">Alex Abian</a> e <a href="https://twitter.com/alvesjtiago/" target="_blank">Tiago Alves</a>.'
-  currency_body_1: 'Depois de ter usado vários aplicativos de conversão de moeda que estão disponíveis na App Store gratuitamente ou pagos, descobri que estes eram muito complexos, não intuitivos ou ainda não foram atualizados para novos tamanhos de tela do iPhone. Muitas vezes, esses aplicativos têm orientações para explicar as interações complexas, a navegação ou os recursos que podem fornecer ao usuário, em vez de serem simples de usar.'
-  currency_body_2: 'Eu projetei Moeda para ser o conversor de moeda mais simples e intuitivo na App Store, que ficaria perfeito em qualquer tela do iPhone.'
-  currency_scribble_1: 'Objetivos: <br> 1. Rápido de usar <br> 2. Para usar em viagem<br> 3. Sem instruções de uso<br>'
-  currency_body_3: 'O design final se concentra em fazer um trabalho bem: converter uma moeda estrangeira na moeda doméstica do cliente. Recursos como gráficos de flutuação de moeda, configurações no aplicativo e notificações não eram necessários para este trabalho.'
-  currency_body_4: 'Um dos aspectos mais exclusivos da Moeda é a formatação das moedas, com o símbolo correto, o número correto de casas decimais, o divisor decimal e os divisores de grupo.'
-  currency_body_5: 'O ícone foi projetado para se encaixar perfeitamente com o iOS, apresentando a moeda como se fosse parte do sistema operacional.'
-  currency_body_6: 'A maioria dos aplicativos de moeda usa bandeiras de país para ilustrar as moedas diferentes. Mas algumas moedas como Bitcoin ou o Euro não pertencem a um país específico. Por esse motivo, usei símbolos de moeda e formatação de moeda correta, juntamente com códigos de moeda para representar corretamente as moedas diferentes.'
-  currency_body_7: 'Alguns esboços anteriores exibiram várias moedas na tela principal e bandeiras de país usadas. Um dos projetos iniciais usa um estilo visual azul e escuro que mais tarde me aposentei. Quando eu comecei o desenvolvimento e mostrei o aplicativo para meus amigos, eles pareciam confusos sobre o número que estavam editando, então eu adicionei um cursor de pisca de entrada de texto. <br> <br> O design final é brilhante e mostra indicadores de atividade quando as taxas de câmbio estão sendo atualizados. Outras configurações foram adicionadas através das configurações do iOS com base na solicitação do usuário.'
-  currency_body_8: 'Este foi o primeiro aplicativo que desenvolvi para iOS, e minha primeira vez escrevendo Swift. Todo o desenvolvimento da aplicação demorou cerca de 3 meses, sendo a maioria das correcções de erros e melhorias na qualidade do código. A fonte está disponível publicamente em <a href="https://github.com/nunosans/currency" target="blank">GitHub</a>.'
-  currency_body_9: 'A aplicação, o site e o material de marketing foram localizados nos EUA, Reino Unido, Japão, China, Hong Kong, Taiwan, América Latina, Espanha e Portugal. Três meses após o lançamento, 76% dos downloads vieram da região Ásia / Pacífico.'
-  currency_body_10: 'Seis meses após o lançamento, a moeda foi baixada em mais de 6.000 vezes e tem uma classificação média de 4,5 estrelas. Você pode baixá-lo na <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
+  currency_title: ''
+    # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
+  currency_role: ''
+  currency_date: ''
+  currency_website: ''
+    # https://currency.nunocoelhosantos.com
+  currency_body_1: ''
+  currency_body_2: ''
+  currency_scribble_1: ''
+  currency_body_3: ''
+  currency_body_4: ''
+  currency_body_5: ''
+  currency_body_6: ''
+  currency_body_7: ''
+  currency_body_8: ''
+  currency_body_9: ''
+  currency_body_10: ''
+    # https://twitter.com/jonathontoon
+    # https://twitter.com/alvesjtiago
+  currency_body_11: ''
+    # https://github.com/nunosans/currency
+  currency_body_12: ''
+  currency_body_13: ''
+  currency_body_14: ''
+    # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
 
   # _thread
-  thread_title: '<a href="https://thread.com/" target="_blank">Thread</a> offers one-to-one personal styling and access to a powerful clothing recommendation engine.'
-  thread_project: 'Thread'
-  thread_role: 'Designer de Produto e Programador Web Front-end'
-  thread_date: '2014 a 2016'
-  thread_website: '<a href="https://thread.com/" target="_blank">thread.com</a>'
-  thread_description: 'A <a href="https://thread.com/" target="_blank">Thread</a> é um serviço de design on-line, atualmente apenas para homens no Reino Unido, que se une aos melhores estilistas de moda do mundo e Inteligência Artificial em uma plataforma única para dar aos usuários estilo pessoal gratuitamente. Thread é um <a href="https://www.ycombinator.com/" target="_blank">YC’11</a> fundação fundada por <a href="https://twitter.com/ kierano / "target ="_blank">Kieran O’Neill</a>, <a href="https://twitter.com/_benji/" target="_blank">Benjamin Phillips</a> e <a href="https://twitter.com/benkucsan/" target="_blank">Ben Kucsan</a>. Juntei-me à equipe em 2014 como designer de produtos e trabalhei junto com algumas das pessoas mais inteligentes que conheci até agora.'
-  thread_body_1: 'Na Thread, definimos a visão de longo prazo para a empresa e quebrou-a em objetivos de produtos, operações, design e marketing. Enquanto eu fazia parte da equipe de produtos do Thread, eu iria enfrentar um desses desafios a cada semana e configurá-lo como um objetivo semanal.'
-  thread_body_2: 'Uma semana típica no Thread incluiria brainstorming e esboço na segunda-feira, design visual e críticas na terça-feira, protótipos e testes na quarta-feira, desenvolvimento e testes na quinta e sexta-feira. Toda sexta-feira, demonstramos o trabalho realizado e algumas dessas soluções seriam enviadas na segunda semana da semana seguinte.'
-  thread_scribble_1: 'Desafio: <br> Como podemos melhorar nossa experiência móvel?'
-  thread_body_3: 'Os usuários do Thread visitam Thread de seus dispositivos móveis cada vez mais ao longo do tempo, no entanto, internamente, nós sempre tínhamos o hábito de projetar primeiro o pensamento no navegador da área de trabalho. Então, neste projeto, analisamos o que seria a experiência móvel ideal e como podemos reformular nosso processo de design e desenvolvimento para se encaixar em uma abordagem móvel primeira.'
-  thread_body_4: 'Começamos abordando esse desafio projetando uma experiência iOS nativa do Thread. Nós construímos um protótipo de wireframe e pedimos aos usuários que visitassem nosso escritório para usá-lo. Depois de algumas entrevistas, todos na equipe sentiram isso como uma melhoria em relação à experiência atual.'
-  thread_body_5: 'Nós também exploramos uma direção diferente, que se concentrou em sistematizar nossa experiência na web para ser mais modular e direcionada para navegadores móveis. Chamamos esse novo sistema de Thread Whitechapel. Ele incluiu novos estilos de tipo, novas interações de toque, novas diretrizes para fluxos e conteúdo da página e um novo conjunto de componentes HTML padrão. <br> <br> Isso resultou não apenas em uma melhor experiência móvel, mas também nos permitiu projetar e se desenvolvem mais rapidamente, mantendo a nossa linguagem visual consistente.'
-  thread_scribble_2: 'Desafio: <br> Como podemos continuar fornecendo um serviço Thread mesmo quando os estilistas estão offline ou de férias?'
-  thread_body_6: 'A Thread possui um poderoso mecanismo de recomendação que ajuda a combinar as roupas que cada estilista faz para cada preferência do cliente, mas quando os estilistas estão ausentes, não podemos gerar essas recomendações para os usuários. Então, como deve o Thread funcionar quando este for o caso?'
-  thread_body_7: 'Na época, os estilistas podiam usar o motor Thread para encontrar itens de roupas e os usuários poderiam receber recomendações de estilistas. Mas faltava um canal entre o usuário e o mecanismo Thread. Durante a primeira semana, eu e Dan Palmer exploramos como uma experiência de usar o motor da Thread sem ter o estilista envolvido seria para os usuários.'
-  thread_body_8: 'Desenvolvemos o conceito de uma loja com curadoria. Imagine uma linha de roupas, feita com a quantidade de itens que uma pessoa pode possuir de maneira realista. Um guarda-roupas com curadoria. Queríamos uma experiência semelhante à de caminhar para uma loja de roupas e ver apenas novos itens que você adoraria. Isso se tornou o Thread Browse. <br> <br> Thread tem milhares de itens e existem milhares de lojas online com milhares de itens que são irrelevantes para seus usuários. Thread Browse é a experiência de compras curada para quando seu estilista pessoal não está disponível. Os desenhos mostram os itens categorizados pela roupa mais externa para o interior, e um número limitado de resultados é mostrado abaixo. Todos combinam as preferências do usuário.'
-  thread_body_9: 'A linha cresceu constantemente ao longo dos últimos anos e estou extremamente orgulhosa de todo o trabalho que fizemos juntos. O segmento estará disponível em todo o mundo no futuro próximo. Se você está procurando um estilo masculino no Reino Unido, <a href="https://www.thread.com" target="_blank">assine aqui</a>. Se você estiver interessado em trabalhar no Thread, veja a <a href="https://www.thread.com/jobs" target="_blank">página de trabalhos</a>.'
+  thread_title: ''
+    # https://www.thread.com
+  thread_role: ''
+  thread_date: ''
+  thread_website: ''
+    # http://thread.com
+  thread_body_1: ''
+    # https://www.thread.com
+    # https://www.ycombinator.com
+    # https://twitter.com/kierano/
+    # https://twitter.com/_benji/
+    # https://twitter.com/benkucsan/
+  thread_scribble_1: ''
+  thread_body_2: ''
+  thread_body_3: ''
+  thread_body_4: ''
+  thread_scribble_2: ''
+  thread_body_5: ''
+  thread_body_6: ''
+  thread_body_7: ''
+  thread_body_8: ''
+  thread_body_9: ''
+    # https://www.thread.com/
+    # https://www.thread.com/jobs
 
   # _other
-  other_title: 'Outros projetos envolvem branding, fotografia e desenvolvimento de software.'
-  other_a_year_in_an_instant_title: 'A Year in an Instant'
-  other_a_year_in_an_instant_body: 'Nos meus primeiros 365 dias de vida no Japão, tirei uma foto instantânea todos os dias e a publiquei on-line. Este foi um projeto bem sucedido do Kickstarter, onde os 80 apoiantes conseguem reivindicar sua foto favorita do blog para si. <a href="https://ayearinaninstant.com/" target="_blank">Leia o diário aqui</a>.'
-  other_15_days_in_japan_title: '15 Days in Japan'
-  other_15_days_in_japan_body: 'Um dos meus side-projects mais populares. Um blog de viagem onde documentei minha experiência viajando completamente sozinha em um país onde não falava a língua. Todas as fotos foram tiradas com um Fuji X100. <a href="https://15daysinjapan.com/" target="_blank">Veja a história aqui</a>.'
-  other_1975_title: '1975'
-  other_1975_body: 'Um projeto paralelo onde os viajantes documentam sua viagem em um diário de fotos do dia a dia. Este projeto foi uma oportunidade para me dar mais experiência no desenvolvimento de aplicativos do Ruby on Rails. <a href="https://1975.io/" target="_blank">Assine aqui</a>.'
-  other_the_scientist_title: 'The Scientist'
-  other_the_scientist_body: 'O The Scientist é um agregador e leitor de artigos científicos para iOS. O design brilha em seu foco em tipografia legível incrível. <a href="https://itunes.apple.com/app/the-scientist/id657192313?l=pt"mt=8" target="_blank"> Obtenha-o na App Store </a>.'
-  other_stylized_title: 'Stylize/d'
-  other_stylized_body: 'Projeto de identidade e design web em colaboração com <a href="https://martasantos.co.uk" target="_blank"> Marta Dos Santos </a>. Stylize/d é um blog de moda ansioso para mostrar os editoriais definitivos da moda e o processo ao fazê-los. Essa identidade modernista fica longe da maioria dos blogs de moda amadores com tons rosa e tipos de letra cursivos.'
-  other_ustwo_rebrand_title: 'ustwo rebrand'
-  other_ustwo_rebrand_body: 'Trabalhei em um conceito de rebrand para ustwo inteiramente inspirado pela cultura de empresa sincera e ousada. Isso incluiu um novo logotipo, design do site, tipo de letra e tom de voz. Depois de algum refinamento, isso se tornou a nova identidade do estúdio. <a href="https://ustwo.com/" target="_blank">Veja aqui</a>.'
-  other_marili_andre_title: 'Marili André'
-  other_marili_andre_body: 'Design de logotipo para Marili André, um fotógrafo de moda e cineasta. Estudante da Central Saint Martins, Londres. As formas conectadas tentam representar o movimento em seu trabalho, ao mesmo tempo que seguem o estilo de marcas de moda de alta qualidade.'
+  other_title: ''
+  other_a_year_in_an_instant_title: ''
+  other_a_year_in_an_instant_body: ''
+    # https://ayearinaninstant.com
+  other_15_days_in_japan_title: ''
+  other_15_days_in_japan_body: ''
+    # https://15daysinjapan.com
+  other_1975_title: ''
+  other_1975_body: ''
+    # http://1975.io
+  other_the_scientist_title: ''
+  other_the_scientist_body: ''
+    # https://itunes.apple.com/app/the-scientist/id657192313?l=en&mt=8
+  other_stylized_title: ''
+  other_stylized_body: ''
+    # https://martasantos.co.uk
+  other_ustwo_rebrand_title: ''
+  other_ustwo_rebrand_body: ''
+    # https://www.ustwo.com
+  other_marili_andre_title: ''
+  other_marili_andre_body: ''
+  other_instagram_redesign_title: ''
+  other_instagram_redesign_body: ''
+    # https://www.ustwo.com/blog/redesigning-instagram
 
   # _outro
-  outro: 'Obrigado por ler. Se você quiser discutir mais, compartilhar comentários ou fazer qualquer dúvida, entre em contato.'
+  outro: ''
 
   # _colophon
-  colophon: 'Este site está configurado em <a href="https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;" target="_blank">Franklin Gothic URW</a> de <a href="https://www.urwpp.de/pt/" target="_blank">URW++</a> servido por <a href="https://typekit.com/" target="_blank">Typekit</a>, e <a href="https://r-typography.com/10_grifo/" target="_blank">Grifo</a> por <a href="https://r-typography.com/" target="_blank">R-Typography</a>. Todo o outro conteúdo deste site é produzido por e copyright 2017 por Nuno Coelho Santos. Todos os recursos são hospedados por <a href="https://www.linode.com/" target="_blank">Linode</a> em Londres no Reino Unido. As estatísticas são rastreadas usando <a href="https://www.google.com/analytics/" target="_blank">Google Analytics</a>. <a href="https://2011.nunocoelhosantos.com/">Veja o portfólio de 2011</a>. <button data-action="show-columns" data-layout="wide">Mostrar colunas.</button><button data-action="hide-columns" data-layout="hidden">Esconder colunas.</botão>'
+  colophon: ''
+    # https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;
+    # https://www.urwpp.de/en/
+    # https://typekit.com/
+    # https://r-typography.com/10_grifo/
+    # https://r-typography.com/
+    # https://www.netlify.com/
+    # https://www.google.com/analytics/
+  link_2011_portfolio: ''
+    # https://2011.nunocoelhosantos.com/
+  link_columns_show: ''
+    # button data-action="show-columns" data-layout="wide"
+  link_columns_hide: ''
+    # button data-action="hide-columns" data-layout="hidden"

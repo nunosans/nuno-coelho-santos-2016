@@ -2,8 +2,8 @@
 en:
 
   # layout
-  title: 'Work &amp; Profile'
-  description: 'Profile and recent work of the Portuguese graphic designer and developer'
+  title: 'Nuno Coelho Santos, Designer. Work &amp; Profile'
+  description: 'Profile and recent work of the Portuguese product designer and developer, Nuno Coelho Santos. Based in London, UK.'
   description_og: 'Profile and recent work'
   locale: 'en_US'
 
@@ -17,14 +17,21 @@ en:
   label_blog: 'Blog'
   label_newsletter: 'Newsletter'
   label_newsletter_subscribe: 'Subscribe'
+  label_linkedin: 'LinkedIn'
 
   # _intro
   intro_short: 'I’m Nuno, a product designer based in London.'
-  intro_long: 'I’m Nuno, a product designer based in London. Specializing in user interface design, with experience on web and iOS development.'
-  # intro_currently: 'I currently work at <a href="https://www.whatsapp.com" target="_blank">WhatsApp</a> to help over 1 billion people communicate.'
-  intro_currently: 'I currently work at <a href="https://health.google">Google</a>  to bring new healthcare technology to the entire world'
-  # intro_previously: 'Previously, I worked at <a href="https://health.google">Google</a> to bring new healthcare technology to the entire world, was part of the <a href="https://ideo.com/" target="_blank">IDEO</a> Tokyo team, helped <a href="https://thread.com/" target="_blank">Thread</a> reinvent personal styling in the UK, and prior to that, I was with the <a href="https://ustwo.com/" target="_blank">ustwo</a> family in London and New York.'
-  intro_previously: 'Previously, I was part of the <a href="https://ideo.com/" target="_blank">IDEO</a> Tokyo team, helped <a href="https://thread.com/" target="_blank">Thread</a> reinvent personal styling in the UK, and prior to that, I was with the <a href="https://ustwo.com/" target="_blank">ustwo</a> family in London and New York.'
+  intro_long: 'I’m Nuno, a product designer based in London. I specialise in human interface design, and enjoy building my own apps as a hobby.'
+  # intro_currently: 'I currently work at WhatsApp to help over 2 billion people around the world communicate privately.'
+    # https://www.whatsapp.com
+  intro_currently: 'I currently work at Google to bring new healthcare technology to the entire world.'
+    # https://health.google
+  # intro_previously: 'Previously, I worked at Google to bring new healthcare technology to clinicians.'
+    # https://health.google
+  intro_previously: 'Previously, I was part of the IDEO Tokyo team, helped Thread reinvent personal styling in the UK, and prior to that, I was with the ustwo family in London and New York.'
+    # https://www.ideo.com
+    # https://www.thread.com
+    # https://www.ustwo.com
   intro_expand: 'Read more'
   feature_speaker: 'Speaker'
   feature_interview: 'Interview'
@@ -32,103 +39,125 @@ en:
   feature_panel: 'Panel'
 
   # projects
-  label_project: 'Project:'
-  label_role: 'Role:'
-  label_date: 'Date:'
-  label_website: 'Website:'
-  label_description: 'Description:'
+  label_role: 'Role'
+  label_date: 'Date'
+  label_website: 'Website'
   label_play: 'Play'
   label_pause: 'Pause'
 
-  # _clinicians
-  clinicians_title: '<a href="" target="_blank">Google for Clinicians</a> gives health professionals easy access to all the information about their patients.'
-  clinicians_project: 'Google for Clinicians'
-  clinicians_role: 'UX Designer'
-  clinicians_date: '2019–2020'
-  clinicians_website: 'health.google'
-  clinicians_description: ''
-  clinicians_body_1: ''
-  clinicians_body_2: ''
-  clinicians_body_3: ''
-  clinicians_body_4: ''
-  clinicians_body_5: ''
-  clinicians_body_6: ''
-  clinicians_body_7: ''
-
   # _streams
-  streams_title: '<a href="" target="_blank">Streams</a> helps doctors and nurses quickly handle patient deterioration.'
-  streams_project: ''
-  streams_role: ''
-  streams_date: ''
-  streams_website: ''
-  streams_description: ''
-  streams_body_1: ''
-  streams_body_2: ''
-  streams_body_3: ''
-  streams_body_4: ''
-  streams_body_5: ''
-  streams_body_6: ''
-  streams_body_7: ''
+  streams_title: 'Streams helps doctors and nurses quickly handle patient deterioration.'
+  streams_role: 'UX Designer'
+  streams_date: '2017–2020'
+  streams_website: 'deepmind.com/health'
+    # http://deepmind.com/health/
+  streams_body_1: 'Streams is an iOS application for doctors and nurses in the UK. It sends alerts for patients at risk of an Acute Kidney Injury and allows easy viewing of patient health record data.'
+    # http://deepmind.com/health/
+  streams_body_2: 'At the start of 2018, I worked on a redesign of Streams using Material Design in preparation to scale the product to new markets. My team did an audit of the existing UI to see what to replace with a pre-existing Material component, and what new components we needed to build ourselves to deliver the full experience. We extended Material design with a handful of custom components and patterns, which I will share below.'
+  streams_body_3: 'The redesigned interface is intended to be bright, clear, and follow thee Material Design language.'
+  streams_body_4: 'Accessibility was at the forefront of the redesign. We aligned all content with two keylines, which resulted in improved legibility and avoided eye movement from left to the right of the screen when scanning. The content was also commonly grouped by a leading icon or badge.'
+  streams_body_5: 'The two-keyline layout also made it easy to support resizable text sizes. And finally, we rewrote all of the UI copy to be succinct and adhere to an established tone of voice.'
+  streams_body_6: 'For the bespoke components created, we put together specs outlining their layout and behavior. Below is an example of a NEWS (National Early Warning Score) badge. NEWS is a numerical indicator of how ill a patient is, based on their vital signs. The higher, the worse.'
+  streams_body_7: 'We also paid a lot of attention to how data is formatted in the UI. The NHS (National Health Service in the UK) provides several standards to follow, and we created further of our own. As an example, the patient’s age has rules for how it should be displayed for adult, teenager, and pediatric patients.'
+  streams_body_8: 'Another pattern in Streams is for patient identification. At a glance, we show a lot of identifiers: Surname, first name, date of birth, age, Medical Record Number, and location. These are necessary to positively identify a patient. Once the user finds the intended patient and browses through the record, we reduce the set of identifiers.'
+  streams_body_9: 'I also developed prototypes, such as this note attachment viewer prototype built using SwiftUI.'
+  streams_body_10: 'In June of 2020, we released a new feature in Streams to display Covid-19 patient test results. To spread awareness, we made this for the Imperial College Healthcare NHS Trust at launch.'
+  streams_body_11: 'I’m incredibly proud of all the work I’ve done at Streams and for the NHS while working for DeepMind Health and Google. And hope to share in the future about my work at Google Health.'
 
   # _currency
-  currency_title: '<a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">Currency</a> is a simple currency conversion app for iPhone.'
-  currency_project: 'Currency for iOS'
+  currency_title: 'Currency is a simple currency conversion app for iPhone.'
+    # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
   currency_role: 'Product Designer &amp; iOS Developer'
   currency_date: 'January to March 2016'
-  currency_website: '<a href="https://currency.nunocoelhosantos.com/" target="_blank">currency.nunocoelhosantos.com</a>'
-  currency_description: 'A side-project with the goal to create a product that does one job incredibly well and learn a new programming language along the way. Special thanks to <a href="https://twitter.com/jonathontoon/" target="_blank">Jonathon Toon</a>, <a href="https://twitter.com/johnnylinnert/" target="_blank">Johnny Linnert</a>, <a href="https://www.instagram.com/star_nie/" target="_blank">Xin Nie</a>, <a href="https://www.facebook.com/asuka.yamashita.944/" target="_blank">Asuka Yamashita</a>, <a href="https://www.instagram.com/alex_abn/" target="_blank">Alex Abian</a> and <a href="https://twitter.com/alvesjtiago/" target="_blank">Tiago Alves</a>.'
-  currency_body_1: 'After having used various currency converter applications that are available on the App Store either free or paid, I found that these were either too complex, unintuitive, or yet to be updated to new iPhone screen sizes. Very often these apps have walkthroughs to explain the complex interactions, navigation or features they can provide to the user, instead of being simple to use.'
-  currency_body_2: 'I designed Currency to be the simplest and most intuitive currency converter in the App Store, that would look perfect on any iPhone screen.'
-  currency_scribble_1: 'Goals:<br>1. Very quick to use<br>2. Designed for travellers<br>3. No walkthroughs<br>'
-  currency_body_3: 'The final design focuses on doing one job well: converting a foreign currency into the customer’s home currency. Features such as currency fluctuation graphs, in-app settings and notifications were not necessary for this job.'
-  currency_body_4: 'One of the most unique aspects of Currency is the formatting of the currencies, with the correct symbol, correct number of decimal places, decimal divider and group dividers.'
-  currency_body_5: 'The icon is designed to fit perfectly with iOS, presenting Currency as if it is part of the operating system.'
-  currency_body_6: 'Most currency apps use country flags to illustrate the different currencies. But some currencies like Bitcoin or the Euro don’t belong to a specific country. For this reason I instead used currency symbols and correct currency formatting, along with currency codes to correctly represent the different currencies.'
-  currency_body_7: 'Some early sketches displayed multiple currencies on the main screen and used country flags. One of the early designs uses a blue and dark visual style that I later on retired. When I started development and showed the app to my friends they seemed confused about which number they were editing, so I added a text input blinking cursor.<br> <br> The final design is bright and shows activity indicators when the currency exchange rates are being updated. Other settings were added via the iOS Settings based on user request.'
-  currency_body_8: 'This was the first app I developed for iOS, and my first time writing Swift. The entire development of the application took about 3 months, with most of it being bug fixes and improvements to the code quality. The source is available publicly on <a href="https://github.com/nunosans/currency" target="blank">GitHub</a>.'
-  currency_body_9: 'The application, website and marketing material was localized to the US, the UK, Japan, China, Hong Kong, Taiwan, Latin America, Spain and Portugal. Three months after release, 76% of the downloads came from the Asia/Pacific region.'
-  currency_body_10: 'Six months after release, Currency was downloaded over 6,000 times and has an average rating of 4.5 stars. You can download it for $0.99 on the <a href="https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8" target="_blank">App Store</a>.'
+  currency_website: 'currency.nunocoelhosantos.com'
+    # https://currency.nunocoelhosantos.com
+  currency_body_1: 'A side-project to learn iOS development. Designed and developed by myself over the course of two months.'
+  currency_body_2: 'After using various currency conversion apps for iOS, I found most of them to be complex, unintuitive, or out of date. Most of the time they’ll have walkthroughs, unnecessary navigation, or too many options. I designed Currency to be the simplest and most intuitive currency converter in the App Store.'
+  currency_scribble_1: 'Goals: 1. Very quick to use; 2. Designed for travellers; 3. No walkthroughs.'
+  currency_body_3: 'The icon is designed to fit perfectly with iOS, presenting Currency as if it is part of the operating system.'
+  currency_body_4: 'The final design focuses on doing one job well: converting a foreign currency into the customer’s home currency. Features such as currency fluctuation graphs, in-app settings and notifications were not necessary for this job.'
+  currency_body_5: 'The final design focuses on doing one job well: converting a foreign currency into the customer’s native currency. I considered features such as graphs, in-app settings, and notifications not necessary for this job.'
+  currency_body_6: 'One of the most unique aspects of Currency is how the numbers are formatted. They have the correct currency symbol, number of decimal places, decimal divider, and group dividers. This makes the number look exactly how you’d see it in a store or market while traveling.'
+  currency_body_7: 'Most currency apps use country flags to illustrate different currencies. Yet, as some currencies like Bitcoin or the Euro don’t belong to a specific country, I opted for using currency codes instead.'
+  currency_body_8: 'In the early sketches I was working out how to select a currency and swap input currencies. The first visual design direction had a blue and dark visual style that I moved away from. While asking for feedback, people seemed confused about which number they were editing so I added a text input blinking cursor. '
+  currency_body_9: 'The final design is bright and shows activity indicators when the currency exchange rates are being updated. After receiving more feedback and feature requests, I added more options to the app settings in the iOS Settings app.'
+  currency_body_10: 'This was the first app I developed for iOS, and my first time writing Swift. Learning how to develop for iOS was a personal goal for years. I learned by reading Beginning iOS Development in Swift by Apress, and with some help from friends like Jonathon Toon and Tiago Alves.'
+    # https://twitter.com/jonathontoon
+    # https://twitter.com/alvesjtiago
+  currency_body_11: 'You can see the source code for the first version on GitHub.'
+    # https://github.com/nunosans/currency
+  currency_body_12: 'The application, website, and marketing material is localized to the US, the UK, Japan, China, Hong Kong, Taiwan, Latin America, Spain, and Portugal. A year after release, 76% of the downloads are from users in the Asia/Pacific region.'
+  currency_body_13: 'Four years after release, Currency has been downloaded over 28,000 times and has an average rating of 4.6 stars on the App Store.'
+  currency_body_14: 'I continue updating Currency to make use of the latest technologies and advancemets in iOS. You can download it for $0.99 or equivalent from the App Store.'
+    # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
 
   # _thread
-  thread_title: '<a href="https://thread.com/" target="_blank">Thread</a> offers one-to-one personal styling and access to a powerful clothing recommendation engine.'
-  thread_project: 'Thread'
+  thread_title: 'Thread offers one-to-one personal styling and access to a powerful clothing recommendation engine.'
+    # https://www.thread.com
   thread_role: 'Product Designer &amp; Front-end Web Developer'
   thread_date: '2014–2016'
-  thread_website: '<a href="https://thread.com/" target="_blank">thread.com</a>'
-  thread_description: '<a href="https://thread.com/" target="_blank">Thread</a> is an online styling service, currently only for men in the UK, that joins the world’s best fashion stylists and Artificial Intelligence in a single platform to give users personal styling for free. Thread is a <a href="https://www.ycombinator.com/" target="_blank">YC’11</a> start-up founded by <a href="https://twitter.com/kierano/" target="_blank">Kieran O’Neill</a>, <a href="https://twitter.com/_benji/" target="_blank">Benjamin Phillips</a> and <a href="https://twitter.com/benkucsan/" target="_blank">Ben Kucsan</a>. I joined the team in 2014 as a product designer and worked alongside some of with the smartest people I’ve met so far.'
-  thread_body_1: 'At Thread, we defined the long term vision for the company and broke it down into product, operations, styling and marketing goals. While I was part of the Thread product team, I would take on one of these challenge every week and set it as a weekly goal.'
-  thread_body_2: 'A typical week at Thread would include brainstorming and sketching on Monday, visual design and critics on Tuesday, prototyping and testing on Wednesday, development and testing on Thursday and Friday. Every Friday we would demo the work done and some of these solutions would be shipped on Monday the following week.'
-  thread_scribble_1: 'Challenge:<br> How might we improve our mobile experience?'
-  thread_body_3: 'Thread users visit Thread from their mobile more and more over time devices, however internally we always had the habit of designing thinking on the desktop browser first. So in this project we looked at what the ideal mobile experience would be like and how we could reshape our design and development process to fit a mobile-first approach.'
-  thread_body_4: 'We started by tackling this challenge by designing a native iOS experience of Thread. We built a wireframe prototype and  asked users to visit our office to use it. After a few interviews, everyone in the team felt like this was an improvement over the current experience.'
-  thread_body_5: 'We also explored a different direction, that focused on systematizing our web experience to be more modular and targeted for mobile browsers. We called this new system Thread Whitechapel. It included new type styles, new touch interactions, new guidelines for flows and page content, and a new set of standard HTML components.<br> <br> This resulted not only in a better mobile experience, but it also allowed us to design and develop faster while keeping our visual language consistent.'
-  thread_scribble_2: 'Challenge:<br> How might we keep providing a Thread service even while stylists are offline or in vacation?'
-  thread_body_6: 'Thread has a powerful recommendation engine that helps match the outfits each stylist makes to each client preferences, but when the stylists are away we can’t generate these recommendations for the users. So how should Thread work when this is the case?'
-  thread_body_7: 'At the time, stylists could use the Thread engine to find clothing items and users could receive recommendations from stylists. But a channel between the user and the Thread engine was missing. During the first week, myself and Dan Palmer explored how an experience of using Thread’s engine without having the stylist involved would look like to users.'
-  thread_body_8: 'We developed the concept of a curated store. Imagine a clothing line, made of the amount of items a person can realistically own. A curated wardrobe. We wanted an experience similar to walking to a clothing store and seeing only new items that you would love. This became Thread Browse.<br> <br> Thread has thousands of items and there are thousands of online stores with thousands of items that are irrelevant to their users. Thread Browse is the curated shopping experience for when your personal stylist isn’t available. Designs show the items categorized by outer to inner-most clothing, and a limited number of results is displayed below. All matching the user preferences.'
-  thread_body_9: 'Thread has been growing steadily over the last few years and I’m incredibly proud of all the work we have done together. Thread will be available worldwide in the near future. If you’re looking for menswear styling in the UK, <a href="https://www.thread.com" target="_blank">sign up here</a>. If you’re interested about working at Thread, see their <a href="https://www.thread.com/jobs" target="_blank">jobs page</a>.'
+  thread_website: 'thread.com'
+    # http://thread.com
+  thread_body_1: 'Thread is an online styling service, currently only for men in the UK. It brings together fashion stylists and machine learning to give users high-quality personal styling for free. Thread is a YC’11 start-up founded by Kieran O’Neill, Benjamin Phillips, and Ben Kucsan.'
+    # https://www.thread.com
+    # https://www.ycombinator.com
+    # https://twitter.com/kierano/
+    # https://twitter.com/_benji/
+    # https://twitter.com/benkucsan/
+  thread_scribble_1: 'Challenge: How might we improve our mobile experience?'
+  thread_body_2: 'Despite most users completing an order via the desktop browser, the vast majority of Thread usage comes from mobile browsers. Me and Ben K put a focus on the mobile experience and started work on a native mobile experience in order to push up orders on mobile platforms.'
+  thread_body_3: 'Moving our product from being a desktop-first website to a mobile-first native application led us to re-architecture the user interface.'
+  thread_body_4: 'We developed a new design system for Thread called Thread Whitechapel. This design system included new type styles, new touch interactions, new guidelines for flows and page content, and a new set of components. This resulted not only in a better mobile experience, but it also allowed us to design and develop faster while keeping our visual language consistent.'
+  thread_scribble_2: 'Challenge: How might we provide a thread service while stylists are away?'
+  thread_body_5: 'Thread has a powerful recommendation engine that finely tunes the outfits each stylist creates to each user’s budget, preference of material, brand, skin color, body shape, and many other factors.'
+  thread_body_6: 'The personal touch is what makes Thread unique, and that is the core of the product. But when stylists are away, the activity stops. How might we deliver some of the power of that very personal recommendation even when stylists are not available?'
+  thread_body_7: 'We wanted an experience similar to walking to a clothing store and seeing only new items that you would love. This became Thread Browse.'
+  thread_body_8: 'We went beyond just creating an online store. We created a browse experience, but out-of-the-box this gives the user personalized item recommendations, in stock, available on their size and within budget.'
+  thread_body_9: 'Thread has been growing steadily over the last few years and I’m incredibly proud of all the work we have done together. If you’re interested in working at Thread, see their jobs page. If you’d like to sign up, go to thread.com.'
+    # https://www.thread.com/
+    # https://www.thread.com/jobs
 
   # _other
-  other_title: 'Other projects involve branding, photography, and software development.'
+  other_title: 'Other projects involve work on branding, photography, illustration, and software development.'
   other_a_year_in_an_instant_title: 'A Year in an Instant'
-  other_a_year_in_an_instant_body: 'When I moved to Japan I documented the first 365 days living there with instant photo each day. This is a Kickstarter project where the backers get to claim their favorite photo. <a href="https://ayearinaninstant.com/" target="_blank">Read it here</a>.'
+  other_a_year_in_an_instant_body: 'For my first 365 days living in Japan, I took an instant photo every day and published it online. This was a Kickstarter project with 80 backers that got to claim their favorite photo. Read the diary here.'
+    # https://ayearinaninstant.com
   other_15_days_in_japan_title: '15 Days in Japan'
-  other_15_days_in_japan_body: 'My most popular side-project—a travel blog where I documented my every step of my first 15 days in Japan. <a href="https://15daysinjapan.com/" target="_blank">Read it here</a>.'
+  other_15_days_in_japan_body: 'One of my most popular side-projects. A travel blog where I documented my experience traveling completely on my own in a country where I didn’t speak the language. All photos taken with a Fuji X100. See the story here.'
+    # https://15daysinjapan.com
   other_1975_title: '1975'
-  other_1975_body: 'A side-project where travelers document their trip on a day-by-day photo diary. This project was an opportunity to give me more experience developing Ruby on Rails applications. <a href="https://1975.io/" target="_blank">Sign up here</a>.'
+  other_1975_body: 'A side-project where travelers document their trip on a day-by-day photo diary. This project was an excuse to give me more experience developing Ruby on Rails applications. Sign up here.'
+    # http://1975.io
   other_the_scientist_title: 'The Scientist'
-  other_the_scientist_body: 'The Scientist is a scientific papers aggregator and reader for iOS. The design shines in its focus on incredible legible typography. <a href="https://itunes.apple.com/app/the-scientist/id657192313?l=en&mt=8" target="_blank">Get it on the App Store</a>.'
+  other_the_scientist_body: 'The Scientist is a scientific paper aggregator and reader for iOS. The design shines in its focus on incredible legible typography. Get it on the App Store.'
+    # https://itunes.apple.com/app/the-scientist/id657192313?l=en&mt=8
   other_stylized_title: 'Stylize/d'
-  other_stylized_body: 'Identity and web design project worked on alongside <a href="https://martasantos.co.uk" target="_blank">Marta Dos Santos</a>. Stylize/d is a fashion blog eager to show the final fashion editorials and the process in making them. This modernist identity stays away from most amateur fashion blogs with pink tones and cursive typefaces.'
+  other_stylized_body: 'Identity and web design project with Marta Dos Santos. Stylize/d is a fashion blog eager to show the final fashion editorials and the process of making them. This modernist identity stays away from most amateur fashion blogs with pink tones and cursive typefaces.'
+    # https://martasantos.co.uk
   other_ustwo_rebrand_title: 'ustwo rebrand'
-  other_ustwo_rebrand_body: 'The rebrand for ustwo entirely inspired by the candid and daring company culture. This included a new logo, website design, typeface and tone of voice. <a href="https://ustwo.com/" target="_blank">See it here</a>.'
+  other_ustwo_rebrand_body: 'The rebrand for ustwo is inspired by the candid and daring company culture. This included a new logo, website design, typeface, and tone of voice. See it here.'
+    # https://www.ustwo.com
   other_marili_andre_title: 'Marili André'
-  other_marili_andre_body: 'Logo design for Marili André, a fashion photographer and filmmaker. Fellow student at Central Saint Martins, London. The connected shapes try to represent the motion in her work, while clearly following the style of high end fashion brands.'
+  other_marili_andre_body: 'Logo design for Marili André, a fashion photographer, and filmmaker. A fellow student at Central Saint Martins, London. The connected shapes try to represent the motion in her work, while following the style of high-end fashion brands.'
   other_instagram_redesign_title: 'Instagram redesign'
-  other_instagram_redesign_body: 'A visual design exercise as part of my training at ustwo. <a href="https://www.ustwo.com/blog/redesigning-instagram" target="_blank">See the process here</a>.'
+  other_instagram_redesign_body: 'A visual design exercise as part of my training at ustwo. See the process here.'
+    # https://www.ustwo.com/blog/redesigning-instagram
 
   # _outro
-  outro: 'Thank you for reading. If you would like to discuss more, share feedback or ask any questions, please get in touch.'
+  outro: 'Thank you for reading. If you would like to discuss more, share feedback, or ask any questions, please get in touch.'
 
   # _colophon
-  colophon: 'This website is set in <a href="https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;" target="_blank">Franklin Gothic URW</a> from <a href="https://www.urwpp.de/en/" target="_blank">URW++</a> served by <a href="https://typekit.com/" target="_blank">Typekit</a>, and <a href="https://r-typography.com/10_grifo/" target="_blank">Grifo</a> by <a href="https://r-typography.com/" target="_blank">R-Typography</a>. All other content on this website is produced by and copyright 2020 by Nuno Coelho Santos. All assets are hosted by <a href="https://www.linode.com/" target="_blank">Linode</a> in London, UK. Stats are tracked using <a href="https://www.google.com/analytics/" target="_blank">Google Analytics</a>. <a href="https://2011.nunocoelhosantos.com/">See 2011 portfolio</a>. <button data-action="show-columns" data-layout="wide">Show columns.</button><button data-action="hide-columns" data-layout="hidden">Hide columns.</button>'
+  colophon: 'Portrait photo by Ana Barreira. This website is set in Franklin Gothic URW from URW++ served by Typekit, and Grifo by R-Typography. All other content on this website is produced by and copyright 2020 by Nuno Coelho Santos. All assets are hosted by Netlify. Stats are tracked using Google Analytics.'
+    # https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;
+    # https://www.urwpp.de/en/
+    # https://typekit.com/
+    # https://r-typography.com/10_grifo/
+    # https://r-typography.com/
+    # https://www.netlify.com/
+    # https://www.google.com/analytics/
+  link_2011_portfolio: 'See 2011 portfolio.'
+    # https://2011.nunocoelhosantos.com/
+  link_columns_show: 'Show columns.'
+    # button data-action="show-columns" data-layout="wide"
+  link_columns_hide: 'Hide columns.'
+    # button data-action="hide-columns" data-layout="hidden"
