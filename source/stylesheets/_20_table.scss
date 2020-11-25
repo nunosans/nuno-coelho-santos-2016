@@ -1,0 +1,30 @@
+table {
+  thead {
+    td {
+      padding: 24px 0 3px 0;
+    }
+  }
+  td {
+    padding: 3px 32px 3px 0;
+    &:first-child,
+    &:nth-child(2n) {
+      color: $text-secondary;
+    }
+  }
+  td, a {
+    max-width: 480px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  // Hack.
+  width: 100%;
+  td {
+    display: inline-block;
+    width: $inner-column-width + $inner-gutter-width;
+    &:nth-child(3),
+    &:nth-child(3) a {
+      width: auto;
+    }
+  }
+}

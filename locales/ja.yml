@@ -42,8 +42,6 @@ ja:
   label_role: ''
   label_date: ''
   label_website: ''
-  label_play: ''
-  label_pause: ''
 
   # _streams
   streams_title: ''
@@ -148,6 +146,7 @@ ja:
 
   # _colophon
   colophon: ''
+    # https://www.alystudio.com
     # https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;
     # https://www.urwpp.de/en/
     # https://typekit.com/

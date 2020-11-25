@@ -19,15 +19,6 @@ article.outro {
       width: 50%;
       height: auto;
     }
-    table {
-      td {
-        padding: 3px 32px 3px 0;
-        &:first-child,
-        &:nth-child(2n) {
-          color: $text-secondary;
-        }
-      }
-    }
   }
 }
 

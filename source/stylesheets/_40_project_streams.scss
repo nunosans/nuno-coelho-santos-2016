@@ -1,0 +1,145 @@
+article.project.project-streams {
+
+  .project-streams-app-icon {
+    @media (min-width: 750px) {
+      margin-top: 48px;
+      margin-left: $inner-column-width * 2.5 + $inner-gutter-width;
+    }
+    img {
+      width: 84px;
+      height: 84px;
+      @media (min-width: 750px) {
+        float: left;
+        margin: -16px 48px 48px 0;
+        width: 126px;
+        height: 126px;
+      }
+    }
+    p {
+      @media (min-width: 750px) {
+        float: left;
+      }
+    }
+  }
+
+  .project-streams-hero {
+    @media (min-width: 750px) {
+      margin-top: 120px;
+      margin-bottom: -600px;
+    }
+    img {
+      @media (min-width: 750px) {
+        position: relative;
+        width: $inner-column-width * 8 + $inner-gutter-width * 7;
+        left: - ($inner-column-width + $inner-gutter-width);
+      }
+    }
+    .iphone-with-video {
+      @media (min-width: 750px) {
+        position: relative;
+        left: $inner-column-width * 4 + $inner-gutter-width * 2;
+        top: -500px;
+        transform: scale(0.8);
+      }
+    }
+  }
+
+  .project-streams-papers-and-press {
+    padding-bottom: 120px;
+    table {
+      width: 100%;
+      td {
+        display: inline-block;
+        width: $inner-column-width + $inner-gutter-width;
+        &:nth-child(2) {
+          width: $inner-column-width * 2 + $inner-gutter-width * 2;
+        }
+        &:nth-child(3) {
+          width: auto;
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  .project-streams-team {
+    @media (min-width: 750px) {
+      margin-left: $inner-column-width * 2 + $inner-gutter-width * 2;
+    }
+    p {
+      @media (min-width: 750px) {
+        width: $inner-column-width * 3 + $inner-gutter-width * 2;
+      }
+    }
+    video {
+      @media (min-width: 750px) {
+        float: right;
+        position: relative;
+        top: -216px;
+        left: - $inner-column-width;
+        width: $inner-column-width * 6 + $inner-gutter-width * 6;
+      }
+    }
+  }
+
+  .project-streams-before-and-after {
+    clear: both;
+    position: relative;
+    @media (min-width: 750px) {
+      margin-left: $inner-column-width * 2 + $inner-gutter-width * 2;
+    }
+    span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      + span {
+        left: $inner-column-width * 3 + $inner-gutter-width * 3;
+      }
+    }
+    img {
+      clear: left;
+      width: $inner-column-width * 3 + $inner-gutter-width * 2;
+      display: inline-block;
+      margin-top: 11px;
+      margin-right: $inner-gutter-width;
+      + img {
+        margin-left: -3px;
+      }
+    }
+    img.keylines {
+      width: $inner-column-width * 3 + $inner-gutter-width * 2;
+      position: absolute;
+      background-color: transparent;
+      margin-left: 0;
+      pointer-events: none;
+      &.keylines-1 {
+        left: 0;
+      }
+      &.keylines-2 {
+        margin-left: 1px;
+        margin-top: 0.6%;
+        left: $inner-column-width * 3 + $inner-gutter-width * 3;
+      }
+    }
+    p {
+      @media (min-width: 750px) {
+        position: absolute;
+        top: 32px;
+        left: $inner-column-width * 6 + $inner-gutter-width * 6;
+        max-width: $inner-column-width * 3 + $inner-gutter-width * 2;
+      }
+    }
+  }
+
+  .project-streams-component {
+    padding-top: 80px;
+    p {
+      margin-left: -$inner-column-width;
+    }
+    img {
+      margin-left: - ($inner-column-width + $inner-gutter-width);
+      width: $inner-column-width * 12 + $inner-gutter-width * 11;
+    }
+  }
+
+}

@@ -2,152 +2,160 @@
 pt:
 
   # layout
-  title: ''
-  description: ''
-  description_og: ''
-  locale: ''
+  title: 'Nuno Coelho Santos, Designer. Trabalho e Perfil'
+  description: 'Perfil e trabalho recente do designer de produto e programador português, Nuno Coelho Santos. Localizado em Londres, Reino Unido.'
+  description_og: 'Perfil e trabalho recente'
+  locale: 'pt_PT'
 
   # _header
-  label_email: ''
-  label_mobile: ''
-  label_twitter: ''
-  label_github: ''
-  label_dribbble: ''
-  label_instagram: ''
-  label_blog: ''
-  label_newsletter: ''
-  label_newsletter_subscribe: ''
-  label_linkedin: ''
+  label_email: 'Email'
+  label_mobile: 'Telemóvel'
+  label_twitter: 'Twitter'
+  label_github: 'GitHub'
+  label_dribbble: 'Dribble'
+  label_instagram: 'Instagram'
+  label_blog: 'Blogue'
+  label_newsletter: 'Newsletter'
+  label_newsletter_subscribe: 'Subscrever'
+  label_linkedin: 'LinkedIn'
 
   # _intro
-  intro_short: ''
-  intro_long: ''
-  # intro_currently: ''
+  intro_short: 'Olá. Chamo-me Nuno, e sou um designer de produto em Londres.'
+  intro_long: 'Olá. Chamo-me Nuno, e sou um designer de produto em Londres. Especializo-me em design de interfaces digitais e desenvolvo as minhas aplicações no tempo livre.'
+  intro_currently: 'Neste momento trabalho na <a target="_blank" href="https://health.google">Google</a> em novas tecnologias médicas para todo o mundo.'
+    # https://health.google
+  # intro_currently: 'Neste moment trabalho no <a target="_blank" href="https://www.whatsapp.com">WhatsApp</a> para ajudar mais de 2 bilhões de pessoas em todo o mundo comunicar com privacidade.'
     # https://www.whatsapp.com
-  intro_currently: ''
+  # intro_previously: 'Préviamente, trabalhei na <a target="_blank" href="https://health.google">Google</a> em tecnologia médica para todo o mundo.'
     # https://health.google
-  # intro_previously: ''
-    # https://health.google
-  intro_previously: ''
+  intro_previously: 'Préviamente, fiz parte da equipa da <a target="_blank" href="https://www.ideo.com">IDEO</a> em Tóquio, ajudei a <a target="_blank" href="https://www.thread.com">Thread</a> a reinventar estilismo no Reino Unido, e pertenci à família da <a target="_blank" href="https://www.ustwo.com">ustwo</a> em Londres e Nova Iorque.'
     # https://www.ideo.com
     # https://www.thread.com
     # https://www.ustwo.com
-  intro_expand: ''
-  feature_speaker: ''
-  feature_interview: ''
-  feature_feature: ''
-  feature_panel: ''
+  intro_expand: 'Ler mais'
+  feature_speaker: 'Orador'
+  feature_interview: 'Entrevista'
+  feature_feature: 'Exposição'
+  feature_panel: 'Painel'
 
   # projects
-  label_role: ''
-  label_date: ''
-  label_website: ''
-  label_play: ''
-  label_pause: ''
+  label_role: 'Cargo'
+  label_date: 'Data'
+  label_website: 'Website'
+  label_papers: 'Artigos Científicos'
+  label_press: 'Imprensa'
+  label_before: 'Antes'
+  label_after: 'Depois'
 
   # _streams
-  streams_title: ''
-  streams_role: ''
-  streams_date: ''
-  streams_website: ''
+  streams_title: 'O <a target="_blank" href="http://deepmind.com/health/">Streams</a> ajuda médicos e enfermeiros a lidar com pacientes em deterioração.'
     # http://deepmind.com/health/
-  streams_body_1: ''
+  streams_role: 'UX Designer'
+  streams_date: '2017–2020'
+  streams_website: '<a target="_blank" href="http://deepmind.com/health/">deepmind.com/health</a>'
     # http://deepmind.com/health/
-  streams_body_2: ''
-  streams_body_3: ''
-  streams_body_4: ''
-  streams_body_5: ''
-  streams_body_6: ''
-  streams_body_7: ''
-  streams_body_8: ''
-  streams_body_9: ''
-  streams_body_10: ''
-  streams_body_11: ''
+  streams_body_1: 'O <a target="_blank" href="http://deepmind.com/health/">Streams</a> é uma aplicação iOS para médicos e enfermeiros do Reino Unido. A app envia alertas sobre pacientes com risco de Lesão Renal Aguda e permite ver informação sobre o paciente de forma fácil e simples.'
+    # http://deepmind.com/health/
+  streams_body_2: 'No começo de 2018, eu trabalhei com a minha equipa num redesenho do Streams utilizando Material Design. Isto foi em preparação para entrar em novos mercados. Nós fizemos uma auditoria do interface digital para compreender que componentes substituir com componentes de Material Design, e quais devemos montar nós mesmos. Desta forma, estendemos Material Design com alguns componentes e padrões novos que partilharei de seguida.'
+  streams_body_3: 'O novo interface procura ser mais claro, simples, e fíel à linguagem de Material Design.'
+  streams_body_4: 'Acessibilidade foi o foco principal deste redesenho. Nós alinhamos o conteúdo a duas linhas de referência, o que melhorou a legibilidade e reduziu a necessidade de o olhar viajar da esquerda para a direita na leitura. O conteúdo foi também por norma organizado num grupo com um icon.'
+  streams_body_5: 'O arrange com as duas linhas de referência também facilitou o suporte para tamanhos de texto redimensionáveis. E para finalizar, nós reescrevemos todo o texto no interface para ser mais sucinto e com um tom de voz consistente.'
+  streams_body_6: 'Para os novos componentes que introduzimos, nós criamos especificações para a sua estrutura e comportamento. Abaixo está um exemplo de um componente para demonstrar o NEWS (National Early Warning Score). Este é um indicador de quanto doente o paciente está, baseado nos seus sinais vitais. Quanto mais alto, pior.'
+  streams_body_7: 'Também prestamos muita atenção a como os dados são formatados para apresentar no interface. O serviço nacional de saúde do Reino Unido fornece vários standards, como por exemplo, a idade de cada paciente que tem que ser formatada de certa forma para criança, adolescentes e adultos. Nós também criamos alguns standards novos para o que precisávamos.'
+  streams_body_8: 'Outro standard no Streams é o de identificação de paciente. Mostramos vários elementos: Nome de família, primeiro nome, data de nascimento, idade, número de saude, e localização. Estes são um requisito para identificar um paciente sem erro. Depois de o utilizador escolher um paciente, a informação é reduzida.'
+  streams_body_9: 'Também desenvolvi protótipos, como este para visualizar anexo em apontamentos médicos, em <a target="_blank" href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>.'
+    # https://developer.apple.com/xcode/swiftui/
+  streams_body_10: 'Em junho de 2020 lançamos nova funcionalidade no Streams para apresentar resultados de covid-19. E para promover este lançamento, criamos um novo poster para o Imperial College Healthcare NHS Trust em Londres.'
+  streams_body_11: 'Tenho bastante orgulho em todo o trabalho que fiz no Streams e para o serviço nacional de saúde no Reino Unido, pela DeepMind e Google. Espero partilhar mais sobre o meu trabalho na Google Health no futuro.  '
 
   # _currency
-  currency_title: ''
+  currency_title: 'O <a target="_blank" href="# https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198">Currency</a> é uma simples app de conversão de moedas para iPhone.'
     # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
-  currency_role: ''
-  currency_date: ''
-  currency_website: ''
-    # https://currency.nunocoelhosantos.com
-  currency_body_1: ''
-  currency_body_2: ''
-  currency_scribble_1: ''
-  currency_body_3: ''
-  currency_body_4: ''
-  currency_body_5: ''
-  currency_body_6: ''
-  currency_body_7: ''
-  currency_body_8: ''
-  currency_body_9: ''
-  currency_body_10: ''
+  currency_role: 'Designer de produto e programador de iOS'
+  currency_date: 'Janeiro–Março 2016'
+  currency_website: '<a target="_blank" href="https://currency.nunocoelhosantos.com/pt">currency.nunocoelhosantos.com/pt</a>'
+    # https://currency.nunocoelhosantos.com/pt
+  currency_body_1: 'Este foi um projeto para aprender programação em iOS. Desenhado e desenvolvido por mim no curso de dois meses.'
+  currency_body_2: 'Depois de usar vários conversores de moeda para iOS, eu achei a maioria desnecessariamente complexos, pouco intuitivos ou desatualizados. Muitos incluem introduções, navegação desnecessária, ou demasiadas opções. Eu desenhei o Currency para ser o conversor mais simples e intuitivo na App Store.'
+  currency_scribble_1: 'Objetivos:<br>1. Muito rápido de utilizar,<br>2. Desenhado para viajantes,<br>3. Sem introduções.'
+    # Add line breaks.
+  currency_body_3: 'O ícone foi desenhado de forma a encaixar perfeitamente com o resto do estilo visual de iOS, como se fosse uma aplicação pré-instalada.'
+  currency_body_4: 'O design final procura resolver um problema muito bem: o de converter uma moeda estrangeira na moeda local do utilizador. Outras funcionalidades, como por exemplo, gráficos, notificações e várias opções não foram incluídas.'
+  currency_body_5: 'Um dos aspectos mais únicos do Currency é como os números são formatados. Cada valor tem o símbolo da moeda correto, o número de casas decimais correto e divisor de casas decimais. Isto faz com que o número apareça na app exatamente tal qual como no mundo real.'
+  currency_body_6: 'A maioria das apps desta categoria utilizam bandeiras nacionais para ilustrar a moeda. Contudo, várias moedas como bitcoin e Euro não pertencem a um país específico. Por este motivo, eu optei por utilizar o código de cada moeda em vez da bandeira.'
+  currency_body_7: 'Nos primeiros esboços eu estava a investigar a melhor forma de selecionar a moeda para converter. A primeira direcção tinha um estilo visual escuro e azul que abandonei. Enquanto recolhia opiniões de outras pessoas, havia alguma confusão sobre qual número estava a ser editado então decidi adicionar um indicador para a escrita de texto.'
+  currency_body_8: 'O design final é mais claro e demonstra também quando as taxas de conversão estão a ser actualizadas pela internet. Ao longo do tempo, também fui adicionando mais opções através da app de Definições.'
+  currency_body_9: 'Esta foi a primeira app que desenvolvi para iOS, e foi a minha primeira vez a escrever Swift. Como disse antes, o objetivo deste projeto era aprender programação para iOS. Eu aprendi através do livro <em><a target="_blank" href="https://www.apress.com/gp/book/9781484248645">Beginning iOS Development in Swift</em></a> da Apress, e com ajuda de amigos como o <a target="_blank" href="https://twitter.com/jonathontoon">Jonathon Toon</a> e <a target="_blank" href="https://twitter.com/alvesjtiago">Tiago Alves</a>.'
+    # https://www.apress.com/gp/book/9781484248645
     # https://twitter.com/jonathontoon
     # https://twitter.com/alvesjtiago
-  currency_body_11: ''
+  currency_body_10: 'Pode ver o source code da primeira versão no <a target="_blank" href="https://github.com/nunosans/currency">GitHub</a>.'
     # https://github.com/nunosans/currency
-  currency_body_12: ''
-  currency_body_13: ''
-  currency_body_14: ''
+  currency_body_11: 'A app, website e todo o material promocional for localizado para os Estados Unidos, Reino Unido, Japão, China, Hong Kong, Ilhas Formosas, América Latina, Espanha, Itália, Turquia, Suécia, Alemanha e Portugal.  Um ano após o lançamento, 76% dos downloads vieram da região da Ásia e Pacífico.'
+  currency_body_12: 'Quatro anos após o lançamento, o Currency foi descarregado mais de 28.000 vezes e tem 4.6 estrelas na App Store.'
+  currency_body_13: 'Eu continuo a actualizar o Currency para utilizar as novas tecnologias de iOS. Pode descarregar a app na <a target="_blank" href="https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198">App Store</a> por 1,09 €.'
     # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
 
   # _thread
-  thread_title: ''
+  thread_title: 'A <a target="_blank" href="https://www.thread.com">Thread</a> ofrece estilismo personalizado e um eficaz algoritmo de recomendações de roupa.'
     # https://www.thread.com
-  thread_role: ''
-  thread_date: ''
-  thread_website: ''
+  thread_role: 'Designer de Produto e Programador Web Front-End'
+  thread_date: '2014–2016'
+  thread_website: '<a target="_blank" href="http://thread.com">thread.com</a>'
     # http://thread.com
-  thread_body_1: ''
+  thread_body_1: 'A <a target="_blank" href="http://thread.com">Thread</a> é um serviço online para estilismo pessoal, no momento disponível para homens no Reino Unido. Une estilistas de moda e Machine Learning para oferecer recomendações de alta qualidade de graça. A Thread é uma startup da <a target="_blank" href="https://www.ycombinator.com">Y-Combinator</a>, fundada por <a target="_blank" href="https://twitter.com/kierano/">Kieran O’Neill</a>, <a target="_blank" href="https://twitter.com/_benji/>Benjamin Phillips</a> e <a target="_blank" href="https://twitter.com/benkucsan/">Ben Kucsan</a>.'
     # https://www.thread.com
     # https://www.ycombinator.com
     # https://twitter.com/kierano/
     # https://twitter.com/_benji/
     # https://twitter.com/benkucsan/
-  thread_scribble_1: ''
-  thread_body_2: ''
-  thread_body_3: ''
-  thread_body_4: ''
-  thread_scribble_2: ''
-  thread_body_5: ''
-  thread_body_6: ''
-  thread_body_7: ''
-  thread_body_8: ''
-  thread_body_9: ''
-    # https://www.thread.com/
+  thread_scribble_1: 'Desafio:<br>Como podemos melhorar a experiência para smartphones?'
+    # Add line break.
+  thread_body_2: 'A maioria dos utilizadores fazem a compras e pagamento num computador, mas a utilização de dia-a-dia para ver recomendações acontece no smartphone. Eu e o Ben concentramo-nos na experiência para smartphones e começamos a trabalhar numa experiência nativa com o objetivo de aumentar as compras feitas pelo telemóvel.'
+  thread_body_3: 'Mover o produto de computador-primeiro para smartphone-primeiro levou-nos a alterar toda a arquitetura do interface para utilizador.'
+  thread_body_4: 'Desenvolvemos um novo design system para a Thread chamado Thread Whitechapel. Este sistema inclui estilos de letra, novos componentes específicos para touchscreen, novos padrões para navegação e conteúdo. O resultado não foi só uma melhor experiência para mobile, mas aumentou a velocidade de design e desenvolvimento, mantendo a linguagem visual consistente.'
+  thread_scribble_2: 'Desafio:<br>Como podemos oferecer o serviço enquanto estilistas não estão disponíveis?'
+    # Add line break.
+  thread_body_5: 'O algoritmo da Thread optimiza cada recomendação para o orçamento, preferência de material, marca, cor de pele, forma do corpo, e vários outros fatores de cada utilizador.'
+  thread_body_6: 'O toque pessoal é o que torna a Thread especial. É esse o valor do produto. Mas quando os estilistas estão de férias, muita da actividade parava. Nós ponderamos como oferecer o poder das recomendações e personalização, enquanto os estilistas não estão disponíveis.'
+  thread_body_7: 'Procuramos criar uma experiência semelhante a entrar numa loja de roupa e encontrar só artigos que adoramos. Essa idea tornou-se na Thread Browse.'
+  thread_body_8: 'Fomos além de simplesmente recriar uma loja online. Criamos uma forma simples de navegar os vários produtos mas priorizando os que se encaixam para o guarda-roupa do utilizador, que estão em stock, no tamanho certo e dentro do orçamento.'
+  thread_body_9: 'A Thread tem continuado a crescer nos últimos anos e estou bastante orgulhoso em todo o trabalho que fizemos juntos. Se estiver interessado em trabalhar na Thread, visite a <a target="_blank" href="https://www.thread.com/">página de empregos</a>. Se viver no Reino Unido, inscreva-se em <a target="_blank" href="https://www.thread.com/">thread.com</a>.'
     # https://www.thread.com/jobs
+    # https://www.thread.com/
 
   # _other
-  other_title: ''
-  other_a_year_in_an_instant_title: ''
-  other_a_year_in_an_instant_body: ''
+  other_title: 'Outros projetos envolvem desenho de marca, fotografia, ilustração e desenvolvimento de software.'
+  other_a_year_in_an_instant_title: 'Um Ano Num Instante'
+  other_a_year_in_an_instant_body: 'Um projeto onde cada dia dos primeiros 365 dias a viver no Japão tirei uma fotografia instantânea e publiquei online para apoiantes de um Kickstarter escolherem a receber no correio. <a target="_blank" href="https://ayearinaninstant.com">Veja aqui</a>.'
     # https://ayearinaninstant.com
-  other_15_days_in_japan_title: ''
-  other_15_days_in_japan_body: ''
+  other_15_days_in_japan_title: '15 Dias no Japão'
+  other_15_days_in_japan_body: 'Um blogue fotográfico da minha primeira viagem sozinho no Japão. Todas as fotos foram tiradas com a Fujifilm X100. <a target="_blank" href="https://15daysinjapan.com">Veja aqui</a>.'
     # https://15daysinjapan.com
-  other_1975_title: ''
-  other_1975_body: ''
+  other_1975_title: '1975'
+  other_1975_body: 'Um site para pessoas em viagem criarem um diário fotográfico do seu dia-a-dia. E uma boa experiência para aprender Ruby on Rails. <a target="_blank" href="http://1975.io">Veja aqui</a>.'
     # http://1975.io
-  other_the_scientist_title: ''
-  other_the_scientist_body: ''
+  other_the_scientist_title: 'The Scientist'
+  other_the_scientist_body: 'The Scientist é um agregador de artigos científicos para iOS. O design foca-se em legibilidade e simplicidade de utilização. <a target="_blank" href="https://itunes.apple.com/app/the-scientist/id657192313?l=en&mt=8">Descarregue na App Store aqui</a>.'
     # https://itunes.apple.com/app/the-scientist/id657192313?l=en&mt=8
-  other_stylized_title: ''
-  other_stylized_body: ''
+  other_stylized_title: 'Stylize/d'
+  other_stylized_body: 'Projeto de identidade de marca e web design com Marta Dos Santos. Stylize/d é um blog de moda que mostra o processo por de traz editoriais de moda.'
     # https://martasantos.co.uk
-  other_ustwo_rebrand_title: ''
-  other_ustwo_rebrand_body: ''
+  other_ustwo_rebrand_title: 'Marca da ustwo'
+  other_ustwo_rebrand_body: 'Desenho da marca para a ustwo, inspirada na cultura da empresa. Including logotipo, website, tipografia e tom de voz. <a target="_blank" href="https://www.ustwo.com">Veja aqui</a>.'
     # https://www.ustwo.com
-  other_marili_andre_title: ''
-  other_marili_andre_body: ''
-  other_instagram_redesign_title: ''
-  other_instagram_redesign_body: ''
+  other_marili_andre_title: 'Marili André'
+  other_marili_andre_body: 'Logótipo e marca para Marili André, uma fotógrafa e cineasta de moda. Colega da Central Saint Martins. As formas conectadas no logo representam o movimento no seu trabalho, e ao mesmo tempo seguem o estilo de grandes marcas de moda.'
+  other_instagram_redesign_title: 'Redesenho do Instagram'
+  other_instagram_redesign_body: 'Um exercicio em UI design, parte do meu treino na ustwo. <a target="_blank" href="https://www.ustwo.com/blog/redesigning-instagram">Veja o processo aqui</a>.'
     # https://www.ustwo.com/blog/redesigning-instagram
 
   # _outro
-  outro: ''
+  outro: 'Obrigado por ler. Se quiser discutir, partilhar feedback or colocar uma pergunta, por favor entre em contacto.'
 
   # _colophon
-  colophon: ''
+  colophon: 'Retrato por <a target="_blank" href="https://www.alystudio.com">Ana Barreira</a>. Este site é formatado em <a target="_blank" href="https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;">Franklin Gothic URW</a> da <a target="_blank" href="https://www.urwpp.de/en/">URW++</a> servido pela <a target="_blank" href="https://typekit.com/">Typekit</a>, e <a target="_blank" href="https://r-typography.com/10_grifo/">Grifo</a> da <a target="_blank" href="https://r-typography.com/">R-Typography</a>. Todo o material restante é copyright 2020 de Nuno Coelho Santos. Todos os recursos não hospedados pela <a target="_blank" href=" https://www.netlify.com/">Netlify</a>. As estatísticas são colecionadas utilizando <a target="_blank" href="https://www.google.com/analytics/">Google Analytics</a>.'
+    # https://www.alystudio.com
     # https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;
     # https://www.urwpp.de/en/
     # https://typekit.com/
@@ -155,9 +163,9 @@ pt:
     # https://r-typography.com/
     # https://www.netlify.com/
     # https://www.google.com/analytics/
-  link_2011_portfolio: ''
+  link_2011_portfolio: '<a target="_blank" href="https://2011.nunocoelhosantos.com/">Ver portfolio de 2011.</a>'
     # https://2011.nunocoelhosantos.com/
-  link_columns_show: ''
+  link_columns_show: '<button data-action="show-columns" data-layout="wide">Revelar colunas.</button>'
     # button data-action="show-columns" data-layout="wide"
-  link_columns_hide: ''
+  link_columns_hide: '<button data-action="hide-columns" data-layout="hidden">Esconder colunas.</button>'
     # button data-action="hide-columns" data-layout="hidden"

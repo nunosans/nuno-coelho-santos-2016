@@ -22,13 +22,13 @@ en:
   # _intro
   intro_short: 'I’m Nuno, a product designer based in London.'
   intro_long: 'I’m Nuno, a product designer based in London. I specialise in human interface design, and enjoy building my own apps as a hobby.'
-  # intro_currently: 'I currently work at WhatsApp to help over 2 billion people around the world communicate privately.'
+  # intro_currently: 'I currently work at <a target="_blank" href="https://www.whatsapp.com">WhatsApp</a> to help over 2 billion people around the world communicate privately.'
     # https://www.whatsapp.com
-  intro_currently: 'I currently work at Google to bring new healthcare technology to the entire world.'
+  intro_currently: 'I currently work at <a target="_blank" href="https://health.google">Google</a> to bring new healthcare technology to the entire world.'
     # https://health.google
-  # intro_previously: 'Previously, I worked at Google to bring new healthcare technology to clinicians.'
+  # intro_previously: 'Previously, I worked at <a target="_blank" href="https://health.google">Google</a> to bring new healthcare technology to clinicians.'
     # https://health.google
-  intro_previously: 'Previously, I was part of the IDEO Tokyo team, helped Thread reinvent personal styling in the UK, and prior to that, I was with the ustwo family in London and New York.'
+  intro_previously: 'Previously, I was part of the <a target="_blank" href="https://www.ideo.com">IDEO</a> Tokyo team, helped <a target="_blank" href="https://www.thread.com">Thread</a> reinvent personal styling in the UK, and prior to that, I was with the <a target="_blank" href="https://www.ustwo.com">ustwo</a> family in London and New York.'
     # https://www.ideo.com
     # https://www.thread.com
     # https://www.ustwo.com
@@ -42,16 +42,19 @@ en:
   label_role: 'Role'
   label_date: 'Date'
   label_website: 'Website'
-  label_play: 'Play'
-  label_pause: 'Pause'
+  label_papers: 'Papers'
+  label_press: 'Press'
+  label_before: 'Before'
+  label_after: 'After'
 
   # _streams
-  streams_title: 'Streams helps doctors and nurses quickly handle patient deterioration.'
+  streams_title: '<a target="_blank" href="http://deepmind.com/health/">Streams</a> helps doctors and nurses quickly handle patient deterioration.'
+    # http://deepmind.com/health/
   streams_role: 'UX Designer'
   streams_date: '2017–2020'
-  streams_website: 'deepmind.com/health'
+  streams_website: '<a target="_blank" href="http://deepmind.com/health/">deepmind.com/health</a>'
     # http://deepmind.com/health/
-  streams_body_1: 'Streams is an iOS application for doctors and nurses in the UK. It sends alerts for patients at risk of an Acute Kidney Injury and allows easy viewing of patient health record data.'
+  streams_body_1: '<a target="_blank" href="http://deepmind.com/health/">Streams</a> is an iOS application for doctors and nurses in the UK. It sends alerts for patients at risk of an Acute Kidney Injury and allows easy viewing of patient health record data.'
     # http://deepmind.com/health/
   streams_body_2: 'At the start of 2018, I worked on a redesign of Streams using Material Design in preparation to scale the product to new markets. My team did an audit of the existing UI to see what to replace with a pre-existing Material component, and what new components we needed to build ourselves to deliver the full experience. We extended Material design with a handful of custom components and patterns, which I will share below.'
   streams_body_3: 'The redesigned interface is intended to be bright, clear, and follow thee Material Design language.'
@@ -65,89 +68,90 @@ en:
   streams_body_11: 'I’m incredibly proud of all the work I’ve done at Streams and for the NHS while working for DeepMind Health and Google. And hope to share in the future about my work at Google Health.'
 
   # _currency
-  currency_title: 'Currency is a simple currency conversion app for iPhone.'
+  currency_title: '<a target="_blank" href="https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198">Currency</a> is a simple currency conversion app for iPhone.'
     # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
   currency_role: 'Product Designer &amp; iOS Developer'
-  currency_date: 'January to March 2016'
-  currency_website: 'currency.nunocoelhosantos.com'
+  currency_date: 'January–March 2016'
+  currency_website: '<a target="_blank" href="https://currency.nunocoelhosantos.com">currency.nunocoelhosantos.com</a>'
     # https://currency.nunocoelhosantos.com
   currency_body_1: 'A side-project to learn iOS development. Designed and developed by myself over the course of two months.'
   currency_body_2: 'After using various currency conversion apps for iOS, I found most of them to be complex, unintuitive, or out of date. Most of the time they’ll have walkthroughs, unnecessary navigation, or too many options. I designed Currency to be the simplest and most intuitive currency converter in the App Store.'
-  currency_scribble_1: 'Goals: 1. Very quick to use; 2. Designed for travellers; 3. No walkthroughs.'
+  currency_scribble_1: 'Goals:<br>1. Very quick to use;<br>2. Designed for travellers;<br>3. No walkthroughs.'
   currency_body_3: 'The icon is designed to fit perfectly with iOS, presenting Currency as if it is part of the operating system.'
   currency_body_4: 'The final design focuses on doing one job well: converting a foreign currency into the customer’s home currency. Features such as currency fluctuation graphs, in-app settings and notifications were not necessary for this job.'
-  currency_body_5: 'The final design focuses on doing one job well: converting a foreign currency into the customer’s native currency. I considered features such as graphs, in-app settings, and notifications not necessary for this job.'
-  currency_body_6: 'One of the most unique aspects of Currency is how the numbers are formatted. They have the correct currency symbol, number of decimal places, decimal divider, and group dividers. This makes the number look exactly how you’d see it in a store or market while traveling.'
-  currency_body_7: 'Most currency apps use country flags to illustrate different currencies. Yet, as some currencies like Bitcoin or the Euro don’t belong to a specific country, I opted for using currency codes instead.'
-  currency_body_8: 'In the early sketches I was working out how to select a currency and swap input currencies. The first visual design direction had a blue and dark visual style that I moved away from. While asking for feedback, people seemed confused about which number they were editing so I added a text input blinking cursor. '
-  currency_body_9: 'The final design is bright and shows activity indicators when the currency exchange rates are being updated. After receiving more feedback and feature requests, I added more options to the app settings in the iOS Settings app.'
-  currency_body_10: 'This was the first app I developed for iOS, and my first time writing Swift. Learning how to develop for iOS was a personal goal for years. I learned by reading Beginning iOS Development in Swift by Apress, and with some help from friends like Jonathon Toon and Tiago Alves.'
+  currency_body_5: 'One of the most unique aspects of Currency is how the numbers are formatted. They have the correct currency symbol, number of decimal places, decimal divider, and group dividers. This makes the number look exactly how you’d see it in a store or market while traveling.'
+  currency_body_6: 'Most currency apps use country flags to illustrate different currencies. Yet, as some currencies like Bitcoin or the Euro don’t belong to a specific country, I opted for using currency codes instead.'
+  currency_body_7: 'In the early sketches I was working out how to select a currency and swap input currencies. The first visual design direction had a blue and dark visual style that I moved away from. While asking for feedback, people seemed confused about which number they were editing so I added a text input blinking cursor. '
+  currency_body_8: 'The final design is bright and shows activity indicators when the currency exchange rates are being updated. After receiving more feedback and feature requests, I added more options to the app settings in the iOS Settings app.'
+  currency_body_9: 'This was the first app I developed for iOS, and my first time writing Swift. Learning how to develop for iOS was a personal goal for years. I learned by reading <em><a target="_blank" href="https://www.apress.com/gp/book/9781484248645">Beginning iOS Development in Swift</a></em> by Apress, and with some help from friends like <a target="_blank" href="https://twitter.com/jonathontoon">Jonathon Toon</a> and <a target="_blank" href="https://twitter.com/alvesjtiago">Tiago Alves</a>.'
+    # https://www.apress.com/gp/book/9781484248645
     # https://twitter.com/jonathontoon
     # https://twitter.com/alvesjtiago
-  currency_body_11: 'You can see the source code for the first version on GitHub.'
+  currency_body_10: 'You can see the source code for the first version on <a target="_blank" href="https://github.com/nunosans/currency">GitHub</a>.'
     # https://github.com/nunosans/currency
-  currency_body_12: 'The application, website, and marketing material is localized to the US, the UK, Japan, China, Hong Kong, Taiwan, Latin America, Spain, and Portugal. A year after release, 76% of the downloads are from users in the Asia/Pacific region.'
-  currency_body_13: 'Four years after release, Currency has been downloaded over 28,000 times and has an average rating of 4.6 stars on the App Store.'
-  currency_body_14: 'I continue updating Currency to make use of the latest technologies and advancemets in iOS. You can download it for $0.99 or equivalent from the App Store.'
+  currency_body_11: 'The application, website, and marketing material is localized to the US, the UK, Japan, China, Hong Kong, Taiwan, Latin America, Spain, and Portugal. A year after release, 76% of the downloads are from users in the Asia/Pacific region.'
+  currency_body_12: 'Four years after release, Currency has been downloaded over 28,000 times and has an average rating of 4.6 stars on the App Store.'
+  currency_body_13: 'I continue updating Currency to make use of the latest technologies and advancemets in iOS. You can download it for $0.99 or equivalent from the <a target="_blank" href="https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198">App Store</a>.'
     # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
 
   # _thread
-  thread_title: 'Thread offers one-to-one personal styling and access to a powerful clothing recommendation engine.'
+  thread_title: '<a target="_blank" href="https://www.thread.com">Thread</a> offers one-to-one personal styling and a powerful clothing recommendation engine.'
     # https://www.thread.com
   thread_role: 'Product Designer &amp; Front-end Web Developer'
   thread_date: '2014–2016'
-  thread_website: 'thread.com'
+  thread_website: '<a target="_blank" href="http://thread.com">thread.com</a>'
     # http://thread.com
-  thread_body_1: 'Thread is an online styling service, currently only for men in the UK. It brings together fashion stylists and machine learning to give users high-quality personal styling for free. Thread is a YC’11 start-up founded by Kieran O’Neill, Benjamin Phillips, and Ben Kucsan.'
+  thread_body_1: '<a target="_blank" href="https://www.thread.com">Thread</a> is an online styling service, currently only for men in the UK. It brings together fashion stylists and machine learning to give users high-quality personal styling for free. Thread is a <a target="_blank" href="https://www.ycombinator.com">YC’11</a> start-up founded by <a target="_blank" href="https://twitter.com/kierano/">Kieran O’Neill</a>, <a target="_blank" href="https://twitter.com/_benji/">Benjamin Phillips</a>, and <a target="_blank" href="https://twitter.com/benkucsan/">Ben Kucsan</a>.'
     # https://www.thread.com
     # https://www.ycombinator.com
     # https://twitter.com/kierano/
     # https://twitter.com/_benji/
     # https://twitter.com/benkucsan/
-  thread_scribble_1: 'Challenge: How might we improve our mobile experience?'
+  thread_scribble_1: 'Challenge:<br>How might we improve our mobile experience?'
   thread_body_2: 'Despite most users completing an order via the desktop browser, the vast majority of Thread usage comes from mobile browsers. Me and Ben K put a focus on the mobile experience and started work on a native mobile experience in order to push up orders on mobile platforms.'
   thread_body_3: 'Moving our product from being a desktop-first website to a mobile-first native application led us to re-architecture the user interface.'
   thread_body_4: 'We developed a new design system for Thread called Thread Whitechapel. This design system included new type styles, new touch interactions, new guidelines for flows and page content, and a new set of components. This resulted not only in a better mobile experience, but it also allowed us to design and develop faster while keeping our visual language consistent.'
-  thread_scribble_2: 'Challenge: How might we provide a thread service while stylists are away?'
+  thread_scribble_2: 'Challenge:<br>How might we provide a thread service while stylists are away?'
   thread_body_5: 'Thread has a powerful recommendation engine that finely tunes the outfits each stylist creates to each user’s budget, preference of material, brand, skin color, body shape, and many other factors.'
   thread_body_6: 'The personal touch is what makes Thread unique, and that is the core of the product. But when stylists are away, the activity stops. How might we deliver some of the power of that very personal recommendation even when stylists are not available?'
   thread_body_7: 'We wanted an experience similar to walking to a clothing store and seeing only new items that you would love. This became Thread Browse.'
   thread_body_8: 'We went beyond just creating an online store. We created a browse experience, but out-of-the-box this gives the user personalized item recommendations, in stock, available on their size and within budget.'
-  thread_body_9: 'Thread has been growing steadily over the last few years and I’m incredibly proud of all the work we have done together. If you’re interested in working at Thread, see their jobs page. If you’d like to sign up, go to thread.com.'
-    # https://www.thread.com/
+  thread_body_9: 'Thread has been growing steadily over the last few years and I’m incredibly proud of all the work we have done together. If you’re interested in working at Thread, see their <a target="_blank" href="https://www.thread.com/jobs">jobs page</a>. If you’d like to sign up, go to <a target="_blank" href="https://www.thread.com/">thread.com</a>.'
     # https://www.thread.com/jobs
+    # https://www.thread.com/
 
   # _other
   other_title: 'Other projects involve work on branding, photography, illustration, and software development.'
   other_a_year_in_an_instant_title: 'A Year in an Instant'
-  other_a_year_in_an_instant_body: 'For my first 365 days living in Japan, I took an instant photo every day and published it online. This was a Kickstarter project with 80 backers that got to claim their favorite photo. Read the diary here.'
+  other_a_year_in_an_instant_body: 'For my first 365 days living in Japan, I took an instant photo every day and published it online. This was a Kickstarter project with 80 backers that got to claim their favorite photo. <a target="_blank" href="https://ayearinaninstant.com">Read the diary here</a>.'
     # https://ayearinaninstant.com
   other_15_days_in_japan_title: '15 Days in Japan'
-  other_15_days_in_japan_body: 'One of my most popular side-projects. A travel blog where I documented my experience traveling completely on my own in a country where I didn’t speak the language. All photos taken with a Fuji X100. See the story here.'
+  other_15_days_in_japan_body: 'One of my most popular side-projects. A travel blog where I documented my experience traveling completely on my own in a country where I didn’t speak the language. All photos taken with a Fuji X100. <a target="_blank" href="https://15daysinjapan.com">See the story here</a>.'
     # https://15daysinjapan.com
   other_1975_title: '1975'
-  other_1975_body: 'A side-project where travelers document their trip on a day-by-day photo diary. This project was an excuse to give me more experience developing Ruby on Rails applications. Sign up here.'
+  other_1975_body: 'A side-project where travelers document their trip on a day-by-day photo diary. This project was an excuse to give me more experience developing Ruby on Rails applications. <a target="_blank" href="http://1975.io">Sign up here</a>.'
     # http://1975.io
   other_the_scientist_title: 'The Scientist'
-  other_the_scientist_body: 'The Scientist is a scientific paper aggregator and reader for iOS. The design shines in its focus on incredible legible typography. Get it on the App Store.'
+  other_the_scientist_body: 'The Scientist is a scientific paper aggregator and reader for iOS. The design shines in its focus on incredible legible typography. <a target="_blank" href="https://itunes.apple.com/app/the-scientist/id657192313?l=en&mt=8">Get it on the App Store</a>.'
     # https://itunes.apple.com/app/the-scientist/id657192313?l=en&mt=8
   other_stylized_title: 'Stylize/d'
-  other_stylized_body: 'Identity and web design project with Marta Dos Santos. Stylize/d is a fashion blog eager to show the final fashion editorials and the process of making them. This modernist identity stays away from most amateur fashion blogs with pink tones and cursive typefaces.'
+  other_stylized_body: 'Identity and web design project with <a target="_blank" href="https://martasantos.co.uk">Marta Dos Santos</a>. Stylize/d is a fashion blog eager to show the final fashion editorials and the process of making them. This modernist identity stays away from most amateur fashion blogs with pink tones and cursive typefaces.'
     # https://martasantos.co.uk
-  other_ustwo_rebrand_title: 'ustwo rebrand'
-  other_ustwo_rebrand_body: 'The rebrand for ustwo is inspired by the candid and daring company culture. This included a new logo, website design, typeface, and tone of voice. See it here.'
+  other_ustwo_rebrand_title: 'ustwo brand'
+  other_ustwo_rebrand_body: 'The ustwo brand design is inspired by the candid and daring company culture. This included a new logo, website design, typeface, and tone of voice. <a target="_blank" href="https://www.ustwo.com">See it here</a>.'
     # https://www.ustwo.com
   other_marili_andre_title: 'Marili André'
   other_marili_andre_body: 'Logo design for Marili André, a fashion photographer, and filmmaker. A fellow student at Central Saint Martins, London. The connected shapes try to represent the motion in her work, while following the style of high-end fashion brands.'
   other_instagram_redesign_title: 'Instagram redesign'
-  other_instagram_redesign_body: 'A visual design exercise as part of my training at ustwo. See the process here.'
+  other_instagram_redesign_body: 'A visual design exercise as part of my training at ustwo. <a target="_blank" href="https://www.ustwo.com/blog/redesigning-instagram">See the process here</a>.'
     # https://www.ustwo.com/blog/redesigning-instagram
 
   # _outro
   outro: 'Thank you for reading. If you would like to discuss more, share feedback, or ask any questions, please get in touch.'
 
   # _colophon
-  colophon: 'Portrait photo by Ana Barreira. This website is set in Franklin Gothic URW from URW++ served by Typekit, and Grifo by R-Typography. All other content on this website is produced by and copyright 2020 by Nuno Coelho Santos. All assets are hosted by Netlify. Stats are tracked using Google Analytics.'
+  colophon: 'Portrait photo by <a target="_blank" href="https://www.alystudio.com">Ana Barreira</a>. This website is set in <a target="_blank" href="https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;">Franklin Gothic URW</a> from <a target="_blank" href="https://www.urwpp.de/en/">URW++</a> served by <a target="_blank" href="https://typekit.com/">Typekit</a>, and <a target="_blank" href="https://r-typography.com/10_grifo/">Grifo</a> by <a target="_blank" href="https://r-typography.com/">R-Typography</a>. All other content on this website is produced by and copyright 2020 by Nuno Coelho Santos. All assets are hosted by <a target="_blank" href="https://www.netlify.com/">Netlify</a>. Stats are tracked using <a target="_blank" href="https://www.google.com/analytics/">Google Analytics</a>.'
+    # https://www.alystudio.com
     # https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;
     # https://www.urwpp.de/en/
     # https://typekit.com/
