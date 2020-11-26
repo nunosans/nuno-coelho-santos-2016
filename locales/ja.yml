@@ -22,10 +22,10 @@ ja:
   # _intro
   intro_short: ''
   intro_long: ''
-  # intro_currently: ''
-    # https://www.whatsapp.com
   intro_currently: ''
     # https://health.google
+  # intro_currently: ''
+    # https://www.whatsapp.com
   # intro_previously: ''
     # https://health.google
   intro_previously: ''
@@ -42,36 +42,46 @@ ja:
   label_role: ''
   label_date: ''
   label_website: ''
+  label_papers: ''
+  label_press: ''
+  label_before: ''
+  label_after: ''
 
   # _streams
   streams_title: ''
+    # http://deepmind.com/health/
   streams_role: ''
   streams_date: ''
-  streams_website: ''
+  streams_website: 'deepmind.com/health'
     # http://deepmind.com/health/
   streams_body_1: ''
     # http://deepmind.com/health/
   streams_body_2: ''
+    # https://material.io
   streams_body_3: ''
   streams_body_4: ''
   streams_body_5: ''
   streams_body_6: ''
+    # https://www.england.nhs.uk/ourwork/clinical-policy/sepsis/nationalearlywarningscore/
   streams_body_7: ''
   streams_body_8: ''
   streams_body_9: ''
+    # https://developer.apple.com/xcode/swiftui/
   streams_body_10: ''
   streams_body_11: ''
+    # health.google
 
   # _currency
   currency_title: ''
     # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
   currency_role: ''
   currency_date: ''
-  currency_website: ''
-    # https://currency.nunocoelhosantos.com
+  currency_website: 'currency.nunocoelhosantos.com/ja'
+    # https://currency.nunocoelhosantos.com/ja
   currency_body_1: ''
   currency_body_2: ''
   currency_scribble_1: ''
+    # Add line breaks.
   currency_body_3: ''
   currency_body_4: ''
   currency_body_5: ''
@@ -79,14 +89,14 @@ ja:
   currency_body_7: ''
   currency_body_8: ''
   currency_body_9: ''
-  currency_body_10: ''
+    # https://www.apress.com/gp/book/9781484248645
     # https://twitter.com/jonathontoon
     # https://twitter.com/alvesjtiago
-  currency_body_11: ''
+  currency_body_10: ''
     # https://github.com/nunosans/currency
+  currency_body_11: ''
   currency_body_12: ''
   currency_body_13: ''
-  currency_body_14: ''
     # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
 
   # _thread
@@ -94,36 +104,37 @@ ja:
     # https://www.thread.com
   thread_role: ''
   thread_date: ''
-  thread_website: ''
+  thread_website: 'thread.com'
     # http://thread.com
   thread_body_1: ''
-    # https://www.thread.com
     # https://www.ycombinator.com
     # https://twitter.com/kierano/
     # https://twitter.com/_benji/
     # https://twitter.com/benkucsan/
   thread_scribble_1: ''
+    # Add line break.
   thread_body_2: ''
   thread_body_3: ''
   thread_body_4: ''
   thread_scribble_2: ''
+    # Add line break.
   thread_body_5: ''
   thread_body_6: ''
   thread_body_7: ''
   thread_body_8: ''
   thread_body_9: ''
-    # https://www.thread.com/
     # https://www.thread.com/jobs
+    # https://www.thread.com/
 
   # _other
   other_title: ''
-  other_a_year_in_an_instant_title: ''
+  other_a_year_in_an_instant_title: 'インスタント年間'
   other_a_year_in_an_instant_body: ''
     # https://ayearinaninstant.com
   other_15_days_in_japan_title: ''
   other_15_days_in_japan_body: ''
     # https://15daysinjapan.com
-  other_1975_title: ''
+  other_1975_title: '1975'
   other_1975_body: ''
     # http://1975.io
   other_the_scientist_title: ''
