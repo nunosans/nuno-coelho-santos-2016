@@ -2,161 +2,161 @@
 ja:
 
   # layout
-  title: ''
-  description: ''
-  description_og: ''
+  title: 'ヌノ・コエルホ・サントス、デザイナーワークアンドプロフィール'
+  description: 'プロフィールとポルトガル商品デザイナーと開発者、ヌノ・コエルホ・サントス、デザイナーワークアンドプロフィール？としての仕事。イギリスのロンドンをベースとて活躍。' #TEMP.
+  description_og: 'プロフィールと最近の仕事'
   locale: ''
 
   # _header
-  label_email: ''
-  label_mobile: ''
-  label_twitter: ''
-  label_github: ''
-  label_dribbble: ''
-  label_instagram: ''
-  label_blog: ''
-  label_newsletter: ''
-  label_newsletter_subscribe: ''
-  label_linkedin: ''
+  label_email: 'メールアドレス'
+  label_mobile: '電話番号'
+  label_twitter: 'ツイッター'
+  label_github: 'ギットハブ'
+  label_dribbble: 'ドリブル'
+  label_instagram: 'インスタグラム'
+  label_blog: 'ブログ'
+  label_newsletter: 'ニュースレター'
+  label_newsletter_subscribe: 'サブスクライブ'
+  label_linkedin: 'リンクトイン'
 
   # _intro
-  intro_short: ''
-  intro_long: ''
-  intro_currently: ''
+  intro_short: 'ヌノと申します。ロンドンをベースとして活躍している商品デザイナーです。'
+  intro_long: 'ヌノと申します。ロンドンをベースとして活躍している商品デザイナーです。ヒューマンインターフェイスデザインを専門としており、趣味としても自身のアプリ制作をしております。'
+  intro_currently: '現在、Googleに勤務しており、全世界に新ヘルスケア技術を提供しています。'
     # https://health.google
-  # intro_currently: ''
+  # intro_currently: 'またWhatsAppにも勤務しており、世界中の２億人以上の個人ユーザーのコミュニケーションを円滑にしています。'
     # https://www.whatsapp.com
-  # intro_previously: ''
+  # intro_previously: 'それよりも前に、Google？に勤務していた頃、臨床医に新ヘルスケア技術を提供していました。'
     # https://health.google
-  intro_previously: ''
+  intro_previously: '以前はIDEOという会社の東京チームでも働いたことがあります。そこではイギリスのThreadという個別再開発スタイリング会社をサポートしていました。それより前は、ロンドンとニューヨークでustwo関連で働いていました。'
     # https://www.ideo.com
     # https://www.thread.com
     # https://www.ustwo.com
-  intro_expand: ''
-  feature_speaker: ''
-  feature_interview: ''
-  feature_feature: ''
-  feature_panel: ''
+  intro_expand: 'もっと読む'
+  feature_speaker: 'スピーカー' #TEMP.
+  feature_interview: '面接' #TEMP.
+  feature_feature: '特徴' #TEMP.
+  feature_panel: 'パネル' #TEMP.
 
   # projects
-  label_role: ''
-  label_date: ''
-  label_website: ''
-  label_papers: ''
-  label_press: ''
-  label_before: ''
-  label_after: ''
+  label_role: '役割' #TEMP.
+  label_date: '日付' #TEMP.
+  label_website: 'ウェブサイト' #TEMP.
+  label_papers: 'ペーパー' #TEMP.
+  label_press: 'プレス' #TEMP.
+  label_before: '以前' #TEMP.
+  label_after: '以後' #TEMP.
 
   # _streams
-  streams_title: ''
+  streams_title: 'Streamsでは医師と看護師が迅速に、患者の状態悪化を対応するサポートをしていました。'
     # http://deepmind.com/health/
-  streams_role: ''
-  streams_date: ''
+  streams_role: 'UX デザイナー'
+  streams_date: '2017年〜2020年'
   streams_website: 'deepmind.com/health'
     # http://deepmind.com/health/
-  streams_body_1: ''
+  streams_body_1: 'Streamsはイギリスの医師と看護師のためのiOSアプリケーションです。急性腎臓損傷のリスクのある患者の警報（アラート）を送ったり、患者の健康記録データを見やすくしたりします。'
     # http://deepmind.com/health/
-  streams_body_2: ''
+  streams_body_2: '2018年の初期には、Streamsでは製品のデザインをし直す仕事に取り組んでおり、新しいマーケットに出す製品計画を立てる準備で、材料デザイン(Material Design)を使用しました。私のチームは、既存の材料部分と何を置き換えるか、全サービスを届けるために新開発べき所は何かを知るために既存のUIの審査を行いました。僅かな顧客要素とパターンで材料デザイン(Material Design)を拡張しました。詳細は下記でご紹介します。'
     # https://material.io
-  streams_body_3: ''
-  streams_body_4: ''
-  streams_body_5: ''
-  streams_body_6: ''
+  streams_body_3: 'デザインし直したインターフェイスはより鮮明かつ、明確さを目指し、資料デザイン言語（Material Design language)を追求しています。'
+  streams_body_4: 'アクセスのしやすさはデザインし直す仕事の最先端でした。全コンテンツを２本のキーラインで揃え、圧倒的な読みさすさを確保し、読込（スキャン）をする際に、画面（スクリーン）上で左から右への目の動きを回避することに成功した結果となりました。コンテンツも主に、リーディングアイコンと予算別でグループ化されています。'
+  streams_body_5: '２本のキーラインのレイアウトは変更可能なテキストサイズも簡易化しました。遂に、一定の口調に拘りつつも簡潔な全てのUIコピーを書き終えました。'
+  streams_body_6: '発注された構成要素を制作する際に、レイアウトと仕草のアウトラインとスペックを組み合わせました。下記はNEWS（イギリス国内の早期警告スコア）のレベルの具体例です。NEWSは患者の疾患バイタルサインに基づいた数値検測器です。数値が高ければ、危険です。'
     # https://www.england.nhs.uk/ourwork/clinical-policy/sepsis/nationalearlywarningscore/
-  streams_body_7: ''
-  streams_body_8: ''
-  streams_body_9: ''
+  streams_body_7: 'UIではどうやってデータを形成するかに注目しました。NHS（イギリスの国民健康保険サービス）は従うべき基準を提供し、私たちはさらに最先端のオリジナルのものを作成しました。例えば、成人・学生・小児患者など患者の年齢別のルールをどう表示すべきかなど。'
+  streams_body_8: 'Streamsのもう一つのパターン機能は患者特定です。ひと目で、名字・名前・生年月日・年齢・医療履歴ナンバー(Medical Record Number)・場所などの多くの情報を提示します。これらは明確に患者特定するのに必要です。ユーザーが適した患者を見つけ、記録を読み通したら、私たちが識別子設定を変更します。'
+  streams_body_9: '試作品も開発しました。この添付ノートのようにSwiftUIを用いて制作されたビューアー用の試作品です。'
     # https://developer.apple.com/xcode/swiftui/
-  streams_body_10: ''
-  streams_body_11: ''
+  streams_body_10: '2020年6月にStreamsでは、コロナ(Covid-19)の患者のテスト結果を表示するという新システムを導入しました。コロナの意識感を広げるために、NHS Trustのヘルスケア工部大学（Imperial College Healthcare NHS Trust）ともビジネスを着手しました。'
+  streams_body_11: 'DeepMind HealthとGoogleで働きながら、Streamsで行ったNHS（イギリスの国民健康保険サービス）のための全業務を大変誇りに思っています。将来、Google Healthでの仕事に関しても共有したいと思います。 '
     # health.google
 
   # _currency
-  currency_title: ''
+  currency_title: 'CurrencyはiPhone用の簡易的な通貨換算のアプリケーションです。'
     # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
-  currency_role: ''
-  currency_date: ''
+  currency_role: '商品デザイナー＆iOS開発者'
+  currency_date: '2016年1月〜3月'
   currency_website: 'currency.nunocoelhosantos.com/ja'
     # https://currency.nunocoelhosantos.com/ja
-  currency_body_1: ''
-  currency_body_2: ''
-  currency_scribble_1: ''
+  currency_body_1: 'iOSの発達を学ぶサイドプロジェクト。２ヶ月間に渡り、自身でデザインと開発をしました。'
+  currency_body_2: 'iOS用の様々な通貨換算のアプリケーションの使用後、複雑で、直感性がなく、時代遅れだと感じました。試行錯誤・不必要なナビゲーション・多数のオプションに対して多くの時間を費やしていました。私はCurrencyを最も簡易化し、アプリストア（App Store）で最も直感的かつ簡便な操作で使用できる通貨換算機にしました。'
+  currency_scribble_1: 'ゴール（目的）：<br>1.使い勝手の良さ<br>2.旅行者のためのデザイン<br>3.不要な試行錯誤なし'
     # Add line breaks.
-  currency_body_3: ''
-  currency_body_4: ''
-  currency_body_5: ''
-  currency_body_6: ''
-  currency_body_7: ''
-  currency_body_8: ''
-  currency_body_9: ''
+  currency_body_3: 'アイコンはCurrencyがオペレーションシステムの一部であると象徴しており、iOSと完璧に一致したデザインにしました。'
+  currency_body_4: '最終的なデザインは仕事をこなす事を表しています：海外通貨をカスタマーの自国の通貨に換算すること。通貨変動グラフ・アプリ内の設定・通知といった機能は通貨換算には必要ではありません。'
+  currency_body_5: 'Currencyの最も独特（ユニーク）な所はどの様に数字を方式化するかという点です。正確な通貨象徴、小数部分の桁数、小数点、グループ分割などです。これらは旅行中にお店やマーケットでお客にどの様に数字を見せているかを左右しています。'
+  currency_body_6: 'ほとんどの通貨アプリは通貨を分かりやすくするために国旗を使用します。しかし、ビットコインやユーロなどといった通貨は特定の国に属してはいません。その代わりに、通貨コードを使用することにしました。'
+  currency_body_7: '初期のスケッチは、通貨の選び方や通貨導入の換算方法に全うしていました。初めてのバーチャルデザインの方針は現在の物とはかけ離れた、青と黒を基盤としたバーチャルスタイルでした。フィードバックを求めているうちに、どの数字を編集すればいいのか顧客が困惑している様だったので、テキスト入力に点滅するカーソルを加えました。'
+  currency_body_8: '最終デザインは鮮やかで、為替レートが変動した際にアクション表示をします。多くのフィードバックと要望を受け取り、iOS設定アプリ内で、設定のオプションを追加しました。'
+  currency_body_9: 'これはiOS用に開発した初めてのアプリで、Swiftに初めて書きます？？iOS用の開発方法を学ぶことが何年間の個人的な目的でした。Apressの「Beginning iOS Development in　Swift（初心者用のSwiftのiOS開発）」を読み、ジョナサン・トーン(Jonathon Toon)とタイゴ・アルベス(Tiago Alves)、二人の友人から助言をもらいました。'
     # https://www.apress.com/gp/book/9781484248645
     # https://twitter.com/jonathontoon
     # https://twitter.com/alvesjtiago
-  currency_body_10: ''
+  currency_body_10: 'GitHubで初期バージョンのソースコードが見れます。'
     # https://github.com/nunosans/currency
-  currency_body_11: ''
-  currency_body_12: ''
-  currency_body_13: ''
+  currency_body_11: 'アプリケーション・ウェブサイト・マーケティング材料はアメリカ・イギリス・日本・中国・香港・台湾・南米・スペイン・ポルトガルで地方か（ローカライズ化）します。リリース１年後で、ダウンロード数の７６%はアジアと太平洋地区のユーザーでした。'
+  currency_body_12: 'リリース４年後には、Currencyは２万８千以上のダウンロード数を誇り、アプリストア（App Store）で平均評価レートは4.6星です。'
+  currency_body_13: '現在もiOSで最新の技術と向上するためにCurrencyを更新続けています。アプリストア（App Store）内で0.99＄（ドル）と同金額でダウンロードできます。'
     # https://apps.apple.com/app/currency-simple-currency-calculator/id1109685198
 
   # _thread
-  thread_title: ''
+  thread_title: 'Threadは一対一の個別スタイリングでとても説得力があり、お勧めの服を推奨してくれるエンジンを提供しています。'
     # https://www.thread.com
-  thread_role: ''
-  thread_date: ''
+  thread_role: '商品デザイナー＆フロントエンドのウェブ開発'
+  thread_date: '2014年〜2016年'
   thread_website: 'thread.com'
     # http://thread.com
-  thread_body_1: ''
+  thread_body_1: 'Threadはオンラインのスタイリングサービスで、現在はイギリス男性のみが対象となっています。ファッションスタイリストと機械学習の双方を使用し、無料でユーザーにハイクオリティーの個別スタイリングを提供します。Threadは キエラン・オネイル(Kieran O’Neill) とベンチャミン・フィリップ(Benjamin Phillips)とベン・ククザン (Ben Kucsan)によって設立されたYC’11スタートアップです。'
     # https://www.ycombinator.com
     # https://twitter.com/kierano/
     # https://twitter.com/_benji/
     # https://twitter.com/benkucsan/
-  thread_scribble_1: ''
+  thread_scribble_1: 'チャレンジ（挑戦）：<br>どのようにしてモバイル体験を改善するのか。'
     # Add line break.
-  thread_body_2: ''
-  thread_body_3: ''
-  thread_body_4: ''
-  thread_scribble_2: ''
+  thread_body_2: 'ほとんどのユーザーはデスクトップのブラウザーを介してオンライン注文をするにも関わらず、Threadユーザーの大多数はモバイルブラウザーを使用します。私とベン(Ben K)はモバイル体験に注目し、モバイルプラットフォームでのオンライン注文拡大のために本来のモバイル体験に事業に取組始めました。'
+  thread_body_3: '私たちの商品をデスクトップ上の第一ウェブサイトからモバイル上の第一アプリケーションに移動させることであり、ユーザーインターフェイスの再構成に導きました。'
+  thread_body_4: 'Threadのために「スレッドホワイトチャペル(Thread Whitechapel)」と呼ばれる新しいデザインシステムを開拓しました。このデザインシステムはタイピングスタイル・タッチ相互作用・ページコンテンツとフロー（流れ）のガイドライン・構成要素を新しくしました。バーチャルの言語と両立しながら、より良いモバイル経験の結果をもたらしただけでなく、デザインと開発も早く機能するよう改善した。'
+  thread_scribble_2: 'チャレンジ（挑戦）：<br>スタイリストが不在時にどうやってThreadのサービスを提供するのか。'
     # Add line break.
-  thread_body_5: ''
-  thread_body_6: ''
-  thread_body_7: ''
-  thread_body_8: ''
-  thread_body_9: ''
+  thread_body_5: 'Threadは説得力のある推奨エンジンで、各ユーザーの予算・素材の好み・ブランド・スキンカラー・体型・その他の要素を作成し、ユーザーの服装スタイルとスタイリストを見事に一致させます。'
+  thread_body_6: 'パーソナルタッチはThreadのオリジナルで、目玉商品です。しかしスタイリストが不在の時はアクティビティが停止します。スタイリストの都合がつかない時に、どのように個別推奨サービスを提供するべきでしょうか？'
+  thread_body_7: '服のショップ（服屋）の中を歩いているような、好みの新アイテムだけを見ているような体験にしたかったです。この望みがThreadブラウザーになりました。'
+  thread_body_8: 'オンラインストアを創設する所の少し先を行き着きました。「アウトオブボックス」というブラウザー経験を作成し、これは予算内かつ在庫があるサイズの中で、ユーザーのカスタマイズされたアイテム（商品）をおすすめしてくれます。'
+  thread_body_9: 'Threadは近年安定的に成長しています。私たちがやり遂げてきた全ての仕事を大変誇りに思っています。もし、Threadで働くことに興味がありましたら、こちらをご覧ください。Threadの求人募集。もし登録を希望でしたらこちらからthread.com。'
     # https://www.thread.com/jobs
     # https://www.thread.com/
 
   # _other
-  other_title: ''
+  other_title: '他のプロジェクトはブランド力・フォトグラフィー・イラスト・ソフトウェア発明に関わっています。'
   other_a_year_in_an_instant_title: 'インスタント年間'
-  other_a_year_in_an_instant_body: ''
+  other_a_year_in_an_instant_body: '日本に住んでからの３６５日間、毎日インスタント写真を撮り、インターネットで公開してました。このプロジェクトは「キックスターター」といい、自身のお気に入りの写真を主張したい８０人の後援者との共同プロジェクトです。こちらから日記が読めます。'
     # https://ayearinaninstant.com
-  other_15_days_in_japan_title: ''
-  other_15_days_in_japan_body: ''
+  other_15_days_in_japan_title: '日本での15日間'
+  other_15_days_in_japan_body: '私の最も人気なサイドプロジェクトの一つです。自分自身だけの力で、言葉が通じない国への旅行経験を記録した自旅行ブログ。全写真はFuji X100で撮影しました。旅行記録はこちらから見れます。'
     # https://15daysinjapan.com
   other_1975_title: '1975'
-  other_1975_body: ''
+  other_1975_body: 'サイドプロジェクトは旅行者が日々の旅写真を記録記です。このプロジェクトはRailsアプリケーションのRubyを啓発する機会を与えてくれた口実？です。登録はこちらから。'
     # http://1975.io
-  other_the_scientist_title: ''
-  other_the_scientist_body: ''
+  other_the_scientist_title: 'サイエンティスト(The Scientist)'
+  other_the_scientist_body: 'サイエンティスト(The Scientist)はiOSのための読込リーダーと科学論文の集約装置です。このデザインはとてもわかりやすい活版印刷法に注目し、とても秀でています。アプリストア（App Store)で入手できます。'
     # https://itunes.apple.com/app/the-scientist/id657192313?l=en&mt=8
-  other_stylized_title: ''
-  other_stylized_body: ''
+  other_stylized_title: 'スタイライズ/ディ(Stylize/d)'
+  other_stylized_body: 'マルタ・ドス・サントス(Marta Dos Santos)共同のデザイナープロジェクトとアイデンティティです。スタイライズ/ディ(Stylize/d)はファッション編集者の想像を超える過程（プロセス）に焦点を当てたファッションブログです。'
     # https://martasantos.co.uk
-  other_ustwo_rebrand_title: ''
-  other_ustwo_rebrand_body: ''
+  other_ustwo_rebrand_title: 'ustwoブランド'
+  other_ustwo_rebrand_body: 'ustwoのブランドはスナップ写真と斬新な会社の文化に刺激を受けています。新しいロゴ・ウェブデザイン・書体・口調など。ここから見る。'
     # https://www.ustwo.com
-  other_marili_andre_title: ''
-  other_marili_andre_body: ''
-  other_instagram_redesign_title: ''
-  other_instagram_redesign_body: ''
+  other_marili_andre_title: 'マリーリ・アンドレ（Marili André)'
+  other_marili_andre_body: 'ロンドンのセントラル・セイント・マルティンにある友人のファッション写真家であり、映像作家のマリーリ・アンドレ（Marili Antre)ためのロゴデザイン。高級ファッションブランドのスタイルを追求しながら、その意欲は仕事の活躍を示しています。'
+  other_instagram_redesign_title: 'インスタグラムのデザインのし直し'
+  other_instagram_redesign_body: 'ustwoでの研修の一部であったバーチャルデザインエクササイズ。研修過程はこちらから。'
     # https://www.ustwo.com/blog/redesigning-instagram
 
   # _outro
-  outro: ''
+  outro: '一読頂き、ありがとうございます。もっとお話ししたい方・フィードバック・質問がありましたら、ご連絡ください。'
 
   # _colophon
-  colophon: ''
+  colophon: 'アナ・バレイラ（Ana Barreira）のポートレイ写真。このウェブサイトはR-TypographyによるGrifoとTyoekitの URW++所属のFranklin Gothic URWで設定されています。このウェブサイト上の全コンテンツは２０２０年にヌノ・コールホ・サントス(Nuno Coelho Santos)により作成され、著作権を所有しています。著作権等の資産はNetlifyが有しています。Google Analyticsを使用し、Stats（シグナル伝達性転写因子）を追尾します。'
     # https://www.alystudio.com
     # https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;
     # https://www.urwpp.de/en/
@@ -165,9 +165,9 @@ ja:
     # https://r-typography.com/
     # https://www.netlify.com/
     # https://www.google.com/analytics/
-  link_2011_portfolio: ''
+  link_2011_portfolio: '2011年のポートフォリオを見る。'
     # https://2011.nunocoelhosantos.com/
-  link_columns_show: ''
+  link_columns_show: 'コラムの表示。'
     # button data-action="show-columns" data-layout="wide"
-  link_columns_hide: ''
+  link_columns_hide: 'コラムの非表示。'
     # button data-action="hide-columns" data-layout="hidden"

@@ -19,11 +19,11 @@ body.ja {
   menu, nav, output, ruby, section, summary,
   time, mark, audio, video,
   button, input, textarea {
-    font-size: 17px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
     @media (min-width: 750px) {
-      font-size: 17px;
-      line-height: 28px;
+      font-size: 16px;
+      line-height: 24px;
     }
   }
 
@@ -100,9 +100,9 @@ body.ja {
 
   a,
   button {
-    height: 23px;
+    height: 21px;
     @media (min-width: 750px) {
-      height: 23px;
+      height: 21px;
     }
   }
 
