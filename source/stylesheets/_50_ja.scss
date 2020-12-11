@@ -27,8 +27,15 @@ body.ja {
     }
   }
 
+  // This is for the Japanese word wrapping.
+  span.ww {
+    display: inline-block;
+    font-size: inherit;
+    font-family: inherit;
+  }
+
   p {
-    text-align: justify;
+    // text-align: justify;
     @media (min-width: 750px) {
       // max-width: 355px;
     }
