@@ -66,6 +66,9 @@ p.emphasize {
     font-size: 72px;
     line-height: 80px;
   }
+  span a {
+    font-size: inherit;
+  }
 }
 
 .scribble p,

@@ -54,6 +54,15 @@ en:
   streams_date: '2017–2020'
   streams_website: '<a target="_blank" href="http://deepmind.com/health/">deepmind.com/health</a>'
     # http://deepmind.com/health/
+  streams_paper_1: 'A clinically applicable approach to continuous prediction of future acute kidney injury'
+  streams_paper_2: 'Evaluation of a digitally-enabled care pathway for acute kidney injury management in hospital emergency admissions'
+  streams_press_1: 'DeepMind, artificial intelligence and the future of the NHS'
+  streams_press_2: 'DeepMind’s health team joins Google Health'
+  streams_press_3: 'DeepMind’s new AI predicts kidney injury two days before it happens'
+  streams_press_4: 'Using AI to give doctors a 48-hour head start on life-threatening illness'
+  streams_press_5: 'Scaling Streams with Google'
+  streams_press_6: 'Artificial intelligence ‘did not miss a single urgent case’'
+  streams_press_7: 'Google DeepMind’s Streams technology branded ‘phenomenal’'
   streams_body_1: '<a target="_blank" href="http://deepmind.com/health/">Streams</a> is an iOS application for doctors and nurses in the UK. It sends alerts for patients at risk of an Acute Kidney Injury and allows easy viewing of patient health record data.'
     # http://deepmind.com/health/
   streams_body_2: 'At the start of 2018, I worked on a redesign of Streams using Material Design in preparation to scale the product to new markets. My team did an audit of the existing UI to see what to replace with a pre-existing Material component, and what new components we needed to build ourselves to deliver the full experience. We extended Material design with a handful of custom components and patterns, which I will share below.'

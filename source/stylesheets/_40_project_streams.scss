@@ -57,6 +57,11 @@ article.project.project-streams {
         &:nth-child(3) {
           width: auto;
           font-style: italic;
+          width: $inner-column-width * 7 + $inner-gutter-width * 6;
+          max-width: none;
+          a {
+            max-width: 100%;
+          }
         }
       }
     }

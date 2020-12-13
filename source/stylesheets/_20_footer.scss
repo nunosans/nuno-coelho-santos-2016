@@ -16,6 +16,9 @@ footer {
     color: $text-secondary;
     max-width: none;
   }
+  span {
+    color: inherit;
+  }
   a, button {
     color: inherit;
     border: none;

@@ -54,6 +54,15 @@ pt:
   streams_date: '2017–2020'
   streams_website: '<a target="_blank" href="http://deepmind.com/health/">deepmind.com/health</a>'
     # http://deepmind.com/health/
+  # streams_paper_1: ''
+  # streams_paper_2: ''
+  # streams_press_1: ''
+  # streams_press_2: ''
+  # streams_press_3: ''
+  # streams_press_4: ''
+  # streams_press_5: ''
+  # streams_press_6: ''
+  # streams_press_7: ''
   streams_body_1: 'O <a target="_blank" href="http://deepmind.com/health/">Streams</a> é uma aplicação iOS para médicos e enfermeiros do Reino Unido. A app envia alertas sobre pacientes com risco de Lesão Renal Aguda e permite a equipa médica ver informação sobre o paciente de forma fácil e simples.'
     # http://deepmind.com/health/
   streams_body_2: 'Em inícios de 2018, eu trabalhei com a minha equipa num redesenho do Streams utilizando <a target="_blank" href="https://material.io">Material Design</a>. Isto foi em preparação para entrar em novos mercados. Nós fizemos uma auditoria do interface digital para compreender que componentes substituir com componentes de Material Design, e quais devemos montar nós mesmos. Desta forma, estendemos Material Design com alguns componentes e padrões novos que partilharei de seguida.'

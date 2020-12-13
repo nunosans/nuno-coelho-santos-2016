@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css');
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:600');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP:wght@600&display=swap');
 
-
-body.ja {
+body.jp {
 
   div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -19,15 +16,16 @@ body.ja {
   menu, nav, output, ruby, section, summary,
   time, mark, audio, video,
   button, input, textarea {
-    font-size: 16px;
-    line-height: 24px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    line-height: 23px;
     @media (min-width: 750px) {
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 15px;
+      line-height: 23px;
     }
   }
 
-  // This is for the Japanese word wrapping.
+  // For Japanese word wrapping.
   span.ww {
     display: inline-block;
     font-size: inherit;
@@ -43,51 +41,24 @@ body.ja {
 
   .emphasize p,
   p.emphasize {
-    // font-family: "Grifo M", "Rounded Mplus 1c", sans-serif;
-    // font-family: "Grifo M", "Sawarabi Mincho", sans-serif;
-    // font-family: "Grifo M", "Noto Serif JP", sans-serif;
     font-family: 'Noto Serif JP', serif;
     // font-size: 32px;
     font-size: 36px;
-    line-height: 52px;
-    letter-spacing: 2px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
     text-align: left;
     font-weight: 600;
     @media (min-width: 750px) {
       // font-size: 52px;
       font-size: 58px;
-      line-height: 86px;
-      letter-spacing: 3px;
+      line-height: 80px;
+      letter-spacing: 1px;
       max-width: none;
     }
-    *[lang="en"] {
-      // font-size: 40px;
-      font-size: 32px;
-      font-family: inherit;
-      display: inline-block;
-      // padding: 0 2px;
-      letter-spacing: 0;
-      @media (min-width: 750px) {
-        // padding: 0 4px;
-        // font-size: 68px;
-        font-size: 52px;
-      }
-    }
-    *[lang="ja"] {
+    span, a, * {
       font-size: inherit;
-      // font-family: "Rounded Mplus 1c", sans-serif;
-      // font-family: 'Sawarabi Mincho', sans-serif;
+      font-weight: inherit;
       font-family: 'Noto Serif JP', serif;
-    }
-    // Use i tags as negative space blocks.
-    i {
-      display: inline-block;
-      width: 0;
-      height: 0;
-      margin-left: -12px;
-      @media (min-width: 750px) {
-        margin-left: -22px;
-      }
     }
   }
 
@@ -103,13 +74,17 @@ body.ja {
       font-size: 26px;
       line-height: 38px;
     }
+    span, a, * {
+      font-size: inherit;
+      font-weight: inherit;
+    }
   }
 
   a,
   button {
-    height: 21px;
+    height: 23px;
     @media (min-width: 750px) {
-      height: 21px;
+      height: 23px;
     }
   }
 
@@ -135,7 +110,28 @@ body.ja {
     main {
       margin-top: -80px;
       @media (min-width: 750px) {
-        margin-top: -109px;
+        margin-top: -96px;
+      }
+    }
+
+  }
+
+  article.project.project-streams {
+
+    .project-streams-papers-and-press {
+      table {
+        td:nth-child(3) {
+          font-style: normal;
+          &:before {
+            content: "『"
+          }
+          &:after {
+            content: "』（英語）"
+          }
+          a {
+            // max-width: 70%;
+          }
+        }
       }
     }
 

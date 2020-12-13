@@ -2,7 +2,7 @@ header {
   width: 100 - $gutter-width * 6;
   padding: 5px 0 16px;
   margin: 22px auto;
-  overflow: hidden;
+  height: 133px;
   @media (min-width: 750px) {
     padding: 5px 0 20px;
     margin: 40px auto;
@@ -30,8 +30,6 @@ header {
       padding-top: 0;
       padding-bottom: 5.5px;
       white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
       @media (min-width: 750px) {
         padding-bottom: 5px;
       }
