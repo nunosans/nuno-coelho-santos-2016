@@ -22,16 +22,10 @@ pt:
   # _intro
   intro_short: 'Olá, o meu nome é Nuno e sou um designer de produto em Londres.'
   intro_long: 'Olá, o meu nome é Nuno  e sou um designer de produto em Londres. Especializo-me em design de interfaces digitais e nos meus tempos livres desenvolvo as minhas aplicações.'
-  intro_currently: 'Neste momento trabalho na <a target="_blank" href="https://health.google">Google</a> em novas tecnologias médicas para todo o mundo.'
-    # https://health.google
-  # intro_currently: 'Neste moment trabalho no <a target="_blank" href="https://www.whatsapp.com">WhatsApp</a> para ajudar mais de 2 bilhões de pessoas em todo o mundo comunicar com privacidade.'
+  intro_currently: 'Neste moment trabalho no <a target="_blank" href="https://www.whatsapp.com">WhatsApp</a> para ajudar mais de 2 bilhões de pessoas em todo o mundo comunicar com privacidade.'
     # https://www.whatsapp.com
-  # intro_previously: 'Préviamente, trabalhei na <a target="_blank" href="https://health.google">Google</a> em tecnologia médica para todo o mundo.'
+  intro_previously: 'Préviamente, trabalhei na <a target="_blank" href="https://health.google">Google</a> em tecnologia médica para todo o mundo.'
     # https://health.google
-  intro_previously: 'Antes da Google, fiz parte da equipa da <a target="_blank" href="https://www.ideo.com">IDEO</a> em Tóquio, ajudei a <a target="_blank" href="https://www.thread.com">Thread</a> a reinventar estilismo no Reino Unido, e pertenci à família da <a target="_blank" href="https://www.ustwo.com">ustwo</a> em Londres e Nova Iorque.'
-    # https://www.ideo.com
-    # https://www.thread.com
-    # https://www.ustwo.com
   intro_expand: 'Ler mais'
   feature_speaker: 'Orador'
   feature_interview: 'Entrevista'

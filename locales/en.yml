@@ -22,16 +22,10 @@ en:
   # _intro
   intro_short: 'I’m Nuno, a product designer based in London.'
   intro_long: 'I’m Nuno, a product designer based in London. I specialise in human interface design, and enjoy building my own apps as a hobby.'
-  # intro_currently: 'I currently work at <a target="_blank" href="https://www.whatsapp.com">WhatsApp</a> to help over 2 billion people around the world communicate privately.'
+  intro_currently: 'I currently work at <a target="_blank" href="https://www.whatsapp.com">WhatsApp</a> to help over 2 billion people around the world communicate privately.'
     # https://www.whatsapp.com
-  intro_currently: 'I currently work at <a target="_blank" href="https://health.google">Google</a> to bring new healthcare technology to the entire world.'
+  intro_previously: 'Previously, I worked at <a target="_blank" href="https://health.google">Google</a> to bring new healthcare technology to clinicians.'
     # https://health.google
-  # intro_previously: 'Previously, I worked at <a target="_blank" href="https://health.google">Google</a> to bring new healthcare technology to clinicians.'
-    # https://health.google
-  intro_previously: 'Previously, I was part of the <a target="_blank" href="https://www.ideo.com">IDEO</a> Tokyo team, helped <a target="_blank" href="https://www.thread.com">Thread</a> reinvent personal styling in the UK, and prior to that, I was with the <a target="_blank" href="https://www.ustwo.com">ustwo</a> family in London and New York.'
-    # https://www.ideo.com
-    # https://www.thread.com
-    # https://www.ustwo.com
   intro_expand: 'Read more'
   feature_speaker: 'Speaker'
   feature_interview: 'Interview'
@@ -66,7 +60,7 @@ en:
   streams_body_1: '<a target="_blank" href="http://deepmind.com/health/">Streams</a> is an iOS application for doctors and nurses in the UK. It sends alerts for patients at risk of an Acute Kidney Injury and allows easy viewing of patient health record data.'
     # http://deepmind.com/health/
   streams_body_2: 'At the start of 2018, I worked on a redesign of Streams using Material Design in preparation to scale the product to new markets. My team did an audit of the existing UI to see what to replace with a pre-existing Material component, and what new components we needed to build ourselves to deliver the full experience. We extended Material design with a handful of custom components and patterns, which I will share below.'
-  streams_body_3: 'The redesigned interface is intended to be bright, clear, and follow thee Material Design language.'
+  streams_body_3: 'The redesigned interface is intended to be bright, clear, and follow the Material Design language.'
   streams_body_4: 'Accessibility was at the forefront of the redesign. We aligned all content with two keylines, which resulted in improved legibility and avoided eye movement from left to the right of the screen when scanning. The content was also commonly grouped by a leading icon or badge.'
   streams_body_5: 'The two-keyline layout also made it easy to support resizable text sizes. And finally, we rewrote all of the UI copy to be succinct and adhere to an established tone of voice.'
   streams_body_6: 'For the bespoke components created, we put together specs outlining their layout and behavior. Below is an example of a NEWS (National Early Warning Score) badge. NEWS is a numerical indicator of how ill a patient is, based on their vital signs. The higher, the worse.'

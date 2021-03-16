@@ -15,23 +15,17 @@ jp:
   # label_dribbble: ''
   # label_instagram: ''
   # label_blog: ''
-  label_newsletter: 'ニュースレターを購読する'
+  label_newsletter: 'ニュースレター'
   label_newsletter_subscribe: '登録する'
   # label_linkedin: ''
 
   # _intro
   intro_short: 'Nuno<span class="ww">（ヌノ）と</span><span class="ww">申します。</span><span class="ww">ロンドンを</span><span class="ww">ベースとして</span><span class="ww">活躍</span><span class="ww">して</span><span class="ww">いる</span><span class="ww">商品</span><span class="ww">デザイナーです。</span>'
   intro_long: 'Nuno<span class="ww">（ヌノ）と</span><span class="ww">申します。</span><span class="ww">ロンドンを</span><span class="ww">ベースとして</span><span class="ww">活躍</span><span class="ww">して</span><span class="ww">いる</span><span class="ww">商品</span><span class="ww">デザイナーです。</span><span class="ww">ヒューマン</span><span class="ww">インターフェイス</span><span class="ww">デザインを</span><span class="ww">専門と</span><span class="ww">して</span><span class="ww">おり、</span><span class="ww">趣味としても</span><span class="ww">自身の</span><span class="ww">アプリ</span><span class="ww">制作を</span><span class="ww">して</span><span class="ww">おります。</span>'
-  # intro_currently: '<span class="ww">現在、</span><span class="ww"><a target="_blank" href="https://www.whatsapp.com">WhatsApp</a>に</span><span class="ww">勤務</span><span class="ww">して</span><span class="ww">おり、</span><span class="ww">世界中の</span><span class="ww">２億人</span><span class="ww">以上いる</span><span class="ww">個人</span><span class="ww">ユーザーの</span><span class="ww">コミュニケーションを</span><span class="ww">円滑に</span><span class="ww">して</span><span class="ww">います。</span>'
+  intro_currently: '<span class="ww">現在、</span><span class="ww"><a target="_blank" href="https://www.whatsapp.com">WhatsApp</a>に</span><span class="ww">勤務</span><span class="ww">して</span><span class="ww">おり、</span><span class="ww">世界中の</span><span class="ww">２億人</span><span class="ww">以上いる</span><span class="ww">個人</span><span class="ww">ユーザーの</span><span class="ww">コミュニケーションを</span><span class="ww">円滑に</span><span class="ww">して</span><span class="ww">います。</span>'
     # https://www.whatsapp.com
-  intro_currently: '<span class="ww">現在、</span><span class="ww"><a target="_blank" href="https://health.google">Google</a>に</span><span class="ww">勤務</span><span class="ww">して</span><span class="ww">おり、</span><span class="ww">全世界に</span><span class="ww">新ヘルス</span><span class="ww">ケア</span><span class="ww">技術を</span><span class="ww">提供</span><span class="ww">して</span><span class="ww">います。</span>'
+  intro_previously: ''
     # https://health.google
-  # intro_previously: ''
-    # https://health.google
-  intro_previously: '<span class="ww">以前は</span><span class="ww"><a target="_blank" href="https://www.ideo.com">IDEO</a>という</span><span class="ww">会社の</span><span class="ww">東京</span><span class="ww">チームでも</span><span class="ww">働いたことが</span><span class="ww">あります。</span><span class="ww">そこでは</span><span class="ww">イギリスの</span><span class="ww"><a target="_blank" href="https://www.thread.com">Thread</a>という</span><span class="ww">個別</span><span class="ww">再開発</span><span class="ww">スタイリング</span><span class="ww">会社を</span><span class="ww">サポート</span><span class="ww">して</span><span class="ww">いました。</span><span class="ww">それより</span><span class="ww">前は、</span><span class="ww">ロンドンと</span><span class="ww">ニューヨークで</span><span class="ww"><a target="_blank" href="https://www.ustwo.com">ustwo</a>関連で</span><span class="ww">働いて</span><span class="ww">いました。</span>'
-    # https://www.ideo.com
-    # https://www.thread.com
-    # https://www.ustwo.com
   intro_expand: 'もっと読む'
   feature_speaker: '演説者'
   feature_interview: '面接'
