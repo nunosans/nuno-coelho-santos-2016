@@ -127,12 +127,11 @@ body.jp {
     .project-streams-papers-and-press {
       table {
         td:nth-child(3) {
-          font-style: normal;
           &:before {
             content: "『"
           }
           &:after {
-            content: "』（英語）"
+            content: "』"
           }
           a {
             // max-width: 70%;
