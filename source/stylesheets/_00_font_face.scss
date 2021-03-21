@@ -1,3 +1,22 @@
+/*
+This CSS resource incorporates links to font software which is the valuable
+copyrighted property of Monotype and/or its suppliers. You may not attempt to
+copy, install, redistribute, convert, modify or reverse engineer this font
+software. Please contact Monotype with any questions regarding Web Fonts:
+http://www.fonts.com
+*/
+
+// @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=638e5d08-0798-46e7-aec0-fea277b2990d&fontids=929059");
+
+@font-face{
+    font-family:"URW Franklin Gothic";
+    src: url("../fonts/a114e04d-c4f1-4ac0-bc25-e3e7cc92f518.woff2") format("woff2"),
+         url("../fonts/325d544c-d4a9-4fa6-907c-ce2bdc61cb62.woff") format("woff");
+    font-weight: 400;
+  font-style: normal;
+}
+
+
 @font-face {
   font-family: "Grifo M";
   src: url("../fonts/grifo-m-medium.eot");
