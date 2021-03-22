@@ -128,6 +128,10 @@ en:
   other_a_year_in_an_instant_title: 'A Year in an Instant'
   other_a_year_in_an_instant_body: 'For my first 365 days living in Japan, I took an instant photo every day and published it online. This was a Kickstarter project with 80 backers that got to claim their favorite photo. <a target="_blank" href="https://ayearinaninstant.com">Read the diary here</a>.'
     # https://ayearinaninstant.com
+  other_big_sur_icons_title: 'Big Sur Icons'
+  other_big_sur_icons_body: 'My own set of icons for the new look of macOS. <a target="_blank" href="https://github.com/nunosans/big-sur-icons/zipball/main">Download them</a> or <a target="_blank" href="https://bigsuricons.com">visit the website</a>.'
+    # https://github.com/nunosans/big-sur-icons/zipball/main
+    # https://bigsuricons.com
   other_15_days_in_japan_title: '15 Days in Japan'
   other_15_days_in_japan_body: 'One of my most popular side-projects. A travel blog where I documented my experience traveling completely on my own in a country where I didn’t speak the language. All photos taken with a Fuji X100. <a target="_blank" href="https://15daysinjapan.com">See the story here</a>.'
     # https://15daysinjapan.com
@@ -153,10 +157,10 @@ en:
   outro: 'Thank you for reading. If you would like to discuss more, share feedback, or ask any questions, please get in touch.'
 
   # _colophon
-  colophon: 'Portrait photo by <a target="_blank" href="https://www.alystudio.com">Ana Barreira</a>. This website is set in <a target="_blank" href="https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;">Franklin Gothic URW</a> from <a target="_blank" href="https://www.urwpp.de/en/">URW++</a> served by <a target="_blank" href="https://typekit.com/">Typekit</a>, and <a target="_blank" href="https://r-typography.com/10_grifo/">Grifo</a> by <a target="_blank" href="https://r-typography.com/">R-Typography</a>. All other content on this website is produced by and copyright 2020 by Nuno Coelho Santos. All assets are hosted by <a target="_blank" href="https://www.netlify.com/">Netlify</a>. Stats are tracked using <a target="_blank" href="https://www.google.com/analytics/">Google Analytics</a>.'
+  colophon: 'Portrait photo by <a target="_blank" href="https://www.alystudio.com">Ana Barreira</a>. This website is set in <a target="_blank" href="https://www.fonts.com/font/urw-type-foundry/franklin-gothic">Franklin Gothic</a> from <a target="_blank" href="https://www.fonts.com/font/urw-type-foundry">URW</a>, and <a target="_blank" href="https://r-typography.com/10_grifo/">Grifo</a> by <a target="_blank" href="https://r-typography.com/">R-Typography</a>. All other content on this website is produced by and copyright 2020 by Nuno Coelho Santos. All assets are hosted by <a target="_blank" href="https://www.netlify.com/">Netlify</a>. Stats are tracked using <a target="_blank" href="https://www.google.com/analytics/">Google Analytics</a>.'
     # https://www.alystudio.com
-    # https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:f008032t;
-    # https://www.urwpp.de/en/
+    # https://www.fonts.com/font/urw-type-foundry/franklin-gothic
+    # https://www.fonts.com/font/urw-type-foundry
     # https://typekit.com/
     # https://r-typography.com/10_grifo/
     # https://r-typography.com/

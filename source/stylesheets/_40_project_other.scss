@@ -8,6 +8,7 @@ article.project.project-other {
 
   .project-other-a-year-in-an-instant {
     @media (min-width: 750px) {
+      margin-top: 180px;
       float: left;
       width: $inner-column-width * 4 + $inner-gutter-width * 3;
     }
@@ -20,15 +21,29 @@ article.project.project-other {
     }
   }
 
-  .project-other-15-days-in-japan {
+  .project-other-big-sur-icons {
     @media (min-width: 750px) {
-      margin-top: 120px;
       float: left;
       width: $inner-column-width * 4 + $inner-gutter-width * 3;
       margin-left: $inner-column-width + $inner-gutter-width * 2;
     }
     img {
-      width: 75%;
+      width: 100%;
+      @media (min-width: 750px) {
+        margin-left: -5%;
+      }
+    }
+  }
+
+  .project-other-15-days-in-japan {
+    @media (min-width: 750px) {
+      float: left;
+      margin-top: -60px;
+      width: $inner-column-width * 4 + $inner-gutter-width * 3;
+      margin-left: $inner-column-width + $inner-gutter-width * 2;
+    }
+    img {
+      width: 74%;
       margin-left: 25%;
       @media (min-width: 750px) {
         margin-left: 0;
@@ -40,8 +55,8 @@ article.project.project-other {
     position: relative;
     @media (min-width: 750px) {
       float: left;
+      margin-top: -220px;
       width: $inner-column-width * 4 + $inner-gutter-width * 3;
-      margin-top: -140px;
     }
     img.project-other-ustwo-rebrand-logo {
       position: relative;
