@@ -25,21 +25,30 @@ article.project.project-streams {
   .project-streams-hero {
     @media (min-width: 750px) {
       margin-top: 120px;
-      margin-bottom: -600px;
+      // margin-bottom: -600px;
     }
-    img {
+    .project-streams-hero-ipad {
       @media (min-width: 750px) {
-        position: relative;
-        width: $inner-column-width * 8 + $inner-gutter-width * 7;
-        left: - ($inner-column-width + $inner-gutter-width);
+        // position: relative;
+        width: $inner-column-width * 9 + $inner-gutter-width * 8;
+        margin-left: 0;
       }
     }
-    .iphone-with-video {
+    .project-streams-hero-iphone {
       @media (min-width: 750px) {
-        position: relative;
-        left: $inner-column-width * 4 + $inner-gutter-width * 2;
-        top: -500px;
-        transform: scale(0.8);
+        float: right;
+        // position: relative;
+        // left: $inner-column-width * 4 + $inner-gutter-width * 2;
+        margin-top: -500px;
+        transform: scale(0.85);
+        transform-origin: top right;
+      }
+      img {
+        @media (min-width: 750px) {
+          // position: relative;
+          // width: $inner-column-width * 8 + $inner-gutter-width * 7;
+          // left: - ($inner-column-width + $inner-gutter-width);
+        }
       }
     }
   }
@@ -164,7 +173,21 @@ article.project.project-streams {
   }
 
   .project-streams-prototype {
-
+    position: relative;
+    @media (min-width: 750px) {
+      clear: both;
+      padding-top: 160px;
+      padding-bottom: 160px;
+    }
+    .project-streams-prototype-video {
+      transform: scale(1.2);
+    }
+    p {
+      position: absolute;
+      top: 50%;
+      margin-top: -24px;
+      left: $inner-column-width * 7 + $inner-gutter-width * 7;
+    }
   }
 
   .project-streams-poster {

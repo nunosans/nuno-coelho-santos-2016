@@ -32,7 +32,7 @@ article.project.project-currency {
       margin-left: $inner-column-width + $inner-gutter-width;
       margin-top: 170px;
     }
-    .iphone-with-video {
+    .iphone-x-frame {
       @media (min-width: 750px) {
         position: relative;
         left: 50%;
@@ -164,30 +164,57 @@ article.project.project-currency {
     }
   }
 
-  .project-currency-results {
-    padding-bottom: 0;
+  .project-currency-reviews {
     @media (min-width: 750px) {
-      position: relative;
+      margin-bottom: 80px;
     }
     img {
-      width: 72%;
-      margin-left: 33%;
-      margin-bottom: 0;
       @media (min-width: 750px) {
-        margin-left: $inner-column-width * 5 + $inner-gutter-width * 5;
-        width: $inner-column-width * 6 + $inner-gutter-width * 6;
+        width: $inner-column-width * 8 + $inner-gutter-width * 7;
+        float: left;
       }
     }
     p {
       @media (min-width: 750px) {
-        position: absolute;
-        top: 66px;
-        left: $inner-column-width + $inner-gutter-width;
-      }
-      @media (min-width: 1250px) {
-        left: $inner-column-width * 2 + $inner-gutter-width * 2;
+        margin-top: 16px;
+        margin-left: $inner-gutter-width;
+        width: $inner-column-width * 2 + $inner-gutter-width * 1;
+        float: left;
       }
     }
   }
 
+  .project-currency-results {
+    clear: both;
+    padding-top: 80px;
+    padding-bottom: 0;
+    @media (min-width: 750px) {
+      // position: relative;
+    }
+    p {
+      @media (min-width: 750px) {
+        margin-top: 16px;
+        float: left;
+        margin-left: $inner-column-width * 3 + $inner-gutter-width * 3;
+        width: $inner-column-width * 2 + $inner-gutter-width * 1;
+        // position: absolute;
+        // top: 66px;
+        // left: $inner-column-width + $inner-gutter-width;
+      }
+      @media (min-width: 1250px) {
+        // left: $inner-column-width * 2 + $inner-gutter-width * 2;
+      }
+    }
+    img {
+      width: 72%;
+      // margin-left: 33%;
+      margin-bottom: 0;
+      @media (min-width: 750px) {
+        float: right;
+        // margin-left: $inner-column-width * 5 + $inner-gutter-width * 5;
+        margin-right: - ($inner-column-width + $inner-gutter-width * 2);
+        width: $inner-column-width * 6 + $inner-gutter-width * 6;
+      }
+    }
+  }
 }

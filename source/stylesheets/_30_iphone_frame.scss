@@ -1,0 +1,109 @@
+.iphone-frame {
+  display: block;
+  margin: 66px auto;
+  clear: both;
+  width: 240px;
+  height: 497px;
+  padding: 62px 16px 70px 17px;
+  background-image: url('../graphics/iphone-1x.jpg');
+  background-size: 240px 497px;
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (   min--moz-device-pixel-ratio: 1.5),
+  only screen and (        min-device-pixel-ratio: 1.5) {
+    background-image: url('../graphics/iphone-2x.jpg');
+  }
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2.5),
+  only screen and (   min--moz-device-pixel-ratio: 2.5),
+  only screen and (        min-device-pixel-ratio: 2.5) {
+    background-image: url('../graphics/iphone-3x.jpg');
+  }
+  @media (min-width: 750px) {
+    width: 342px;
+    height: 708px;
+    background-size: 342px 708px;
+    margin: 22px auto;
+    padding: 89px 24px 101px 25px;
+  }
+  img {
+    width: 207px;
+    height: 365px;
+    @media (min-width: 750px) {
+      width: 293px;
+      height: 518px;
+    }
+  }
+  video {
+    width: 207px;
+    height: 365px;
+    @media (min-width: 750px) {
+      width: 293px;
+      height: 518px;
+    }
+  }
+}
+
+.iphone-x-frame {
+  display: block;
+  margin: 66px auto;
+  clear: both;
+  width: 240px;
+  height: 497px;
+  padding: 11px 13px 12px 13px;
+  position: relative;
+  &:after {
+    content: "";
+    z-index: 1;
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 240px 497px;
+    background-image: url('../graphics/iphone-x-1x.png');
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (   min--moz-device-pixel-ratio: 1.5),
+    only screen and (        min-device-pixel-ratio: 1.5) {
+      background-image: url('../graphics/iphone-x-2x.png');
+    }
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2.5),
+    only screen and (   min--moz-device-pixel-ratio: 2.5),
+    only screen and (        min-device-pixel-ratio: 2.5) {
+      background-image: url('../graphics/iphone-x-3x.png');
+    }
+  }
+  @media (min-width: 750px) {
+    width: 342px;
+    height: 696px;
+    margin: 22px auto;
+    padding: 16px 18px 16px 18px;
+    &:after {
+      background-size: 342px 696px;
+    }
+  }
+  img {
+    margin: 0;
+    width: 214px;
+    height: 475px;
+    background-color: black;
+    @media (min-width: 750px) {
+      width: 307px;
+      height: 664px;
+    }
+  }
+  video {
+    width: 214px;
+    height: 475px;
+    background-color: black;
+    @media (min-width: 750px) {
+      width: 307px;
+      height: 664px;
+    }
+  }
+}

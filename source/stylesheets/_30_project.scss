@@ -110,6 +110,9 @@ article.project {
                    -3px 3px 0 0 rgba(black, 0.06);
       }
     }
+    video {
+      height: auto;
+    }
     h6 {
       margin-bottom: 0;
       color: $text-secondary;
@@ -123,6 +126,11 @@ article.project {
     }
     p {
       margin-left: 0;
+    }
+    .iphone-x-frame, .iphone-frame {
+      img {
+        margin: 0;
+      }
     }
   }
 
