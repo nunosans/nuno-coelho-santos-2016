@@ -35,7 +35,7 @@ body.jp {
   p {
     // text-align: justify;
     @media (min-width: 750px) {
-      // max-width: 355px;
+      max-width: 355px;
     }
   }
 
@@ -98,6 +98,12 @@ body.jp {
   header {
     div b {
       // width: 120px; // For the longer newsletter label.
+    }
+  }
+
+  footer {
+    p {
+      max-width: none;
     }
   }
 

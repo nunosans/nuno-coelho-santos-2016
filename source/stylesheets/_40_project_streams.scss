@@ -77,19 +77,17 @@ article.project.project-streams {
 
   .project-streams-team {
     @media (min-width: 750px) {
-      margin-left: $inner-column-width * 2 + $inner-gutter-width * 2;
+      margin-left: $inner-column-width * 5 + $inner-gutter-width * 5;
+      padding-bottom: 160px;
     }
     p {
       @media (min-width: 750px) {
         width: $inner-column-width * 3 + $inner-gutter-width * 2;
+        margin-bottom: 24px;
       }
     }
     video {
       @media (min-width: 750px) {
-        float: right;
-        position: relative;
-        top: -216px;
-        left: - $inner-column-width;
         width: $inner-column-width * 6 + $inner-gutter-width * 6;
       }
     }
@@ -138,8 +136,9 @@ article.project.project-streams {
       @media (min-width: 750px) {
         position: absolute;
         top: 32px;
-        left: $inner-column-width * 6 + $inner-gutter-width * 6;
-        width: $inner-column-width * 3 + $inner-gutter-width * 2;
+        // left: $inner-column-width * 6 + $inner-gutter-width * 6;
+        left: - ($inner-column-width * 2 + $inner-gutter-width * 2);
+        width: $inner-column-width * 2 + $inner-gutter-width * 1;
       }
     }
   }
@@ -147,7 +146,6 @@ article.project.project-streams {
   .project-streams-component {
     padding-top: 80px;
     img {
-      // margin-left: - ($inner-column-width + $inner-gutter-width);
       width: $inner-column-width * 10 + $inner-gutter-width * 9;
     }
   }
@@ -156,8 +154,8 @@ article.project.project-streams {
     margin-top: -72px;
     img {
       display: inline-block;
-      width: $inner-column-width * 3 + $inner-gutter-width * 2;
-      // width: ($inner-column-width * 10 + $inner-gutter-width * 7) / 3;
+      // width: $inner-column-width * 3 + $inner-gutter-width * 2;
+      width: ($inner-column-width * 10 + $inner-gutter-width * 7) / 3;
       float: left;
       + img {
         margin-left: $inner-gutter-width;
