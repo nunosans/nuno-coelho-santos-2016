@@ -33,7 +33,6 @@ body.jp {
   }
 
   p {
-    // text-align: justify;
     @media (min-width: 750px) {
       max-width: 355px;
     }
@@ -122,6 +121,24 @@ body.jp {
       @media (min-width: 750px) {
         margin-top: -102px;
       }
+    }
+
+  }
+
+  article.project.project-currency {
+
+    .project-currency-development {
+      p {
+        top: 26px;
+      }
+    }
+
+    .project-currency-image-storyboard {
+      top: 340px;
+    }
+
+    .project-currency-image-exploded-ui {
+      top: 762px;
     }
 
   }

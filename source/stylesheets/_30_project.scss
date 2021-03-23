@@ -78,10 +78,10 @@ article.project {
       width: 1px;
       height: auto;
       position: absolute;
-      top: 6px;
-      bottom: 11px;
+      top: 2px;
+      bottom: 2px;
       left: 0px;
-      background-color: darken($background-project, 10%);
+      background-color: darken($background-project, 14%);
       @media (min-width: 750px) {
         content: none;
       }

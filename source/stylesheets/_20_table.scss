@@ -27,4 +27,20 @@ table {
       width: auto;
     }
   }
+  @media (max-width: 749px) {
+    tr {
+      display: block;
+      border-left: 1px solid darken($background-project, 10%);
+      margin-bottom: 12px;
+      padding-bottom: 4px;
+    }
+    td {
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: $inner-gutter-width * 2;
+      padding-right: $inner-gutter-width * 2;
+      display: block;
+      width: 100%;
+    }
+  }
 }

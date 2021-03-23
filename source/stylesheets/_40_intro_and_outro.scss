@@ -37,6 +37,23 @@ article.intro section.intro-short {
 article.intro section.intro-complete {
   margin-bottom: 0;
   cursor: pointer;
+  @media (max-width: 749px) {
+    table tr td {
+      &:nth-child(1) {
+        padding-right: 0;
+        display: inline-block;
+        width: auto;
+      }
+      &:nth-child(2) {
+        padding-left: 0;
+        display: inline-block;
+        width: auto;
+        &:before {
+          content: "\00a0—\00a0\00a0"
+        }
+      }
+    }
+  }
 }
 
 article.intro section.intro-bio {
