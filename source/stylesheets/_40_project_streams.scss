@@ -3,21 +3,24 @@ article.project.project-streams {
   .project-streams-app-icon {
     @media (min-width: 750px) {
       margin-top: 48px;
-      margin-left: $inner-column-width * 2.5 + $inner-gutter-width;
+      margin-left: $inner-column-width * 3 + $inner-gutter-width * 3;
     }
     img {
       width: 84px;
       height: 84px;
       @media (min-width: 750px) {
         float: left;
-        margin: -16px 48px 48px 0;
         width: 126px;
         height: 126px;
+        margin-top: 0;
+        margin-left: -0.25%;
       }
     }
     p {
       @media (min-width: 750px) {
         float: left;
+        margin-left: $inner-gutter-width;
+        width: $inner-column-width * 3 + $inner-gutter-width;
       }
     }
   }
@@ -37,18 +40,9 @@ article.project.project-streams {
     .project-streams-hero-iphone {
       @media (min-width: 750px) {
         float: right;
-        // position: relative;
-        // left: $inner-column-width * 4 + $inner-gutter-width * 2;
         margin-top: -500px;
-        transform: scale(0.85);
+        transform: scale(0.9);
         transform-origin: top right;
-      }
-      img {
-        @media (min-width: 750px) {
-          // position: relative;
-          // width: $inner-column-width * 8 + $inner-gutter-width * 7;
-          // left: - ($inner-column-width + $inner-gutter-width);
-        }
       }
     }
   }
@@ -176,17 +170,18 @@ article.project.project-streams {
     position: relative;
     @media (min-width: 750px) {
       clear: both;
-      padding-top: 160px;
-      padding-bottom: 160px;
+      padding-top: 120px;
+      padding-bottom: 120px;
     }
     .project-streams-prototype-video {
-      transform: scale(1.2);
+      // transform: scale(1.1);
     }
     p {
       position: absolute;
       top: 50%;
       margin-top: -24px;
       left: $inner-column-width * 7 + $inner-gutter-width * 7;
+      width: $inner-column-width * 2 + $inner-gutter-width * 1;
     }
   }
 

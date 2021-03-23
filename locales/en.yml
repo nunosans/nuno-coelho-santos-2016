@@ -42,8 +42,8 @@ en:
   label_after: 'After'
 
   # _streams
-  streams_title: '<a target="_blank" href="http://deepmind.com/health/">Streams</a> helps doctors and nurses quickly handle patient deterioration.'
-    # http://deepmind.com/health/
+  streams_title: '<a target="_blank" href="https://health.google/for-clinicians/streams/">Streams</a> helps doctors and nurses quickly handle patient deterioration.'
+    # https://health.google/for-clinicians/streams/
   streams_role: 'UX Designer'
   streams_date: '2017–2020'
   streams_website: '<a target="_blank" href="http://deepmind.com/health/">deepmind.com/health</a>'
@@ -66,7 +66,7 @@ en:
   streams_body_6: 'For the bespoke components created, we put together specs outlining their layout and behavior. Below is an example of a NEWS (National Early Warning Score) badge. NEWS is a numerical indicator of how ill a patient is, based on their vital signs. The higher, the worse.'
   streams_body_7: 'We also paid a lot of attention to how data is formatted in the UI. The NHS (National Health Service in the UK) provides several standards to follow, and we created further of our own. As an example, the patient’s age has rules for how it should be displayed for adult, teenager, and pediatric patients.'
   streams_body_8: 'Another pattern in Streams is for patient identification. At a glance, we show a lot of identifiers: Surname, first name, date of birth, age, Medical Record Number, and location. These are necessary to positively identify a patient. Once the user finds the intended patient and browses through the record, we reduce the set of identifiers.'
-  streams_body_9: 'I also developed prototypes, such as this note attachment viewer prototype built using SwiftUI.'
+  streams_body_9: 'I also created several prototypes, such as this note attachment viewer prototype built using SwiftUI.'
   streams_body_10: 'In June of 2020, we released a new feature in Streams to display Covid-19 patient test results. To spread awareness, we made this for the Imperial College Healthcare NHS Trust at launch.'
   streams_body_11: 'I’m incredibly proud of all the work I’ve done at Streams and for the NHS while working for DeepMind Health and Google. And hope to share in the future about my work at Google Health.'
 

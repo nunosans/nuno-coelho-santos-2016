@@ -164,6 +164,12 @@ article.project.project-currency {
     }
   }
 
+  .project-currency-downloads {
+    @media (min-width: 750px) {
+      padding: 80px 0;
+    }
+  }
+
   .project-currency-reviews {
     @media (min-width: 750px) {
       margin-bottom: 80px;

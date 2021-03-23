@@ -42,8 +42,8 @@ jp:
   # label_after: ''
 
   # _streams
-  streams_title: '<a target="_blank" href="http://deepmind.com/health/">Streams</a><span class="ww">（ストリームス）では</span><span class="ww">医師</span><span class="ww">と</span><span class="ww">看護師が</span><span class="ww">迅速に、</span><span class="ww">患者の</span><span class="ww">状態</span><span class="ww">悪化を</span><span class="ww">対応</span><span class="ww">する</span><span class="ww">サポートを</span><span class="ww">して</span><span class="ww">いました。</span>'
-    # http://deepmind.com/health/
+  streams_title: '<a target="_blank" href="https://health.google/for-clinicians/streams/">Streams</a><span class="ww">（ストリームス）では</span><span class="ww">医師</span><span class="ww">と</span><span class="ww">看護師が</span><span class="ww">迅速に、</span><span class="ww">患者の</span><span class="ww">状態</span><span class="ww">悪化を</span><span class="ww">対応</span><span class="ww">する</span><span class="ww">サポートを</span><span class="ww">して</span><span class="ww">いました。</span>'
+    # https://health.google/for-clinicians/streams/
   streams_role: 'UX デザイナー'
   streams_date: '2017年〜2020年'
   streams_website: '<a target="_blank" href="http://deepmind.com/health/">deepmind.com/health</a>'

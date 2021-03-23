@@ -2,9 +2,11 @@ article.project.project-thread {
 
   .project-thread-intro {
     @media (min-width: 750px) {
+      margin-top: 120px;
+      margin-bottom: 80px;
       float: left;
       width: $inner-column-width * 3 + $inner-gutter-width * 2;
-      margin-left: $inner-column-width + $inner-gutter-width;
+      margin-left: $inner-column-width * 4 + $inner-gutter-width * 3;
     }
   }
 
@@ -25,6 +27,22 @@ article.project.project-thread {
     }
   }
 
+  .project-thread-hero {
+    .project-thread-hero-desktop {
+      border-radius: 6px;
+      box-shadow: 0 8px 16px rgba(black, 0.16);
+      width: $inner-column-width * 9 + $inner-gutter-width * 8;
+    }
+    .project-thread-hero-mobile-video {
+      @media (min-width: 750px) {
+        float: right;
+        margin-top: -500px;
+        transform: scale(0.9);
+        transform-origin: top right;
+      }
+    }
+  }
+
   .project-thread-mobile-intro {
     max-width: 420px;
     @media (min-width: 750px) {
@@ -33,20 +51,11 @@ article.project.project-thread {
     }
   }
 
-  .project-thread-mobile-intro-part-1 {
+  .project-thread-mobile-intro-part {
     @media (min-width: 750px) {
       padding-top: 0;
       float: left;
       width: $inner-column-width * 3 + $inner-gutter-width * 2;
-    }
-  }
-
-  .project-thread-mobile-intro-part-2 {
-    @media (min-width: 750px) {
-      padding-top: 0;
-      float: left;
-      width: $inner-column-width * 3 + $inner-gutter-width * 2;
-      margin-left: $inner-gutter-width;
     }
   }
 

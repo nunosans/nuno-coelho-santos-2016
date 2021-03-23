@@ -23,15 +23,33 @@
       </p>
     </div>
 
+    <div class="project-item project-thread-hero">
+      <img
+        class="lazy-load project-thread-hero-desktop"
+        src="/images/nuno-coelho-santos-thread-hero-desktop-1x.jpg"
+        srcset="/images/nuno-coelho-santos-thread-hero-desktop-2x.jpg 2x,
+                /images/nuno-coelho-santos-thread-hero-desktop-3x.jpg 3x"
+        alt=""
+        width="1064"
+        height="817"
+      >
+      <div class="iphone-frame project-thread-hero-mobile-video" data-layout="wide">
+        <video
+          width="640"
+          height="1136"
+          poster="/videos/nuno-coelho-santos-thread-hero-mobile.jpg"
+          autoplay muted loop
+        >
+          <source src="/videos/nuno-coelho-santos-thread-hero-mobile.mp4">
+          <source src="/videos/nuno-coelho-santos-thread-hero-mobile.ogg"  type="video/ogg">
+          <source src="/videos/nuno-coelho-santos-thread-hero-mobile.webm" type="video/webm">
+        </video>
+      </div>
+    </div>
+
     <div class="project-item project-thread-intro">
       <p>
         <%= t(:thread_body_1) %>
-      </p>
-    </div>
-
-    <div class="project-item project-thread-week">
-      <p>
-        <%= t(:thread_body_2) %>
       </p>
     </div>
 
@@ -41,15 +59,9 @@
       </p>
     </div>
 
-    <div class="project-item project-thread-mobile-intro-part-1">
+    <div class="project-item project-thread-mobile-intro-part">
       <p>
-        <%= t(:thread_body_3) %>
-      </p>
-    </div>
-
-    <div class="project-item project-thread-mobile-intro-part-2">
-      <p>
-        <%= t(:thread_body_4) %>
+        <%= t(:thread_body_2) %>
       </p>
     </div>
 
@@ -67,7 +79,9 @@
 
     <div class="project-item project-thread-mobile-desktop">
       <p>
-        <%= t(:thread_body_5) %>
+        <%= t(:thread_body_3) %>
+        <br><br>
+        <%= t(:thread_body_4) %>
       </p>
       <img
         class="lazy-load project-thread-mobile-modals-narrow"
@@ -108,13 +122,13 @@
 
     <div class="project-item project-thread-browse-intro-part-1">
       <p>
-        <%= t(:thread_body_6) %>
+        <%= t(:thread_body_5) %>
       </p>
     </div>
 
     <div class="project-item project-thread-browse-intro-part-2">
       <p>
-        <%= t(:thread_body_7) %>
+        <%= t(:thread_body_6) %>
       </p>
     </div>
 
@@ -154,6 +168,8 @@
         </video>
       </div>
       <p>
+        <%= t(:thread_body_7) %>
+        <br><br>
         <%= t(:thread_body_8) %>
       </p>
     </div>
