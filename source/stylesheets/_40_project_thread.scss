@@ -2,7 +2,7 @@ article.project.project-thread {
 
   .project-thread-intro {
     @media (min-width: 750px) {
-      margin-top: 120px;
+      margin-top: 8px;
       margin-bottom: 80px;
       float: left;
       width: $inner-column-width * 3 + $inner-gutter-width * 2;
@@ -29,15 +29,18 @@ article.project.project-thread {
 
   .project-thread-hero {
     .project-thread-hero-desktop {
-      border-radius: 6px;
-      box-shadow: 0 8px 16px rgba(black, 0.16);
-      width: $inner-column-width * 9 + $inner-gutter-width * 8;
+      width: 124%;
+      margin-left: -12%;
+      @media (min-width: 750px) {
+        margin-left: 0;
+        width: $inner-column-width * 9 + $inner-gutter-width * 8;
+      }
     }
     .project-thread-hero-mobile-video {
       @media (min-width: 750px) {
         float: right;
         margin-top: -500px;
-        transform: scale(0.9);
+        transform: scale(0.8);
         transform-origin: top right;
       }
     }
