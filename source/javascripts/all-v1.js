@@ -68,6 +68,25 @@ $('document').ready(function() {
     effectspeed: 400
   });*/
 
+  // Play videos when visible, and pause when not.
+
+  var videos = $('video');
+
+  function playVideosInViewport() {
+    videos.each(function(){
+      var el = $(this);
+      if (el.is(":in-viewport")) {
+          el[0].play();
+      } else {
+          el[0].pause();
+      }
+    });
+  }
+
+  $(window).on( 'scroll', function(){
+    playVideosInViewport()
+  });
+
   // Expand and collapse introduction text.
 
   $('button[data-action="show-intro-complete"]').click(function(event) {
