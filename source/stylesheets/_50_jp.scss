@@ -42,16 +42,14 @@ body.jp {
   .emphasize p,
   p.emphasize {
     font-family: 'Noto Serif JP', serif;
-    // font-size: 32px;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 48px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.25px;
     text-align: left;
     font-weight: 600;
     @media (min-width: 750px) {
-      // font-size: 52px;
-      font-size: 58px;
-      line-height: 80px;
+      font-size: 52px;
+      line-height: 88px;
       letter-spacing: 1px;
       max-width: none;
     }
@@ -120,9 +118,9 @@ body.jp {
     }
 
     main {
-      margin-top: -80px;
+      margin-top: -74px;
       @media (min-width: 750px) {
-        margin-top: -96px;
+        margin-top: -102px;
       }
     }
 
