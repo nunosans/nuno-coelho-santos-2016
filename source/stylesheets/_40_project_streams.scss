@@ -159,18 +159,20 @@ article.project.project-streams {
     }
     img.keylines {
       position: absolute;
+      top: 0;
       background-color: transparent;
       margin-left: 0;
       pointer-events: none;
       width: $inner-column-width * 5 + $inner-gutter-width * 3;
       @media (min-width: 750px) {
+        top: 24px;
         width: $inner-column-width * 3 + $inner-gutter-width * 2;
       }
       &.keylines-1 {
         left: 0;
       }
       &.keylines-2 {
-        left: $inner-column-width * 5 + $inner-gutter-width * 5.5;
+        left: $inner-column-width * 5 + $inner-gutter-width * 5.4;
         margin-top: 56px;
         @media (min-width: 750px) {
           margin-left: 1px;
