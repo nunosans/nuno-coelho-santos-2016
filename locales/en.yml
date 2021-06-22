@@ -168,7 +168,7 @@ en:
     # https://www.google.com/analytics/
   link_2011_portfolio: 'See 2011 portfolio.'
     # https://2011.nunocoelhosantos.com/
-  link_columns_show: 'Show columns.'
+  link_columns_show: '<button data-action="show-columns" data-layout="wide">Show columns.</button>'
     # button data-action="show-columns" data-layout="wide"
-  link_columns_hide: 'Hide columns.'
+  link_columns_hide: '<button data-action="hide-columns" data-layout="hidden">Hide columns.</button>'
     # button data-action="hide-columns" data-layout="hidden"
