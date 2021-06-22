@@ -149,10 +149,12 @@ body.jp {
       table {
         td:nth-child(3) {
           &:before {
-            content: "『"
+            content: "『";
+            bottom: 5px;
           }
           &:after {
-            content: "』"
+            content: "』";
+            bottom: 5px;
           }
           a {
             // max-width: 70%;

@@ -86,10 +86,14 @@ article.project.project-streams {
             max-width: 100%;
           }
           &:before {
-            content: "“"
+            content: "“";
+            position: relative;
+            bottom: 4px;
           }
           &:after {
-            content: "”"
+            content: "”";
+            position: relative;
+            bottom: 4px;
           }
         }
       }
