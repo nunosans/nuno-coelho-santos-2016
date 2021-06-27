@@ -83,7 +83,7 @@ pt:
     # https://currency.nunocoelhosantos.com/pt
   currency_body_1: 'Este foi um projeto para aprender programação em iOS. Desenhado e desenvolvido por mim no curso de dois meses.'
   currency_body_2: 'Depois de usar vários conversores de moeda para iOS, eu achei que a maioria eram desnecessariamente complexos, pouco intuitivos ou encontravam-se desatualizados. Muitos incluem introduções, navegação desnecessária, ou demasiadas opções. Eu desenhei o Currency para ser o conversor mais simples e intuitivo na App Store.'
-  currency_scribble_1: 'Objetivos:<br>1. Muito rápido de utilizar,<br>2. Desenhado para viajantes,<br>3. Sem introduções.'
+  currency_scribble_1: 'Objetivos:<br>1. Muito rápido de utilizar<br>2. Desenhado para viajantes<br>3. Sem introduções'
     # Add line breaks.
   currency_body_3: 'O ícone foi desenhado de forma a encaixar perfeitamente com o resto do estilo visual de iOS, como se fosse uma aplicação pré-instalada.'
   currency_body_4: 'O design final procura resolver um problema de forma eficaz: o de converter uma moeda estrangeira na moeda local do utilizador. Outras funcionalidades, como por exemplo, gráficos, notificações e várias opções não foram incluídas.'
