@@ -79,7 +79,7 @@ en:
     # https://currency.nunocoelhosantos.com
   currency_body_1: 'A side-project to learn iOS development. Designed and developed by myself over the course of two months.'
   currency_body_2: 'After using various currency conversion apps for iOS, I found most of them to be complex, unintuitive, or out of date. Most of the time they’ll have walkthroughs, unnecessary navigation, or too many options. I designed Currency to be the simplest and most intuitive currency converter in the App Store.'
-  currency_scribble_1: 'Goals:<br>1. Very quick to use;<br>2. Designed for travellers;<br>3. No walkthroughs.'
+  currency_scribble_1: 'Goals:<br>1. Very quick to use<br>2. Designed for travellers<br>3. No walkthroughs'
   currency_body_3: 'The icon is designed to fit perfectly with iOS, presenting Currency as if it is part of the operating system.'
   currency_body_4: 'The final design focuses on doing one job well: converting a foreign currency into the customer’s home currency. Features such as currency fluctuation graphs, in-app settings and notifications were not necessary for this job.'
   currency_body_5: 'One of the most unique aspects of Currency is how the numbers are formatted. They have the correct currency symbol, number of decimal places, decimal divider, and group dividers. This makes the number look exactly how you’d see it in a store or market while traveling.'
