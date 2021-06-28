@@ -42,12 +42,12 @@ pt:
   label_after: 'Depois'
 
   # _streams
-  streams_title: 'O <a target="_blank" href="http://deepmind.com/health/">Streams</a> ajuda médicos e enfermeiros a lidar com pacientes em deterioração.'
-    # http://deepmind.com/health/
+  streams_title: 'O <a target="_blank" href="https://health.google/for-clinicians/streams/">Streams</a> ajuda médicos e enfermeiros a lidar com pacientes em deterioração.'
+    # https://health.google/for-clinicians/streams/
   streams_role: 'UX Designer'
   streams_date: '2017–2020'
-  streams_website: '<a target="_blank" href="http://deepmind.com/health/">deepmind.com/health</a>'
-    # http://deepmind.com/health/
+  streams_website: '<a target="_blank" href="https://health.google/for-clinicians/streams/">health.google</a>'
+    # https://health.google/for-clinicians/streams/
   # streams_paper_1: ''
   # streams_paper_2: ''
   # streams_press_1: ''

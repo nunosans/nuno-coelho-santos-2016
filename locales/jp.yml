@@ -46,8 +46,8 @@ jp:
     # https://health.google/for-clinicians/streams/
   streams_role: 'UX デザイナー'
   streams_date: '2017年〜2020年'
-  streams_website: '<a target="_blank" href="http://deepmind.com/health/">deepmind.com/health</a>'
-    # http://deepmind.com/health/
+  streams_website: '<a target="_blank" href="https://health.google/for-clinicians/streams/">health.google</a>'
+    # https://health.google/for-clinicians/streams/
   streams_paper_1: '将来の急性腎障害の継続的な予測への臨床的に適用可能なアプローチ'
   streams_paper_2: '病院の緊急入院における急性腎障害管理のためのデジタル対応ケア経路の評価'
   streams_press_1: 'DeepMind、人工知能、そしてNHSの未来'
@@ -57,8 +57,8 @@ jp:
   streams_press_5: 'GoogleでStreamsをスケーリングする'
   streams_press_6: '人工知能は「1つの緊急のケースを見逃しませんでした」'
   streams_press_7: '「驚異的な」ブランドのGoogle DeepMindのStreamsテクノロジー'
-  streams_body_1: '<span class="ww"><a target="_blank" href="http://deepmind.com/health/">Streams</a>は</span><span class="ww">イギリスの</span><span class="ww">医師</span><span class="ww">と</span><span class="ww">看護師のための</span><span class="ww">iOS</span><span class="ww">アプリケーションです。</span><span class="ww">急性</span><span class="ww">腎臓</span><span class="ww">損傷の</span><span class="ww">リスクの</span><span class="ww">ある</span><span class="ww">患者の</span><span class="ww">警報を</span><span class="ww">送っ</span><span class="ww">たり、</span><span class="ww">患者の</span><span class="ww">健康</span><span class="ww">記録</span><span class="ww">データを</span><span class="ww">見やすく</span><span class="ww">したり</span><span class="ww">します。</span>'
-    # http://deepmind.com/health/
+  streams_body_1: '<span class="ww"><a target="_blank" href="https://health.google/for-clinicians/streams/">Streams</a>は</span><span class="ww">イギリスの</span><span class="ww">医師</span><span class="ww">と</span><span class="ww">看護師のための</span><span class="ww">iOS</span><span class="ww">アプリケーションです。</span><span class="ww">急性</span><span class="ww">腎臓</span><span class="ww">損傷の</span><span class="ww">リスクの</span><span class="ww">ある</span><span class="ww">患者の</span><span class="ww">警報を</span><span class="ww">送っ</span><span class="ww">たり、</span><span class="ww">患者の</span><span class="ww">健康</span><span class="ww">記録</span><span class="ww">データを</span><span class="ww">見やすく</span><span class="ww">したり</span><span class="ww">します。</span>'
+    # https://health.google/for-clinicians/streams/
   streams_body_2: '<span class="ww">2018年の</span><span class="ww">初期には、</span><span class="ww">Streamsでは</span><span class="ww">製品の</span><span class="ww">デザインを</span><span class="ww">し</span><span class="ww">直す</span><span class="ww">仕事に</span><span class="ww">取り組んで</span><span class="ww">おり、</span><span class="ww">新しい</span><span class="ww">マーケットに</span><span class="ww">出す</span><span class="ww">製品</span><span class="ww">計画を</span><span class="ww">立てる</span><span class="ww">準備で、</span><a target="_blank" href="https://material.io"><span class="ww">マテリアル</span><span class="ww">デザイン</a></span><span class="ww">を</span><span class="ww">使用</span><span class="ww">しました。</span><span class="ww">私の</span><span class="ww">チームは、</span><span class="ww">既存の</span><span class="ww">材料</span><span class="ww">部分と</span><span class="ww">何を</span><span class="ww">置き換えるか、</span><span class="ww">全サービスを</span><span class="ww">届ける</span><span class="ww">ために</span><span class="ww">新開発べき所は</span><span class="ww">何かを</span><span class="ww">知る</span><span class="ww">ために</span><span class="ww">既存の</span>UI<span class="ww">（ユーザー</span><span class="ww">インターフェイス）の</span><span class="ww">審査を</span><span class="ww">行いました。</span><span class="ww">僅かな</span><span class="ww">顧客</span><span class="ww">要素</span><span class="ww">と</span><span class="ww">パターンで</span><span class="ww">マテリアル</span><span class="ww">デザインを</span><span class="ww">拡張</span><span class="ww">しました。</span><span class="ww">詳細は</span><span class="ww">下記で</span><span class="ww">ご紹介</span><span class="ww">します。</span>'
     # https://material.io
   streams_body_3: '<span class="ww">デザイン</span><span class="ww">し</span><span class="ww">直した</span><span class="ww">インターフェイスはより</span><span class="ww">鮮明かつ、</span><span class="ww">明確さを</span><span class="ww">目指し、</span><span class="ww">マテリアル</span><span class="ww">デザイン</span><span class="ww">言語を</span><span class="ww">追求</span><span class="ww">して</span><span class="ww">います。</span>'
