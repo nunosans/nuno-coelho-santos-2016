@@ -74,6 +74,7 @@ article.project.project-streams {
       width: 100%;
       td {
         display: inline-block;
+        white-space: nowrap;
         width: $inner-column-width + $inner-gutter-width;
         &:nth-child(2) {
           width: $inner-column-width * 2 + $inner-gutter-width * 2;
