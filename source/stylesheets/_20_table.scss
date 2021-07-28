@@ -1,18 +1,20 @@
 table {
   thead {
     td {
-      padding: 24px 0 3px 0;
+      padding: 24px 0 8px 0;
+      height: auto;
     }
   }
   td {
-    padding: 3px 32px 3px 0;
+    padding: 0 32px 0 0;
+    height: 21px;
     &:first-child,
     &:nth-child(2n) {
       color: $text-secondary;
     }
   }
-  td, a {
-    max-width: 480px;
+  td a {
+    max-width: 420px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
