@@ -40,6 +40,11 @@ header {
       float: left;
       width: 90px;
     }
+    a {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 80%;
+    }
   }
 }
 
