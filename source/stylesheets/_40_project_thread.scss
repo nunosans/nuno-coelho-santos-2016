@@ -29,11 +29,12 @@ article.project.project-thread {
 
   .project-thread-hero {
     .project-thread-hero-desktop {
-      width: 124%;
-      margin-left: -12%;
+      width: 110%;
+      margin-left: -5%;
       @media (min-width: 750px) {
         margin-left: 0;
         width: $inner-column-width * 9 + $inner-gutter-width * 8;
+        border-radius: 7px;
       }
     }
     .project-thread-hero-mobile-video {
@@ -177,8 +178,8 @@ article.project.project-thread {
 
   .project-thread-browse-desktop {
     img {
-      width: 124%;
-      margin-left: -12%;
+      width: 110%;
+      margin-left: -5%;
       @media (min-width: 750px) {
         width: 100%;
         margin-left: 0;
