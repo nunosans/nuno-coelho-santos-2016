@@ -1,3 +1,1 @@
-<svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <rect width="12" height="12" x="2" y="2" fill="#FC3359" fill-rule="evenodd"/>
-</svg>
+<svg height="16" viewBox="0 0 16 16" width="16" xmlns="https://www.w3.org/2000/svg"><path d="m2 2h12v12h-12z" fill="#fc3359" fill-rule="evenodd"/></svg>
