@@ -17,7 +17,7 @@ header {
   }
   div {
     float: right;
-    width: $inner-column-width * 2 + $inner-gutter-width * 3;
+    width: $inner-column-width * 3 + $inner-gutter-width * 2;
     margin-left: $inner-gutter-width;
     @media (min-width: 750px) {
       width: $inner-column-width * 3 + $inner-gutter-width * 2;
@@ -28,10 +28,11 @@ header {
     }
     li {
       padding-top: 0;
-      padding-bottom: 5.5px;
+      padding-bottom: 8px;
       white-space: nowrap;
+      height: 26px;
       @media (min-width: 750px) {
-        padding-bottom: 5px;
+        padding-bottom: 3px;
       }
     }
     b {

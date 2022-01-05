@@ -5,9 +5,13 @@ table {
       height: auto;
     }
   }
+  tr {
+    height: 28px;
+  }
   td {
     padding: 0 32px 0 0;
-    height: 21px;
+    height: 28px;
+    vertical-align: top;
     &:first-child,
     &:nth-child(2n) {
       color: $text-secondary;
