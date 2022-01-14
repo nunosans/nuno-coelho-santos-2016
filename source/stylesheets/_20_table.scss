@@ -5,49 +5,45 @@ table {
       height: auto;
     }
   }
+
   tr {
     height: 28px;
-  }
-  td {
-    padding: 0 32px 0 0;
-    height: 28px;
-    vertical-align: top;
-    &:first-child,
-    &:nth-child(2n) {
-      color: $text-secondary;
-    }
-  }
-  td a {
-    max-width: 420px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  // Hack.
-  width: 100%;
-  td {
-    display: inline-block;
-    width: $inner-column-width + $inner-gutter-width;
-    min-width: $inner-column-width + $inner-gutter-width;
-    &:nth-child(3),
-    &:nth-child(3) a {
-      width: auto;
-    }
-  }
-  @media (max-width: 749px) {
-    tr {
+    @media (max-width: 749px) {
+      height: auto;
       display: block;
       border-left: 1px solid darken($background-project, 10%);
       margin-bottom: 12px;
       padding-bottom: 4px;
     }
-    td {
+  }
+
+  td {
+    padding: 0 32px 0 0;
+    height: 28px;
+    vertical-align: top;
+    min-width: $inner-column-width + $inner-gutter-width;
+    &:first-child,
+    &:nth-child(2n) {
+      color: $text-secondary;
+    }
+    &:nth-child(3),
+    &:nth-child(3) a {
+      width: auto;
+    }
+    @media (max-width: 749px) {
+      height: auto;
       padding-top: 0;
       padding-bottom: 0;
       padding-left: $inner-gutter-width * 2;
       padding-right: $inner-gutter-width * 2;
       display: block;
-      width: 100%;
+    }
+    a {
+      max-width: 420px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
   }
+
 }
