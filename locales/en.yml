@@ -166,7 +166,7 @@ en:
     # https://r-typography.com/
     # https://www.netlify.com/
     # https://www.google.com/analytics/
-  link_2011_portfolio: 'See 2011 portfolio.'
+  link_2011_portfolio: '<a target="_blank" href="https://2011.nunocoelhosantos.com/">See 2011 portfolio</a>.'
     # https://2011.nunocoelhosantos.com/
   link_columns_show: '<button data-action="show-columns" data-layout="wide">Show columns.</button>'
     # button data-action="show-columns" data-layout="wide"
