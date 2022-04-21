@@ -22,6 +22,10 @@ button, input, textarea {
   }
 }
 
+html {
+  background-color: $background-page;
+}
+
 h6 {
   margin-bottom: 5.5px;
   @media (min-width: 750px) {
@@ -60,9 +64,10 @@ p.emphasize {
   font-family: "Grifo M";
   font-size: 40px;
   line-height: 44px;
-  padding: 0 0 40px;
+  padding: 30px 0;
   max-width: none;
   @media (min-width: 750px) {
+    padding: 80px 0 20px;
     font-size: 72px;
     line-height: 80px;
   }

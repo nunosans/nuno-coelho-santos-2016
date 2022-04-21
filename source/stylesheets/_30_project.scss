@@ -1,9 +1,16 @@
 article.project {
-  margin: 66px auto;
+  background-color: $background-project;
+  margin: 20px auto -14px;
+  padding-top: 30px;
+  padding-bottom: 60px;
   width: 100%;
   clear: both;
   float: left;
-  @media (min-width: 750px) {}
+  @media (min-width: 750px) {
+    padding-top: 60px;
+    padding-bottom: 160px;
+
+  }
 
   header {
     padding: 4px 0 12px;
@@ -32,7 +39,6 @@ article.project {
     padding: 39px $gutter-width * 3 44px;
     margin: -74px auto 0;
     overflow: hidden;
-    background-color: $background-project;
     @media (min-width: 750px) {
       padding: 70px $column-width + $gutter-width * 2 58px;
       margin: -98px auto 0;
