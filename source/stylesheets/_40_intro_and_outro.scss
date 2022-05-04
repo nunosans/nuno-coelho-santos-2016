@@ -37,6 +37,9 @@ article.intro section.intro-short {
 article.intro section.intro-complete {
   margin-bottom: 0;
   cursor: pointer;
+  p {
+    padding-top: 0;
+  }
   @media (max-width: 749px) {
     table tr td {
       &:nth-child(1) {
