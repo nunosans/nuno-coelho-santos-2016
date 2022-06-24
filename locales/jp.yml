@@ -10,11 +10,11 @@ jp:
   # _header
   label_email: 'Eメール'
   label_mobile: '電話番号'
-  # label_twitter: ''
+  label_twitter: 'ツイッター'
   # label_github: ''
   # label_dribbble: ''
-  # label_instagram: ''
-  # label_blog: ''
+  label_instagram: 'インスタ'
+  label_blog: 'ブログ'
   label_newsletter: 'ニュースレター'
   label_newsletter_subscribe: '登録する'
   # label_linkedin: ''
@@ -22,8 +22,8 @@ jp:
   # _intro
   intro_short: 'Nuno<span class="ww">（ヌノ）と</span><span class="ww">申します。</span><span class="ww">ロンドンを</span><span class="ww">ベースとして</span><span class="ww">活躍</span><span class="ww">して</span><span class="ww">いる</span><span class="ww">商品</span><span class="ww">デザイナーです。</span>'
   intro_long: 'Nuno<span class="ww">（ヌノ）と</span><span class="ww">申します。</span><span class="ww">ロンドンを</span><span class="ww">ベースとして</span><span class="ww">活躍</span><span class="ww">して</span><span class="ww">いる</span><span class="ww">商品</span><span class="ww">デザイナーです。</span><span class="ww">ヒューマン</span><span class="ww">インターフェイス</span><span class="ww">デザインを</span><span class="ww">専門と</span><span class="ww">して</span><span class="ww">おり、</span><span class="ww">趣味としても</span><span class="ww">自身の</span><span class="ww">アプリ</span><span class="ww">制作を</span><span class="ww">して</span><span class="ww">おります。</span>'
-  intro_currently: '<span class="ww">現在、</span><span class="ww"><a target="_blank" href="https://www.whatsapp.com">WhatsApp</a>に</span><span class="ww">勤務</span><span class="ww">して</span><span class="ww">おり、</span><span class="ww">世界中の</span><span class="ww">２億人</span><span class="ww">以上いる</span><span class="ww">個人</span><span class="ww">ユーザーの</span><span class="ww">コミュニケーションを</span><span class="ww">円滑に</span><span class="ww">して</span><span class="ww">います。</span>'
-    # https://www.whatsapp.com
+  intro_currently: '<span class="ww">現在、</span><span class="ww"><a target="_blank" href="https://www.whatsapp.com/?lang=ja">WhatsApp</a>に</span><span class="ww">勤務</span><span class="ww">して</span><span class="ww">おり、</span><span class="ww">世界中の</span><span class="ww">２億人</span><span class="ww">以上いる</span><span class="ww">個人</span><span class="ww">ユーザーの</span><span class="ww">コミュニケーションを</span><span class="ww">円滑に</span><span class="ww">して</span><span class="ww">います。</span>'
+    # https://www.whatsapp.com/?lang=ja
   intro_previously: ''
     # https://health.google
   intro_expand: 'もっと読む'
