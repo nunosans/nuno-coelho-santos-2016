@@ -20,8 +20,8 @@ pt:
   label_linkedin: 'LinkedIn'
 
   # _intro
-  intro_short: 'Olá, o meu nome é Nuno e sou um designer de produto em Londres.'
-  intro_long: 'Olá, o meu nome é Nuno  e sou um designer de produto em Londres. Especializo-me em design de interfaces digitais e nos meus tempos livres desenvolvo as minhas aplicações.'
+  intro_short: 'Olá, o meu nome é Nuno e sou um designer de produto em Berlim.'
+  intro_long: 'Olá, o meu nome é Nuno  e sou um designer de produto em Berlim. Especializo-me em design de interfaces digitais e nos meus tempos livres desenvolvo as minhas aplicações.'
   intro_currently: 'Neste moment trabalho no <a target="_blank" href="https://www.whatsapp.com">WhatsApp</a> para ajudar mais de 2 bilhões de pessoas em todo o mundo comunicar com privacidade.'
     # https://www.whatsapp.com
   intro_previously: 'Préviamente, trabalhei na <a target="_blank" href="https://health.google">Google</a> em tecnologia médica para todo o mundo.'

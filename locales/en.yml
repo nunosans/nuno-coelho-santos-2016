@@ -20,8 +20,8 @@ en:
   label_linkedin: 'LinkedIn'
 
   # _intro
-  intro_short: 'I’m Nuno, a product designer based in London.'
-  intro_long: 'I’m Nuno, a product designer based in London. I specialise in human interface design, and enjoy building my own apps as a hobby.'
+  intro_short: 'I’m Nuno, a product designer based in Berlin.'
+  intro_long: 'I’m Nuno, a product designer based in Berlin. I specialise in human interface design, and enjoy building my own apps as a hobby.'
   intro_currently: 'I currently work at <a target="_blank" href="https://www.whatsapp.com">WhatsApp</a> to help over 2 billion people around the world communicate privately.'
     # https://www.whatsapp.com
   intro_previously: 'Previously, I worked at <a target="_blank" href="https://health.google">Google</a> to bring new healthcare technology to clinicians.'
