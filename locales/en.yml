@@ -11,6 +11,7 @@ en:
   label_email: 'Email'
   label_mobile: 'Mobile'
   label_twitter: 'Twitter'
+  label_mastodon: 'Mastodon'
   label_github: 'GitHub'
   label_dribbble: 'Dribbble'
   label_instagram: 'Instagram'

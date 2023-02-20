@@ -11,6 +11,7 @@ pt:
   label_email: 'Email'
   label_mobile: 'Telemóvel'
   label_twitter: 'Twitter'
+  label_mastodon: 'Mastodon'
   label_github: 'GitHub'
   label_dribbble: 'Dribble'
   label_instagram: 'Instagram'
