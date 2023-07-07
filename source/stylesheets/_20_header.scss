@@ -18,7 +18,7 @@ header {
   }
   div {
     float: right;
-    width: $inner-column-width * 5 + $inner-gutter-width * 4;
+    width: $inner-column-width * 5 + $inner-gutter-width * 5;
     margin-left: $inner-gutter-width;
     margin-right: -$inner-gutter-width;
     @media (min-width: 750px) {
@@ -26,9 +26,12 @@ header {
       margin-right: none;
     }
     .icon {
-      width: 40px;
+      width: 36px;
       height: 40px;
       background-size: 20px;
+      @media (max-width: 749px) {
+        top: -4px;
+      }
       @media (min-width: 750px) {
         width: 16px;
         height: 16px;
@@ -38,14 +41,6 @@ header {
     ul {
       margin-left: 0;
       margin-right: 0;
-    }
-    a {
-      @media (max-width: 749px) {
-        height: 40px;
-        float: left;
-        border: none;
-        margin-top: -12px;
-      }
     }
     li {
       padding-top: 0;
@@ -68,6 +63,12 @@ header {
       overflow: hidden;
       text-overflow: ellipsis;
       max-width: 100%;
+      @media (max-width: 749px) {
+        height: 40px;
+        float: right;
+        margin-top: -10px;
+        border: none;
+      }
     }
   }
 }
