@@ -19,6 +19,7 @@ en:
   label_newsletter: 'Newsletter'
   label_newsletter_subscribe: 'Subscribe'
   label_linkedin: 'LinkedIn'
+  label_threads: 'Threads'
 
   # _intro
   intro_short: 'I’m Nuno, a product designer based in Berlin.'

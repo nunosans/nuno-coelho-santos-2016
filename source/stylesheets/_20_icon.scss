@@ -2,4 +2,74 @@
   display: inline-block;
   font-size: 0;
   color: transparent;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 2.5px;
+}
+
+.icon-email {
+    background-image: url('../graphics/icon-email-1x.png');
+    @media
+      only screen and (-webkit-min-device-pixel-ratio: 1.5),
+      only screen and (   min--moz-device-pixel-ratio: 1.5),
+      only screen and (        min-device-pixel-ratio: 1.5) {
+      background-image: url('../graphics/icon-email-2x.png');
+    }
+    @media
+      only screen and (-webkit-min-device-pixel-ratio: 2.5),
+      only screen and (   min--moz-device-pixel-ratio: 2.5),
+      only screen and (        min-device-pixel-ratio: 2.5) {
+      background-image: url('../graphics/icon-email-3x.png');
+    }
+}
+.icon-linkedin {
+    background-image: url('../graphics/icon-linkedin-1x.png');
+    @media
+      only screen and (-webkit-min-device-pixel-ratio: 1.5),
+      only screen and (   min--moz-device-pixel-ratio: 1.5),
+      only screen and (        min-device-pixel-ratio: 1.5) {
+      background-image: url('../graphics/icon-linkedin-2x.png');
+    }
+    @media
+      only screen and (-webkit-min-device-pixel-ratio: 2.5),
+      only screen and (   min--moz-device-pixel-ratio: 2.5),
+      only screen and (        min-device-pixel-ratio: 2.5) {
+      background-image: url('../graphics/icon-linkedin-3x.png');
+    }
+}
+
+.icon-threads {
+    background-image: url('../graphics/icon-threads-1x.png');
+    @media
+      only screen and (-webkit-min-device-pixel-ratio: 1.5),
+      only screen and (   min--moz-device-pixel-ratio: 1.5),
+      only screen and (        min-device-pixel-ratio: 1.5) {
+      background-image: url('../graphics/icon-threads-2x.png');
+    }
+    @media
+      only screen and (-webkit-min-device-pixel-ratio: 2.5),
+      only screen and (   min--moz-device-pixel-ratio: 2.5),
+      only screen and (        min-device-pixel-ratio: 2.5) {
+      background-image: url('../graphics/icon-threads-3x.png');
+    }
+}
+
+.icon-instagram {
+    background-image: url('../graphics/icon-instagram-1x.png');
+    @media
+      only screen and (-webkit-min-device-pixel-ratio: 1.5),
+      only screen and (   min--moz-device-pixel-ratio: 1.5),
+      only screen and (        min-device-pixel-ratio: 1.5) {
+      background-image: url('../graphics/icon-instagram-2x.png');
+    }
+    @media
+      only screen and (-webkit-min-device-pixel-ratio: 2.5),
+      only screen and (   min--moz-device-pixel-ratio: 2.5),
+      only screen and (        min-device-pixel-ratio: 2.5) {
+      background-image: url('../graphics/icon-instagram-3x.png');
+    }
 }

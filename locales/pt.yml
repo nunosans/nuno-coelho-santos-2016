@@ -19,6 +19,7 @@ pt:
   label_newsletter: 'Newsletter'
   label_newsletter_subscribe: 'Subscrever'
   label_linkedin: 'LinkedIn'
+  label_threads: 'Threads'
 
   # _intro
   intro_short: 'Olá, o meu nome é Nuno e sou um designer de produto em Berlim.'

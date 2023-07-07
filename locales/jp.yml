@@ -12,13 +12,14 @@ jp:
   label_mobile: '電話番号'
   label_twitter: 'ツイッター'
   label_mastodon: 'マストドン'
-  # label_github: ''
-  # label_dribbble: ''
+  label_github: 'GitHub'
+  label_dribbble: 'Dribbble'
   label_instagram: 'インスタ'
   label_blog: 'ブログ'
   label_newsletter: 'ニュースレター'
   label_newsletter_subscribe: '登録する'
-  # label_linkedin: ''
+  label_linkedin: 'LinkedIn'
+  label_threads: 'Threads'
 
   # _intro
   intro_short: 'Nuno<span class="ww">（ヌノ）と</span><span class="ww">申します。</span><span class="ww">ベルリンを</span><span class="ww">ベースとして</span><span class="ww">活躍</span><span class="ww">して</span><span class="ww">いる</span><span class="ww">商品</span><span class="ww">デザイナーです。</span>'
