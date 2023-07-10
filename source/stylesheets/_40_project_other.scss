@@ -6,26 +6,11 @@ article.project.project-other {
     }
   }
 
-  .project-other-a-year-in-an-instant {
-    @media (min-width: 750px) {
-      margin-top: 180px;
-      float: left;
-      width: $inner-column-width * 4 + $inner-gutter-width * 3;
-    }
-    img {
-      width: 104%;
-      margin-left: -3%;
-      @media (min-width: 750px) {
-        width: 100.1%;
-      }
-    }
-  }
-
   .project-other-big-sur-icons {
     @media (min-width: 750px) {
       float: left;
       width: $inner-column-width * 4 + $inner-gutter-width * 3;
-      margin-left: $inner-column-width + $inner-gutter-width * 2;
+      margin-left: $inner-gutter-width;
     }
     img {
       width: 100%;
@@ -38,7 +23,7 @@ article.project.project-other {
   .project-other-15-days-in-japan {
     @media (min-width: 750px) {
       float: left;
-      margin-top: -50px;
+      margin-top: 150px;
       width: $inner-column-width * 4 + $inner-gutter-width * 3;
       margin-left: $inner-column-width + $inner-gutter-width * 2;
     }
