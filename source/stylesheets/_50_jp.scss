@@ -38,6 +38,11 @@ body.jp {
     }
   }
 
+  .icon {
+    font-size: 0;
+    color: transparent;
+  }
+
   .emphasize p,
   p.emphasize {
     font-family: 'Noto Serif JP', serif;
@@ -93,8 +98,10 @@ body.jp {
   }
 
   header {
-    div b {
-      // width: 120px; // For the longer newsletter label.
+    div[data-layout="narrow"] {
+      a {
+        height: 40px;
+      }
     }
   }
 
