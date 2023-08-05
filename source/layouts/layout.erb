@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="wf-local-loading">
   <head>
-    <title>Nuno Coelho Santos, Designer. <%= current_page.data.title %></title>
+    <title>Nuno Coelho Santos, Product Designer. <%= current_page.data.title %></title>
     <!-- Technical Formating Meta Tags -->
     <meta charset="utf-8">
     <meta http-equiv="content-language" content="en-gb">
@@ -35,7 +35,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@nunosans">
     <meta name="twitter:site" content="@nunosans">
-    <meta name="twitter:url" content="https://twitter.com/nunosans">
+    <meta name="twitter:url" content="https://nunocoelhosantos.com/">
     <meta name="twitter:title" content="Nuno Coelho Santos">
     <meta name="twitter:description" content="Work & Profile">
     <meta name="twitter:image" content="https://nunocoelhosantos.com/graphics/open-graph-image.jpg">
@@ -51,10 +51,15 @@
     <meta property="og:title" content="Nuno Coelho Santos">
     <meta property="og:image" content="https://nunocoelhosantos.com/graphics/open-graph-image.jpg">
     <meta property="og:site_name" content="Nuno Coelho Santos">
-    <meta property="og:description" content="Profile and recent work">
+    <meta property="og:description" content="Work & Profile">
     <meta property="og:locale" content="en_US">
     <!-- Stylesheets -->
     <%= stylesheet_link_tag "all" %>
+    <!-- JavaScript -->
+    <%= javascript_include_tag "js-lang-redirect" %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <%= javascript_include_tag "jquery.lazyload" %>
+    <%= javascript_include_tag "all" %>
   </head>
 
   <body class="<%= page_classes %>">
@@ -64,12 +69,6 @@
     <%= partial "layouts/baseline_grid" %>
     <%= partial "layouts/column_grid" %>
     <%= partial "layouts/loading" %>
-
-    <!-- JavaScript. -->
-    <%= javascript_include_tag "js-lang-redirect" %>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <%= javascript_include_tag "jquery.lazyload" %>
-    <%= javascript_include_tag "all" %>
 
     <!-- Fonts.com Web Fonts -->
     <script type="text/javascript">
